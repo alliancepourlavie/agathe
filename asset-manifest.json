@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.7d72cf6d.css",
-    "main.js": "/agathe/static/js/main.6f99b350.js",
+    "main.css": "/agathe/static/css/main.f90f7378.css",
+    "main.js": "/agathe/static/js/main.9f7b027e.js",
     "static/js/787.fd110127.chunk.js": "/agathe/static/js/787.fd110127.chunk.js",
     "index.html": "/agathe/index.html",
-    "main.7d72cf6d.css.map": "/agathe/static/css/main.7d72cf6d.css.map",
-    "main.6f99b350.js.map": "/agathe/static/js/main.6f99b350.js.map",
+    "main.f90f7378.css.map": "/agathe/static/css/main.f90f7378.css.map",
+    "main.9f7b027e.js.map": "/agathe/static/js/main.9f7b027e.js.map",
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d72cf6d.css",
-    "static/js/main.6f99b350.js"
+    "static/css/main.f90f7378.css",
+    "static/js/main.9f7b027e.js"
   ]
 }
