@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -24,15 +26,177 @@
   color: white;
 }
 
+body {
+  background-color: rgba(247, 245, 251, 1);
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+a:link {
+  color: rgb(114, 114, 114) !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: rgb(114, 114, 114) !important;
+}
+
+a:visited {
+  color: rgb(114, 114, 114) !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.boxheader {
+  position: fixed;
+  margin-top: 3%;
+  margin-left: 90%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  background: url("../public/logo192.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.translation {
+  animation: none !important;
+  font-size: 0.7em !important;
+  width: auto !important;
+  z-index: 999 !important;
+  background-color: rgba(247, 245, 251, 1) !important;
+  ;
+}
+
+.dot>div>div>div {
+  width: 5px !important;
+  height: 5px !important;
+  background-color: rgb(114, 114, 114) !important;
+}
+
+.dot>div {
+  z-index: 999 !important;
+}
+
+.MuiButton-text {
+  -webkit-text-fill-color: rgb(114, 114, 114, 1);
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: rgb(114, 114, 114, .5);
+  animation: opacity 2s ease-in-out infinite alternate;
+  -webkit-animation: opacity 2s ease-in-out infinite alternate;
+}
+
+.MuiButton-text:hover {
+  background-color: rgb(114, 114, 114) !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(163, 75, 75, 0.5);
+}
+
+.MuiTouchRipple-root {
+  outline: 1px solid rgb(114, 114, 114);
+  outline-offset: -8px;
+}
+
+.sentence {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 2.3em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(5, 5, 5, 1);
+  text-shadow:
+    10px 10px rgba(114, 114, 114, 0.1) !important;
+  padding-bottom: 10px !important;
+}
+
+.notepad {
+  border: 4px solid rgb(114, 114, 114);
+  box-shadow: 0 0 0 1px rgb(114, 114, 114);
+  border-radius: 10px;
+  margin: 10px;
+  background: -moz-linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 49%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.01) 51%, rgba(0,0,0,0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 49%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.01) 51%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 49%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.01) 51%, rgba(0,0,0,0) 100%);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  /* .basemap {
+    display: none;
+  } */
+
+  .sentence {
+    font-weight: 400 !important;
+    font-size: 1.3em !important;
+    letter-spacing: 4px !important;
+    line-height: 1.1em !important;
+  }
+
+  .logo {
+    background-size: 25px 25px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .translation {
+    animation: none !important;
+    font-size: 0.5em !important;
+    width: auto !important;
+  }
+
+  .boxheader {
+    position: fixed;
+    margin-top: 3%;
+    margin-left: 70%;
+    z-index: 1 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .notepad {
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 49%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.01) 51%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 49%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.01) 51%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.01) 49%, rgba(0,0,0,0.03) 50%, rgba(0,0,0,0.01) 51%, rgba(0,0,0,0) 100%);  
+  }
+
 }

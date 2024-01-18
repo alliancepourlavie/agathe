@@ -1,14 +1,18 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import Basemap from './components/basemap';
+import ENGB from './pages/en/en-GB';
+import SWSW from './pages/sw/sw-SW';
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Basemap />
-    </div>
+     <>
+        <Routes>
+           <Route path="/" index element={<SWSW />} />
+           <Route path="/sw-SW" element={<SWSW />} />
+           <Route path="/en-GB" element={<ENGB />} />
+        </Routes>
+     </>
   );
-}
-
-export default App;
+ };
+ 
+ export default App;
