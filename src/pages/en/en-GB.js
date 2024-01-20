@@ -58,32 +58,34 @@ const ENGB = () => {
 
         <FullPageSections>
 
-          <FullpageSection className="notepad" style={{
+          <div className="agathenotepad">
+          <FullpageSection className="agathepng" style={{
             height: '90vh',
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>English<Button onClick={handleClick}>ꔮ</Button>
+              <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />THE MATRIARCH ABOVE THE WATER<br /><Button onClick={handleClick} style={{ fontFamily: "YuwoteCharvet-Fat", fontSize: 14 }}><u>1</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
-                  message=""
+                  message="Agathe est l'une des pêcheuses artisanales les plus respectées et les plus expertes du lac Kivu. Elle est la matriarche de la communauté de pêcheurs de Bukavu et Goma. Elle connaît chaque goutte du lac Kivu et chaque espèce vivante qui l'habite. Elle a navigué sur cette masse d'eau toute sa vie, comme le faisaient ses ancêtres. Elle a enseigné la pêche à ses neuf enfants en même temps que le leadership et le mentorat d'un groupe de pêcheuses avec lesquels elle a créé une coopérative oeuvrant à Bukavu."
                   action={action} /><br /><br /></Typography>
             </CardContent>
           </FullpageSection>
+          </div>
 
-          <FullpageSection style={{
-            backgroundColor: 'rgba(247, 245, 251, 1)',
-            height: '100vh',
-            // padding: '1em',
-          }}>
-            <Basemap />
-          </FullpageSection>
+        <FullpageSection style={{
+          backgroundColor: 'rgba(247, 245, 251, 1)',
+          height: '100vh',
+          // padding: '1em',
+        }}>
+          <Basemap />
+        </FullpageSection>
 
-        </FullPageSections>
+      </FullPageSections>
 
-      </Fullpage></>
+    </Fullpage ></>
   )
 }
 

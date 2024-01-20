@@ -58,28 +58,40 @@ const SWSW = () => {
 
         <FullPageSections>
 
-        <FullpageSection className="notepad" style={{
-            height: '90vh',
-            padding: '1em',
-          }}>
-            <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="sentence" sx={{ mt: 2 }}>Swahili<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                  open={open}
-                  autoHideDuration={250000}
-                  onClose={handleCloseNote}
-                  message=""
-                  action={action} /><br /><br /></Typography>
-            </CardContent>
-          </FullpageSection>
+          <div className="agathenotepad">
+            <FullpageSection className="agathepng" style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <CardContent sx={{ maxWidth: 800 }}>
+                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />MATRIARCH JUU YA MAJI<br /><Button onClick={handleClick} style={{ fontFamily: "YuwoteCharvet-Fat", fontSize: 14 }}><u>1</u></Button>
+                  <Snackbar
+                    open={open}
+                    autoHideDuration={250000}
+                    onClose={handleCloseNote}
+                    message="Agathe ni mmoja wa wavuvi wanaoheshimika na waliobobea kwenye Ziwa Kivu. Yeye ndiye mama mkuu wa jumuiya ya wavuvi ya Bukavu na Goma. Anajua kila tone la Ziwa Kivu na kila viumbe hai vinavyoishi humo. Amekuwa akizunguka eneo hili la maji maisha yake yote, kama mababu zake walivyofanya. Aliwafundisha watoto wake tisa uvuvi huku akiongoza na kushauri kikundi cha wanawake wavuvi ambao aliunda nao ushirika wa kufanya kazi huko Bukavu."
+                    action={action} /><br /><br /></Typography>
+              </CardContent>
+            </FullpageSection>
+          </div>
 
-          <FullpageSection style={{
-            backgroundColor: 'rgba(247, 245, 251, 1)',
-            height: '100vh',
-            // padding: '1em',
-          }}>
-            <Basemap />
-          </FullpageSection>
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <CardContent sx={{ maxWidth: 800 }}>
+              </CardContent>
+            </FullpageSection>
+          </div>
+
+            <FullpageSection style={{
+              backgroundColor: 'rgba(247, 245, 251, 1)',
+              height: '100vh',
+              // padding: '1em',
+            }}>
+              <Basemap />
+            </FullpageSection>
 
         </FullPageSections>
 
