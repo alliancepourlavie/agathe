@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.7d080819.css",
+    "main.css": "/agathe/static/css/main.be57dd37.css",
     "main.js": "/agathe/static/js/main.56c130b1.js",
     "static/js/787.fd110127.chunk.js": "/agathe/static/js/787.fd110127.chunk.js",
+    "static/media/agathe.png": "/agathe/static/media/agathe.5acef470bf41682660f7.png",
     "static/media/Itai-Disappears.ttf": "/agathe/static/media/Itai-Disappears.3bb8e6b2187e7f364086.ttf",
-    "static/media/agathe.png": "/agathe/static/media/agathe.7f2e67e648dab6e47678.png",
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
     "static/media/Nehanda-SpiritMedium.ttf": "/agathe/static/media/Nehanda-SpiritMedium.291fab66392584001bfd.ttf",
     "static/media/Itai-Protests.ttf": "/agathe/static/media/Itai-Protests.e69e857453c2cfd47cf0.ttf",
     "static/media/YuwoteCharvet-Fat.otf": "/agathe/static/media/YuwoteCharvet-Fat.4d71ad57fa11944562b1.otf",
     "static/media/Itai-Abducted.ttf": "/agathe/static/media/Itai-Abducted.7779a2b4ba42b2134419.ttf",
     "index.html": "/agathe/index.html",
-    "main.7d080819.css.map": "/agathe/static/css/main.7d080819.css.map",
+    "main.be57dd37.css.map": "/agathe/static/css/main.be57dd37.css.map",
     "main.56c130b1.js.map": "/agathe/static/js/main.56c130b1.js.map",
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d080819.css",
+    "static/css/main.be57dd37.css",
     "static/js/main.56c130b1.js"
   ]
 }
