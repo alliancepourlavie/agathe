@@ -45,8 +45,8 @@ const SWSW = () => {
 
   return (
     <><div className='boxheader'>
-      <div className='logo'></div><br />
       <Button className="translation" component={Link} to="/en-GB">EN</Button>
+      <div className='logo'></div><br />
     </div>
 
 
@@ -85,13 +85,13 @@ const SWSW = () => {
             </FullpageSection>
           </div>
 
-            <FullpageSection style={{
-              backgroundColor: 'rgba(247, 245, 251, 1)',
-              height: '100vh',
-              // padding: '1em',
-            }}>
-              <Basemap />
-            </FullpageSection>
+          <FullpageSection style={{
+            backgroundColor: 'rgba(247, 245, 251, 1)',
+            height: '100vh',
+            // padding: '1em',
+          }}>
+            <Basemap />
+          </FullpageSection>
 
         </FullPageSections>
 

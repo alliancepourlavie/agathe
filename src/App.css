@@ -116,10 +116,10 @@ a:visited {
 }
 
 .logo {
-  background: url("../public/logo192.png") no-repeat;
+  background: url("../public/alliance.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 50px 50px;
-  width: 50px;
+  background-size: 60px 50px;
+  width: 60px;
   height: 50px;
 }
 
