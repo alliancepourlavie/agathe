@@ -258,8 +258,8 @@ a:visited {
   }
 
   .logo {
-    background-size: 25px 25px;
-    width: 25px;
+    background-size: 30px 25px;
+    width: 30px;
     height: 25px;
   }
 
@@ -272,7 +272,7 @@ a:visited {
   .boxheader {
     position: fixed;
     margin-top: 3%;
-    margin-left: 70%;
+    margin-left: 68%;
     z-index: 1 !important;
     display: flex;
     justify-content: center;
