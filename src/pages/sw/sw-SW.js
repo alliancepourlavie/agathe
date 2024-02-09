@@ -64,7 +64,7 @@ const SWSW = () => {
               padding: '1em',
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />MATRIARCH JUU YA MAJI<br /><Button onClick={handleClick} style={{ fontFamily: "YuwoteCharvet-Fat", fontSize: 14 }}><u>1</u></Button>
+                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />MATRIARCH JUU YA MAJI<br /><Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>2</u></Button>
                   <Snackbar
                     open={open}
                     autoHideDuration={250000}
@@ -85,13 +85,36 @@ const SWSW = () => {
             </FullpageSection>
           </div>
 
+
+          {/* BAGIRA LANDSITE SECTION */}
           <FullpageSection style={{
             backgroundColor: 'rgba(247, 245, 251, 1)',
             height: '100vh',
-            // padding: '1em',
           }}>
-            <Basemap />
+            <ReactPlayer
+              width='100%'
+              height='100%'
+              controls
+              url='https://www.alessandromusetta.com/geo/tiles/agathe/data/bagira_from_water.mp4'
+            />
           </FullpageSection>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+            </FullpageSection>
+          </div>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Basemap />
+            </FullpageSection>
+          </div>
 
         </FullPageSections>
 

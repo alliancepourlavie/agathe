@@ -64,7 +64,7 @@ const ENGB = () => {
               padding: '1em',
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />THE MATRIARCH ABOVE THE WATER<br /><Button onClick={handleClick} style={{ fontFamily: "YuwoteCharvet-Fat", fontSize: 14 }}><u>1</u></Button>
+                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />THE MATRIARCH ABOVE THE WATER<br /><Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>2</u></Button>
                   <Snackbar
                     open={open}
                     autoHideDuration={250000}

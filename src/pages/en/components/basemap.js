@@ -12,7 +12,7 @@ import { iconlanding } from "../../../icon/icons.js";
 
 const Basemap = () => {
 
-    const center = [-1.9776227888273463, 29.102845386271525];
+    const center = [-2.348536130599332, 29.030562586313135];
     const outerbounds = [
         [-1.431804013910979, 28.732367834895886],
         [-2.6180336297309834, 29.504249223136057],
@@ -23,7 +23,7 @@ const Basemap = () => {
         <MapContainer
             doubleClickZoom={false}
             center={center}
-            zoom={10}
+            zoom={12}
             scrollWheelZoom={false}
             minZoom={7}
             maxZoom={14}
