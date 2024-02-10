@@ -1,4 +1,3 @@
-import App from "../../App";
 import * as React from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import { Link } from 'react-router-dom';
@@ -13,6 +12,7 @@ import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
 
 import Basemap from './components/basemap';
+import Fishyes from "./components/yes_fish";
 
 
 const SWSW = () => {
@@ -86,7 +86,9 @@ const SWSW = () => {
           </div>
 
 
-          {/* BAGIRA LANDSITE SECTION */}
+          {/* ///////////////////////////// */}
+          {/* START BAGIRA LANDSITE SECTION */}
+          {/* ///////////////////////////// */}
           <FullpageSection style={{
             backgroundColor: 'rgba(247, 245, 251, 1)',
             height: '100vh',
@@ -113,6 +115,19 @@ const SWSW = () => {
               padding: '1em',
             }}>
               <Basemap />
+            </FullpageSection>
+          </div>
+          {/* /////////////////////////// */}
+          {/* END BAGIRA LANDSITE SECTION */}
+          {/* /////////////////////////// */}
+
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Fishyes />
             </FullpageSection>
           </div>
 

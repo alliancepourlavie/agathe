@@ -247,12 +247,42 @@ video{
 .maptext {
   position:absolute;
   z-index: 999;
-  bottom: 3% !important;
-  right: 3% !important;
+  right: 20% !important;
+  margin-top: 30px;
   font-family:'Nehanda-SpiritMedium' !important;
   font-size: 2.5em;
   text-decoration: underline !important;
+  letter-spacing: 2px !important;
+  text-shadow:
+  -2px -2px 0 rgba(247, 245, 251, 1),  
+   2px -2px 0 rgba(247, 245, 251, 1),
+   -2px 2px 0 rgba(247, 245, 251, 1),
+    2px 2px 0 rgba(247, 245, 251, 1);
 }
+
+.bagiramapmobile {
+  visibility: hidden;
+}  
+.bagiramapdesktop {
+  visibility: visible;
+}
+
+.fish {
+  /* font-family: 'IBM Plex Mono', monospace !important; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 0.8em !important;
+  letter-spacing: 3px !important;
+  line-height: 1.4em !important;
+  word-break: break-word;
+  -webkit-text-fill-color: rgb(105, 105, 105);
+  -webkit-text-stroke-width: 0px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+}
+
 
 
 
@@ -290,6 +320,20 @@ video{
     justify-content: center;
   }
 
+  .bagiramapdesktop {
+    display: none !important;
+  }  
+  .bagiramapmobile {
+    visibility: visible !important;
+  }
+
+  .maptext {
+    right: 20%;
+    margin-top: 80px;
+    font-size: 1.5em;
+    letter-spacing: 2px !important;
+  }
+
   .agathe{
     font-size: 2.5em !important;
     line-height: 1.3em !important;
@@ -305,6 +349,10 @@ video{
     background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
     background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
+  }
+
+  .fish {
+    font-size: 0.1em;
   }
 
 }
