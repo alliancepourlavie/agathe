@@ -355,4 +355,23 @@ video{
     font-size: 0.1em;
   }
 
+  .MuiCardMedia-img{
+    height: 100px !important;
+    object-fit: cover !important;
+    width: auto !important;
+  }
+
+  .css-46bh2p-MuiCardContent-root:last-child{
+    padding-bottom: 0 !important;
+  }
+
+  .css-46bh2p-MuiCardContent-root {
+    padding: 0 !important;
+    font-size: 0.8em;
+  }
+
+  .css-1ketxds-MuiPaper-root{
+    padding: 2 !important;
+  }
+
 }
