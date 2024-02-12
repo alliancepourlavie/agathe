@@ -101,7 +101,7 @@ const Fishyesb = () => {
                                 image={Insidiae}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis insidiae</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis insidiae</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -116,7 +116,7 @@ const Fishyesb = () => {
                                 image={Kamiranzovu}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis kamiranzovu</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis kamiranzovu</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -131,7 +131,7 @@ const Fishyesb = () => {
                                 image={Microchrysomelas}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis Microchrysomelas</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis Microchrysomelas</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -146,7 +146,7 @@ const Fishyesb = () => {
                                 image={Nigroides}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis nigroides</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis nigroides</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -161,7 +161,7 @@ const Fishyesb = () => {
                                 image={Occultidens}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis occultidens</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis occultidens</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -176,7 +176,7 @@ const Fishyesb = () => {
                                 image={Olivaceus}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis olivaceus</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis olivaceus</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -191,7 +191,7 @@ const Fishyesb = () => {
                                 image={Paucidens}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis paucidens</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis paucidens</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -206,7 +206,7 @@ const Fishyesb = () => {
                                 image={Rubescens}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>LOCAL NAME<br /><i>Haplochromis rubescens</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis rubescens</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>

@@ -24,7 +24,7 @@ const Basemap = () => {
 
     return (
 
-        <><div className='maptext'>BAGIRA LANDING SITE<br /></div>
+        <><div className='maptext'>BAGIRA SITE D'ATTERRISSAGE<br /></div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer
