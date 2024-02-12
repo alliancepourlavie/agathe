@@ -20,7 +20,7 @@ const Basemap = () => {
     ];
 
     const bagira = [-2.4923069203619495, 28.849800601841874]
-    const fillBagira = { fillColor: 'rgba(114, 114, 114, 0)', color: 'black', weight: 8 }
+    const fillBagira = { fillColor: 'rgba(114, 114, 114, 0)', color: '#cb4d37', weight: 8 }
 
     return (
 
@@ -61,6 +61,7 @@ const Basemap = () => {
                     center={bagiracentermobile}
                     zoom={12}
                     scrollWheelZoom={false}
+                    dragging={false}
                     minZoom={7}
                     maxZoom={14}
                     maxBounds={outerbounds}

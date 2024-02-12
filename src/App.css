@@ -269,11 +269,12 @@ video{
 
 .fish {
   /* font-family: 'IBM Plex Mono', monospace !important; */
+  font-family: 'Nehanda-SpiritMedium', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400 !important;
-  font-size: 0.8em !important;
-  letter-spacing: 3px !important;
+  font-weight: 600 !important;
+  font-size: 0.9em !important;
+  letter-spacing: 1.8px !important;
   line-height: 1.4em !important;
   word-break: break-word;
   -webkit-text-fill-color: rgb(105, 105, 105);
@@ -366,6 +367,10 @@ video{
   }
 
   .css-46bh2p-MuiCardContent-root {
+    padding: 0 !important;
+    font-size: 0.8em;
+  }
+  .css-1qw96cp{
     padding: 0 !important;
     font-size: 0.8em;
   }

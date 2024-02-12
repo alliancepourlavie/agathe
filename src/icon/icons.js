@@ -7,12 +7,12 @@ import landing from './canoe.svg';
 const iconlanding = new L.Icon({
     iconUrl: landing,
     iconRetinaUrl: landing,
-    iconAnchor: [4, 4],
+    iconAnchor: [3, 3],
     popupAnchor: null,
     shadowUrl: null,
     shadowSize: null,
     shadowAnchor: null,
-    iconSize: [8,8],
+    iconSize: [6,6],
 });
 
 export { iconlanding };

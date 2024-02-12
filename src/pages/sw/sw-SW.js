@@ -13,6 +13,8 @@ import CloseIcon from '@mui/icons-material/Close';
 
 import Basemap from './components/basemap';
 import Fishyes from "./components/yes_fish";
+import Fishyesb from "./components/yes_fish_b";
+import Boats from "./components/boat";
 
 
 const SWSW = () => {
@@ -106,6 +108,7 @@ const SWSW = () => {
               height: '90vh',
               padding: '1em',
             }}>
+              <Basemap />
             </FullpageSection>
           </div>
 
@@ -114,13 +117,9 @@ const SWSW = () => {
               height: '90vh',
               padding: '1em',
             }}>
-              <Basemap />
+              <Boats />
             </FullpageSection>
           </div>
-          {/* /////////////////////////// */}
-          {/* END BAGIRA LANDSITE SECTION */}
-          {/* /////////////////////////// */}
-
 
           <div className="notepad">
             <FullpageSection style={{
@@ -130,6 +129,20 @@ const SWSW = () => {
               <Fishyes />
             </FullpageSection>
           </div>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Fishyesb />
+            </FullpageSection>
+          </div>
+          {/* /////////////////////////// */}
+          {/* END BAGIRA LANDSITE SECTION */}
+          {/* /////////////////////////// */}
+
+
 
         </FullPageSections>
 
