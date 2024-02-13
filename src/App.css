@@ -282,9 +282,39 @@ video{
   -webkit-text-stroke-color: rgb(114, 114, 114);
   text-shadow:
     10px 10px rgba(146, 145, 145, 0.1) !important;
+  overflow-y:scroll;
 }
 
+.boatmodal {
+  flex-flow: column wrap !important;
+  position: static !important;
+}
+.boatmodal:hover {
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+  background: none !important;
+}
 
+.MuiBackdrop-root {
+  background-color: rgba(247, 245, 251, 0.75) !important;
+}
+
+.boatdescr {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-weight: 900 !important;
+  font-size: 0.79em !important;
+  letter-spacing: 0.4px !important;
+  line-height: 1.4em !important;
+  word-break: break-word;
+  box-shadow: none;
+  -webkit-text-fill-color: rgba(5, 5, 5, 1);
+  outline-offset: 3px;
+  max-height: 300px !important;
+  overflow-y: scroll;
+  padding-right: 15px;
+}
 
 
 @media only screen and (max-width: 600px) {
