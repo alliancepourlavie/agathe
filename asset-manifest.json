@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.bd80eba3.css",
-    "main.js": "/agathe/static/js/main.a39c5b94.js",
+    "main.css": "/agathe/static/css/main.686e853b.css",
+    "main.js": "/agathe/static/js/main.5633d97b.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -49,6 +49,7 @@
     "static/media/SP.png": "/agathe/static/media/SP.c1381401092818ebbcf0.png",
     "static/media/Oreochromis_macrochir.png": "/agathe/static/media/Oreochromis_macrochir.8ec98365226c326fe1af.png",
     "static/media/Clarias_gariepinus.png": "/agathe/static/media/Clarias_gariepinus.c41b9da3debba7560e6d.png",
+    "static/media/pirogue.png": "/agathe/static/media/pirogue.181e1c6ef9c5d82b10c4.png",
     "static/media/FM.png": "/agathe/static/media/FM.f1f4e19a170ee345b8b3.png",
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
     "static/media/LS.png": "/agathe/static/media/LS.e74bd52ffb95c376eff8.png",
@@ -60,8 +61,8 @@
     "static/media/Itai-Abducted.ttf": "/agathe/static/media/Itai-Abducted.7779a2b4ba42b2134419.ttf",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.bd80eba3.css.map": "/agathe/static/css/main.bd80eba3.css.map",
-    "main.a39c5b94.js.map": "/agathe/static/js/main.a39c5b94.js.map",
+    "main.686e853b.css.map": "/agathe/static/css/main.686e853b.css.map",
+    "main.5633d97b.js.map": "/agathe/static/js/main.5633d97b.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -78,7 +79,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd80eba3.css",
-    "static/js/main.a39c5b94.js"
+    "static/css/main.686e853b.css",
+    "static/js/main.5633d97b.js"
   ]
 }
