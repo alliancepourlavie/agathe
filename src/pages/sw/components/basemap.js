@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, GeoJSON, Marker, Circle, LayersControl, LayerGroup } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, Marker, Circle, Popup, LayersControl, LayerGroup, CircleMarker } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 import L from "leaflet";
 import './basemap.css';
@@ -19,12 +19,14 @@ const Basemap = () => {
         [-2.6180336297309834, 29.504249223136057],
     ];
 
-    const bagira = [-2.4923069203619495, 28.849800601841874]
-    const fillBagira = { fillColor: 'rgba(114, 114, 114, 0)', color: '#cb4d37', weight: 8 }
+    const bagira = [-2.481882127634906, 28.842175394455065]
+    const kadutu = [-2.4923069203619495, 28.849800601841874]
+    const fillBagira = { fillColor: 'rgba(114, 114, 114, 0)', color: '#7f473b', weight: 8 }
+    const fillKadutu = { fillColor: 'rgba(223, 143, 68, 0)', color: '#df8f44', weight: 8 }
 
     return (
 
-        <><div className='maptext'>BAGIRA SITE D'ATTERRISSAGE<br /></div>
+        <><div className='maptext'>KADUTU ET BAGIRA<br />SITES D'ATTERRISSAGE<br /></div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer
@@ -50,7 +52,12 @@ const Basemap = () => {
                         );
                     })}
 
-                    <Circle center={bagira} pathOptions={fillBagira} radius={600} />
+                    <CircleMarker center={kadutu} pathOptions={fillKadutu} radius={15}>
+                        <Popup>KADUTU</Popup>
+                    </CircleMarker>
+                    <CircleMarker center={bagira} pathOptions={fillBagira} radius={15}>
+                        <Popup>BAGIRA</Popup>
+                    </CircleMarker>
 
                 </MapContainer>
             </div>
@@ -80,7 +87,12 @@ const Basemap = () => {
                         );
                     })}
 
-                    <Circle center={bagira} pathOptions={fillBagira} radius={600} />
+                    <CircleMarker center={kadutu} pathOptions={fillKadutu} radius={12}>
+                        <Popup>KADUTU</Popup>
+                    </CircleMarker>
+                    <CircleMarker center={bagira} pathOptions={fillBagira} radius={12}>
+                        <Popup>BAGIRA</Popup>
+                    </CircleMarker>
 
                 </MapContainer>
             </div></>

@@ -15,6 +15,7 @@ import Basemap from './components/basemap';
 import Fishyes from "./components/yes_fish";
 import Fishyesb from "./components/yes_fish_b";
 import Boats from "./components/boat";
+import Pirogue from "./components/pirogue";
 
 
 const SWSW = () => {
@@ -112,6 +113,16 @@ const SWSW = () => {
             </FullpageSection>
           </div>
 
+          <FullpageSection style={{
+            height: '10vh',
+            padding: '1em',
+          }}>
+            <CardContent className="boxpostit" >
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>ENGINS ET TECHNIQUES DE PECHE<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
           <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
@@ -120,6 +131,37 @@ const SWSW = () => {
               <Boats />
             </FullpageSection>
           </div>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Pirogue />
+            </FullpageSection>
+          </div>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(247, 245, 251, 1)',
+            height: '100vh',
+          }}>
+            <ReactPlayer
+              width='100%'
+              height='100%'
+              controls
+              url='https://www.alessandromusetta.com/geo/tiles/agathe/data/trimarane.mp4'
+            />
+          </FullpageSection>
+
+          <FullpageSection style={{
+            height: '10vh',
+            padding: '1em',
+          }}>
+            <CardContent className="boxpostit" >
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>LISTE DES POISSONS RENCONTRES SUR LA COTE DE BAGIRA ET KADUTU<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
 
           <div className="notepad">
             <FullpageSection style={{
