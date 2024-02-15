@@ -73,67 +73,71 @@ const Pirogue = () => {
     }
 
     const rowsBoat = [
-        createData('Pirogue', '-', '1', 1),
-        createData('Materiel', '-', '-', 1),
-        createData('Engin de peche', '-', '-', 1),
-        createData('Reparations pirogue', '-', '-', 1),
-        createData('Reparations filet', '-', '-', 1),
-        createData('Permis de pêche', '-', '-', 1),
+        createData('1. Pirogue', '-', '1', 1),
+        createData('2. Materiel', '-', '-', 1),
+        createData('3. Engin de peche', '-', '-', 1),
+        createData('4. Reparations pirogue', '-', '-', 1),
+        createData('5. Reparations filet', '-', '-', 1),
+        createData('6. Permis de pêche', '-', '-', 1),
     ];
 
 
 
     return (
 
-        <><div style={{paddingTop:30, paddingBottom:30, width:"50%"}}>
-            <CardMedia
-                component="img"
-                alt="Pirogue"
-                height="120"
-                image={Pirogueimg}
-                sx={{ objectFit: "contain" }} />
-        </div>
+        <>
+            <div style={{ display: "flex" }}>
 
+                <Accordion defaultExpanded style={{ width: "40%", padding: 2}}>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">APERCU DES COUTS D'UNE CAMPAGNE DE PECHE</Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
 
-            <Accordion defaultExpanded>
-                <AccordionSummary
-                    expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
-                    <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">APERCU DES COUTS D'UNE CAMPAGNE DE PECHE</Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-
-                    <TableContainer component={Paper} sx={{ maxHeight: 300, overflow: 'scroll' }}>
-                        <Table sx={{ minWidth: 450, fontSize: 15 }} aria-label="simple table">
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell>DESIGNATION</TableCell>
-                                    <TableCell align="center">QUANTITE</TableCell>
-                                    <TableCell align="center">NOMBRE</TableCell>
-                                    <TableCell align="center">MONTANT [USD]</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {rowsBoat.map((row) => (
-                                    <TableRow
-                                        key={rowsBoat.item}
-                                        sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                                    >
-                                        <TableCell component="th" scope="row">
-                                            {row.item}
-                                        </TableCell>
-                                        <TableCell align="right">{row.quan}</TableCell>
-                                        <TableCell align="right">{row.nomb}</TableCell>
-                                        <TableCell align="right">{row.amount}</TableCell>
+                        <TableContainer component={Paper} sx={{ maxHeight: 500, overflow: 'scroll' }}>
+                            <Table sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
+                                <TableHead>
+                                    <TableRow>
+                                        <TableCell>DESIGNATION</TableCell>
+                                        <TableCell align="center">QUANTITE</TableCell>
+                                        <TableCell align="center">NOMBRE</TableCell>
+                                        <TableCell align="center">MONTANT [USD]</TableCell>
                                     </TableRow>
-                                ))}
-                            </TableBody>
-                        </Table>
-                    </TableContainer>
-                </AccordionDetails>
-            </Accordion></>
+                                </TableHead>
+                                <TableBody>
+                                    {rowsBoat.map((row) => (
+                                        <TableRow
+                                            key={rowsBoat.item}
+                                            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                                        >
+                                            <TableCell component="th" scope="row">
+                                                {row.item}
+                                            </TableCell>
+                                            <TableCell align="right">{row.quan}</TableCell>
+                                            <TableCell align="right">{row.nomb}</TableCell>
+                                            <TableCell align="right">{row.amount}</TableCell>
+                                        </TableRow>
+                                    ))}
+                                </TableBody>
+                            </Table>
+                        </TableContainer>
+                    </AccordionDetails>
+                </Accordion>
+
+                <div style={{ padding:30, width: "40%" }}>
+                    <CardMedia
+                        component="img"
+                        alt="Pirogue"
+                        height="600"
+                        image={Pirogueimg}
+                        sx={{ objectFit: "contain" }} />
+                </div>
+
+            </div></>
     )
 }
 
