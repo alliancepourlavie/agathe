@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/agathe/static/css/main.686e853b.css",
-    "main.js": "/agathe/static/js/main.5633d97b.js",
+    "main.js": "/agathe/static/js/main.71687d71.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -40,6 +40,7 @@
     "static/media/Barbus_kerstenii.png": "/agathe/static/media/Barbus_kerstenii.e846f5e208aa086e8c85.png",
     "static/media/FC.png": "/agathe/static/media/FC.e978ed519ad218256aa9.png",
     "static/media/Labeobarbus_altianalis.png": "/agathe/static/media/Labeobarbus_altianalis.8081c23e3861bba1563a.png",
+    "static/media/pirogue.png": "/agathe/static/media/pirogue.05f35e81cc9504fd1ccd.png",
     "static/media/Haplochromis_kamiranzovu.png": "/agathe/static/media/Haplochromis_kamiranzovu.8f1ab242c1259372a53b.png",
     "static/media/Raiamas_moorii.png": "/agathe/static/media/Raiamas_moorii.e321fd3dca2d4cadf02e.png",
     "static/media/Limnothrissa_miodon.png": "/agathe/static/media/Limnothrissa_miodon.d87fb31232a6bfc9f812.png",
@@ -49,7 +50,6 @@
     "static/media/SP.png": "/agathe/static/media/SP.c1381401092818ebbcf0.png",
     "static/media/Oreochromis_macrochir.png": "/agathe/static/media/Oreochromis_macrochir.8ec98365226c326fe1af.png",
     "static/media/Clarias_gariepinus.png": "/agathe/static/media/Clarias_gariepinus.c41b9da3debba7560e6d.png",
-    "static/media/pirogue.png": "/agathe/static/media/pirogue.181e1c6ef9c5d82b10c4.png",
     "static/media/FM.png": "/agathe/static/media/FM.f1f4e19a170ee345b8b3.png",
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
     "static/media/LS.png": "/agathe/static/media/LS.e74bd52ffb95c376eff8.png",
@@ -62,7 +62,7 @@
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
     "main.686e853b.css.map": "/agathe/static/css/main.686e853b.css.map",
-    "main.5633d97b.js.map": "/agathe/static/js/main.5633d97b.js.map",
+    "main.71687d71.js.map": "/agathe/static/js/main.71687d71.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -80,6 +80,6 @@
   },
   "entrypoints": [
     "static/css/main.686e853b.css",
-    "static/js/main.5633d97b.js"
+    "static/js/main.71687d71.js"
   ]
 }
