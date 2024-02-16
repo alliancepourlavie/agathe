@@ -78,6 +78,8 @@ const SWSW = () => {
             </FullpageSection>
           </div>
 
+          {/* ///////START INTRODUCTION//// */}
+          {/* ///////////////////////////// */}
           <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
@@ -87,9 +89,11 @@ const SWSW = () => {
               </CardContent>
             </FullpageSection>
           </div>
-
-
           {/* ///////////////////////////// */}
+          {/* //////END INTRODUCTION/////// */}
+
+
+
           {/* START BAGIRA LANDSITE SECTION */}
           {/* ///////////////////////////// */}
           <FullpageSection style={{
@@ -112,6 +116,20 @@ const SWSW = () => {
               <Basemap />
             </FullpageSection>
           </div>
+
+          {/* //////START CARTOGRAPHY////// */}
+          {/* ///////////////////////////// */}
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="agathe" sx={{ mt: 2, fontSize:1}}><br /><br /><br />Lien vers la section de cartographie sociale<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+          {/* ///////////////////////////// */}
+          {/* ///////END CARTOGRAPHY/////// */}
 
           <FullpageSection style={{
             height: '10vh',
@@ -182,8 +200,20 @@ const SWSW = () => {
           </div>
           {/* /////////////////////////// */}
           {/* END BAGIRA LANDSITE SECTION */}
-          {/* /////////////////////////// */}
 
+          {/* ////////START DRAWING//////// */}
+          {/* ///////////////////////////// */}
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="agathe" sx={{ mt: 2, fontSize:1}}><br /><br /><br />Lien vers la section des dessins d'enfants<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+          {/* ///////////////////////////// */}
+          {/* /////////END DRAWING///////// */}
 
 
         </FullPageSections>

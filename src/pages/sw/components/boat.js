@@ -72,7 +72,7 @@ const Boats = () => {
                                 <CardMedia
                                     component="img"
                                     alt="Le trimaran avec filet carrelet - FC"
-                                    height="250"
+                                    height="230"
                                     image={FC}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
@@ -115,7 +115,7 @@ const Boats = () => {
                                 <CardMedia
                                     component="img"
                                     alt="La senne de plage - SP"
-                                    height="250"
+                                    height="230"
                                     image={SP}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
@@ -158,7 +158,7 @@ const Boats = () => {
                                 <CardMedia
                                     component="img"
                                     alt="Les filets maillants - FM"
-                                    height="200"
+                                    height="150"
                                     image={FM}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
@@ -201,7 +201,7 @@ const Boats = () => {
                                 <CardMedia
                                     component="img"
                                     alt="La ligne simple - LS"
-                                    height="200"
+                                    height="150"
                                     image={LS}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
@@ -244,7 +244,7 @@ const Boats = () => {
                                 <CardMedia
                                     component="img"
                                     alt="Le tulle moustiquaire - MO"
-                                    height="200"
+                                    height="150"
                                     image={MO}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
@@ -287,7 +287,7 @@ const Boats = () => {
                                 <CardMedia
                                     component="img"
                                     alt="La moustiquaire associée au Lusenga -MOL"
-                                    height="200"
+                                    height="150"
                                     image={MOL}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
