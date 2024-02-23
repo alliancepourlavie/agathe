@@ -103,7 +103,7 @@ const SWSW = () => {
             <ReactPlayer
               width='100%'
               height='100%'
-              controls
+              controls volume={0.2}
               url='https://www.alessandromusetta.com/geo/tiles/agathe/data/bagira_from_water.mp4'
             />
           </FullpageSection>
@@ -166,7 +166,7 @@ const SWSW = () => {
             <ReactPlayer
               width='100%'
               height='100%'
-              controls
+              controls volume={0.2}
               url='https://www.alessandromusetta.com/geo/tiles/agathe/data/trimarane.mp4'
             />
           </FullpageSection>

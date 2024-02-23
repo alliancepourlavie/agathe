@@ -86,9 +86,9 @@ const Pirogue = () => {
     return (
 
         <>
-            <div style={{ display: "flex" }}>
+            <div className="pirogueflex" style={{ display: "flex" }}>
 
-                <Accordion defaultExpanded style={{ width: "40%", padding: 2}}>
+                <Accordion defaultExpanded className="pirogueaccordion" style={{ width: "40%", padding: 2}}>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel1a-content"
@@ -98,7 +98,7 @@ const Pirogue = () => {
                     </AccordionSummary>
                     <AccordionDetails>
 
-                        <TableContainer component={Paper} sx={{ maxHeight: 500, overflow: 'scroll' }}>
+                        <TableContainer className="pirogueTable" component={Paper} sx={{ maxHeight: 500, overflow: 'scroll' }}>
                             <Table sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
                                 <TableHead>
                                     <TableRow>
@@ -128,8 +128,9 @@ const Pirogue = () => {
                     </AccordionDetails>
                 </Accordion>
 
-                <div style={{ padding:30, width: "40%" }}>
+                <div style={{ padding:30, margin:"auto", width: "40%" }}>
                     <CardMedia
+                        className='pirogueimg'
                         component="img"
                         alt="Pirogue"
                         height="600"

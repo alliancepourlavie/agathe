@@ -81,6 +81,7 @@ a:visited {
 }
 
 ::-webkit-scrollbar {
+  height: 4px; 
   width: 5px;
 }
 
@@ -132,7 +133,7 @@ video{
   font-size: 0.7em !important;
   width: auto !important;
   z-index: 999 !important;
-  background-color: rgba(247, 245, 251, 1) !important;
+  background-color: rgba(247, 245, 251, 0) !important;
   ;
 }
 
@@ -474,6 +475,24 @@ video{
     height: 100px !important;
     object-fit: cover !important;
     width: auto !important;
+  }
+
+  .pirogueflex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pirogueaccordion {
+    width: 100% !important;
+  }
+
+  .pirogueTable {
+    max-height: 250px !important;
+    overflow: scroll;
+  }
+
+  .pirogueimg {
+    height: 200px !important;
   }
 
   .css-46bh2p-MuiCardContent-root:last-child{
