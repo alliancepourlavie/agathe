@@ -93,7 +93,7 @@ const Boats = () => {
                                     },
                                 }}
                             >
-                                <Box sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
+                                <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
                                         alt="Le trimaran avec filet carrelet - FC"
@@ -136,7 +136,7 @@ const Boats = () => {
                                     },
                                 }}
                             >
-                                <Box sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
+                                <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
                                         alt="La senne de plage - SP"
@@ -179,7 +179,7 @@ const Boats = () => {
                                     },
                                 }}
                             >
-                                <Box sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
+                                <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
                                         alt="Les filets maillants - FM"
@@ -222,7 +222,7 @@ const Boats = () => {
                                     },
                                 }}
                             >
-                                <Box sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
+                                <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
                                         alt="La ligne simple - LS"
@@ -265,7 +265,7 @@ const Boats = () => {
                                     },
                                 }}
                             >
-                                <Box sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
+                                <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
                                         alt="Le tulle moustiquaire - MO"
@@ -308,7 +308,7 @@ const Boats = () => {
                                     },
                                 }}
                             >
-                                <Box sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
+                                <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
                                         alt="La moustiquaire associée au Lusenga -MOL"

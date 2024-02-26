@@ -98,8 +98,8 @@ const Pirogue = () => {
                     </AccordionSummary>
                     <AccordionDetails>
 
-                        <TableContainer className="pirogueTable" component={Paper} sx={{ maxHeight: 500, overflow: 'scroll' }}>
-                            <Table sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
+                        <TableContainer className="pirogueTableContainer" component={Paper} sx={{ maxHeight: 500, overflow: 'scroll' }}>
+                            <Table className="pirogueTable" sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
                                 <TableHead>
                                     <TableRow>
                                         <TableCell>DESIGNATION</TableCell>

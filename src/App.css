@@ -477,6 +477,10 @@ video{
     width: auto !important;
   }
 
+  .boatboxmodal {
+    width: 320px !important;
+  }
+
   .pirogueflex {
     display: flex;
     flex-direction: column;
@@ -486,9 +490,13 @@ video{
     width: 100% !important;
   }
 
-  .pirogueTable {
+  .pirogueTableContainer {
     max-height: 250px !important;
     overflow: scroll;
+  }
+
+  .pirogueTable {
+    font-size: 12px !important;
   }
 
   .pirogueimg {
