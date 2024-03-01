@@ -9,6 +9,8 @@ import Gracilior from "../../../data/img/Haplochromis_gracilior.png";
 import Lamprichthys from "../../..//data/img/Lamprichthys_tanganicanus.png";
 import Limnothrissa from "../../..//data/img/Limnothrissa_miodon.png";
 import Niloticus from "../../../data/img/Oreochromis_niloticus.png";
+import Graueri from "../../../data/img/Haplochromis_graueri.png";
+
 
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -80,7 +82,7 @@ const Fishyes = () => {
                                 image={Limnothrissa}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Limnothrissa miodon</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>SAMBAZA<br /><i>Limnothrissa miodon</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#df8f44", borderStyle: "solid" }}>FM</span>
                                     <span style={{ borderWidth: 3, borderColor: "#2b5f43", borderStyle: "solid" }}>MoL</span>
                                     <span style={{ borderWidth: 3, borderColor: "#c53c6a", borderStyle: "solid" }}>Mo</span>
@@ -97,7 +99,7 @@ const Fishyes = () => {
                                 image={Lamprichthys}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Lamprichthys tanganicanus</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>MSHIA (Tanzania, Swahili)<br /><i>Lamprichthys tanganicanus</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#df8f44", borderStyle: "solid" }}>FM</span>
                                     <span style={{ borderWidth: 3, borderColor: "#2b5f43", borderStyle: "solid" }}>MoL</span>
                                 </Typography>
@@ -113,7 +115,7 @@ const Fishyes = () => {
                                 image={Niloticus}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Oreochromis niloticus</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>IGIHONDA, ISAKE (Rwanda, Kinyarwanda)<br /><i>Oreochromis niloticus</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                     <span style={{ borderWidth: 3, borderColor: "#cb4d37", borderStyle: "solid" }}>LS</span>
                                 </Typography>
@@ -145,7 +147,7 @@ const Fishyes = () => {
                                 image={Gracilior}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis gracilior</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>INDUGU (?)<br /><i>Haplochromis gracilior</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                     <span style={{ borderWidth: 3, borderColor: "#df8f44", borderStyle: "solid" }}>FM</span>
                                 </Typography>
@@ -156,12 +158,12 @@ const Fishyes = () => {
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Adolphifrederici"
+                                alt="Graueri"
                                 height="200"
                                 image={Adolphifrederici}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis adolphifrederici</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis graueri</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
@@ -176,7 +178,7 @@ const Fishyes = () => {
                                 image={Astatodon}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis astatodon</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>IFURO (Rwanda,Kinyarwanda)<br /><i>Haplochromis astatodon</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>

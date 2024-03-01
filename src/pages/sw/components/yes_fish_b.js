@@ -130,7 +130,7 @@ const Fishyesb = () => {
                                 image={Microchrysomelas}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis Microchrysomelas</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>DÉNOMINATION LOCALE<br /><i>Haplochromis microchrysomelas</i><br />
                                     <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span>
                                 </Typography>
                             </CardContent>
