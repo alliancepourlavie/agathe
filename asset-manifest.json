@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.b72b5170.css",
-    "main.js": "/agathe/static/js/main.88f9005c.js",
+    "main.css": "/agathe/static/css/main.9c6617d0.css",
+    "main.js": "/agathe/static/js/main.05193df8.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -30,7 +30,6 @@
     "static/media/Amphilius_cf_uranoscopus.png": "/agathe/static/media/Amphilius_cf_uranoscopus.b13ca415839b7f961256.png",
     "static/media/agathe.png": "/agathe/static/media/agathe.5acef470bf41682660f7.png",
     "static/media/Haplochromis_scheffersi.png": "/agathe/static/media/Haplochromis_scheffersi.8cecd2b268ac074cfbd6.png",
-    "static/media/Itai-Disappears.ttf": "/agathe/static/media/Itai-Disappears.3bb8e6b2187e7f364086.ttf",
     "static/media/Barbus_apleurogramma.png": "/agathe/static/media/Barbus_apleurogramma.8f4b6a8519b61f84ba9d.png",
     "static/media/Haplochromis_olivaceus.png": "/agathe/static/media/Haplochromis_olivaceus.38256e257f7130a1bee2.png",
     "static/media/Haplochromis_nigroides.png": "/agathe/static/media/Haplochromis_nigroides.d4f5bb6b0f0ec9d61497.png",
@@ -47,22 +46,23 @@
     "static/media/Raiamas_moorii.png": "/agathe/static/media/Raiamas_moorii.e321fd3dca2d4cadf02e.png",
     "static/media/MOL.png": "/agathe/static/media/MOL.d462a4b19e9ca49638d6.png",
     "static/media/Limnothrissa_miodon.png": "/agathe/static/media/Limnothrissa_miodon.d87fb31232a6bfc9f812.png",
+    "static/media/MangueiraAlt-Regular.ttf": "/agathe/static/media/MangueiraAlt-Regular.a19cf75c6948459a6428.ttf",
     "static/media/Oreochromis_niloticus.png": "/agathe/static/media/Oreochromis_niloticus.8e6377b97e9494097ad4.png",
     "static/media/Oreochromis_leucostictus.png": "/agathe/static/media/Oreochromis_leucostictus.92318e95932490afb203.png",
     "static/media/LS.png": "/agathe/static/media/LS.dd40a96c8fa6b1624b76.png",
     "static/media/FM.png": "/agathe/static/media/FM.32d073f7f4fff354f8f9.png",
+    "static/media/MangueiraAlt-Thin.ttf": "/agathe/static/media/MangueiraAlt-Thin.7a12f34288432c941493.ttf",
     "static/media/Clarias_liocephalus.png": "/agathe/static/media/Clarias_liocephalus.dbed7d4c730f21137907.png",
+    "static/media/faces_3.png": "/agathe/static/media/faces_3.bb8030ed5ec02c46a4bc.png",
     "static/media/Oreochromis_macrochir.png": "/agathe/static/media/Oreochromis_macrochir.8ec98365226c326fe1af.png",
     "static/media/Clarias_gariepinus.png": "/agathe/static/media/Clarias_gariepinus.c41b9da3debba7560e6d.png",
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
     "static/media/Nehanda-SpiritMedium.ttf": "/agathe/static/media/Nehanda-SpiritMedium.291fab66392584001bfd.ttf",
-    "static/media/Itai-Protests.ttf": "/agathe/static/media/Itai-Protests.e69e857453c2cfd47cf0.ttf",
     "static/media/YuwoteCharvet-Fat.otf": "/agathe/static/media/YuwoteCharvet-Fat.4d71ad57fa11944562b1.otf",
-    "static/media/Itai-Abducted.ttf": "/agathe/static/media/Itai-Abducted.7779a2b4ba42b2134419.ttf",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.b72b5170.css.map": "/agathe/static/css/main.b72b5170.css.map",
-    "main.88f9005c.js.map": "/agathe/static/js/main.88f9005c.js.map",
+    "main.9c6617d0.css.map": "/agathe/static/css/main.9c6617d0.css.map",
+    "main.05193df8.js.map": "/agathe/static/js/main.05193df8.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -79,7 +79,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b72b5170.css",
-    "static/js/main.88f9005c.js"
+    "static/css/main.9c6617d0.css",
+    "static/js/main.05193df8.js"
   ]
 }
