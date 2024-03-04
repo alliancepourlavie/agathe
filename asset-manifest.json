@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.9c6617d0.css",
-    "main.js": "/agathe/static/js/main.05193df8.js",
+    "main.css": "/agathe/static/css/main.37a3e0c1.css",
+    "main.js": "/agathe/static/js/main.0c26431c.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -45,15 +45,16 @@
     "static/media/MO.png": "/agathe/static/media/MO.16cf410bd35c1780db19.png",
     "static/media/Raiamas_moorii.png": "/agathe/static/media/Raiamas_moorii.e321fd3dca2d4cadf02e.png",
     "static/media/MOL.png": "/agathe/static/media/MOL.d462a4b19e9ca49638d6.png",
+    "static/media/faces_3.png": "/agathe/static/media/faces_3.cdcdc2ee1ea57cffebeb.png",
     "static/media/Limnothrissa_miodon.png": "/agathe/static/media/Limnothrissa_miodon.d87fb31232a6bfc9f812.png",
     "static/media/MangueiraAlt-Regular.ttf": "/agathe/static/media/MangueiraAlt-Regular.a19cf75c6948459a6428.ttf",
+    "static/media/faces_4.png": "/agathe/static/media/faces_4.609c163a6f8605c613f2.png",
     "static/media/Oreochromis_niloticus.png": "/agathe/static/media/Oreochromis_niloticus.8e6377b97e9494097ad4.png",
     "static/media/Oreochromis_leucostictus.png": "/agathe/static/media/Oreochromis_leucostictus.92318e95932490afb203.png",
     "static/media/LS.png": "/agathe/static/media/LS.dd40a96c8fa6b1624b76.png",
     "static/media/FM.png": "/agathe/static/media/FM.32d073f7f4fff354f8f9.png",
     "static/media/MangueiraAlt-Thin.ttf": "/agathe/static/media/MangueiraAlt-Thin.7a12f34288432c941493.ttf",
     "static/media/Clarias_liocephalus.png": "/agathe/static/media/Clarias_liocephalus.dbed7d4c730f21137907.png",
-    "static/media/faces_3.png": "/agathe/static/media/faces_3.bb8030ed5ec02c46a4bc.png",
     "static/media/Oreochromis_macrochir.png": "/agathe/static/media/Oreochromis_macrochir.8ec98365226c326fe1af.png",
     "static/media/Clarias_gariepinus.png": "/agathe/static/media/Clarias_gariepinus.c41b9da3debba7560e6d.png",
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
@@ -61,8 +62,8 @@
     "static/media/YuwoteCharvet-Fat.otf": "/agathe/static/media/YuwoteCharvet-Fat.4d71ad57fa11944562b1.otf",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.9c6617d0.css.map": "/agathe/static/css/main.9c6617d0.css.map",
-    "main.05193df8.js.map": "/agathe/static/js/main.05193df8.js.map",
+    "main.37a3e0c1.css.map": "/agathe/static/css/main.37a3e0c1.css.map",
+    "main.0c26431c.js.map": "/agathe/static/js/main.0c26431c.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -79,7 +80,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c6617d0.css",
-    "static/js/main.05193df8.js"
+    "static/css/main.37a3e0c1.css",
+    "static/js/main.0c26431c.js"
   ]
 }
