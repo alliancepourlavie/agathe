@@ -17,6 +17,7 @@ import Fishyes from "./components/yes_fish";
 import Fishyesb from "./components/yes_fish_b";
 import Boats from "./components/boat";
 import Pirogue from "./components/pirogue";
+import Facesb from "./components/faces_b";
 
 import Mutomboimg from "../../data/img/faces_3.png";
 
@@ -224,24 +225,24 @@ const SWSW = () => {
 
           {/* /////////START FACES///////// */}
           {/* ///////////////////////////// */}
+          <FullpageSection style={{
+            height: '10vh',
+            padding: '1em',
+          }}>
+            <CardContent className="boxpostit" >
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>HISTOIRES DE PECHEUSES<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
           <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
               padding: '1em',
+              display: "flex",
+              alignItems: "center"
             }}>
-              <div style={{ padding: 5, margin: "auto" }}>
-                <CardMedia
-                  className='mutomboimg'
-                  component="img"
-                  alt="Mutombo"
-                  height="200"
-                  image={Mutomboimg}
-                  sx={{ objectFit: "contain" }} />
-              </div>
-              <Typography component='div' className="mutombo" ><div style={{ textAlign: "center" }}>Maman MUTOMBO<br /></div>
-              </Typography>
-              <Typography component='div' className="mutombodescr" ><div style={{ textAlign: "center", maxWidth: 450, margin: "auto", heigh:"100vh" }}><br />Âgé de 35ans, mère de 8 ans<br />Dix ans de pêche.<br />Nous a montré que lors de la mort de son mari qui fut aussi pêcheur, elle a choisi de faire la pêche vu qu’elle vendait des petit divers mais sans trouvé un revenu suffisant pour faire nourrir et faire scolarisé ces enfants.  Elle s’était uni à maman Cynthia qui lui a montré comment une femme peut subvenir au besoin familiale malgré l’absence ou la mort du mari et sans livrer son corps à la débauche. Elle a exercé cette activité avec courage, force et sans honte et jusque-là elle nous a dit qu’elle a besoin de trouvé ses propres filets vus qu’après la mort de son mari elle avait été délaissé par la famille de son mari et les filets quelle a, elle le prend en location par manque de moyens pour acheter ses mieux.<br /></div>
-              </Typography>
+              <Facesb />
             </FullpageSection>
           </div>
           {/* ///////////////////////////// */}
