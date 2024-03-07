@@ -76,10 +76,11 @@ const Boats = () => {
                                     image={FC}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TRIMARAN AVEC FILET CARRELET - FC<br />11 pêcheuses // mailles 6-10 mm
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TRIMARAN AVEC FILET CARRELET -<br />11 pêcheuses // mailles 6-10 mm
                                     </Typography>
                                 </CardContent>
                             </Button>
+                            <span style={{ backgroundColor: "rgba(0,0,0,0)", padding: 3, fontFamily: "Nehanda-SpiritMedium", fontSize: "0.9em", fontWeight: 600, borderColor: "black", borderWidth: 1, borderStyle: "solid" }}>FC</span>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -119,10 +120,11 @@ const Boats = () => {
                                     image={SP}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA SENNE DE PLAGE - <span style={{ borderWidth: 3, borderColor: "#2e2a7a", borderStyle: "solid" }}>SP</span><br />2-5 pêcheuses // mailles 4-8 mm
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA SENNE DE PLAGE -<br />2-5 pêcheuses // mailles 4-8 mm
                                     </Typography>
                                 </CardContent>
                             </Button>
+                            <span style={{ backgroundColor: "#2e2a7a", color: "#df8f44", padding: 3, fontFamily: "Nehanda-SpiritMedium", fontSize: "0.9em", fontWeight: 600, padding: 4 }}>SP</span>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -162,10 +164,11 @@ const Boats = () => {
                                     image={FM}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LES FILETS MAILLANTS - <span style={{ borderWidth: 3, borderColor: "#df8f44", borderStyle: "solid" }}>FM</span><br />3-4 pêcheuses // mailles 20-30 mm
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LES FILETS MAILLANTS -<br />3-4 pêcheuses // mailles 20-30 mm
                                     </Typography>
                                 </CardContent>
                             </Button>
+                            <span style={{ backgroundColor: "#df8f44", padding: 3, fontFamily: "Nehanda-SpiritMedium", fontSize: "0.9em", fontWeight: 600, padding: 4 }}>FM</span>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -205,10 +208,11 @@ const Boats = () => {
                                     image={LS}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA LIGNE SIMPLE - <span style={{ borderWidth: 3, borderColor: "#cb4d37", borderStyle: "solid" }}>LS</span><br />1 pêcheuses
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA LIGNE SIMPLE -<br />1 pêcheuses
                                     </Typography>
                                 </CardContent>
                             </Button>
+                            <span style={{ backgroundColor: "#cb4d37", color: "#df8f44", padding: 3, fontFamily: "Nehanda-SpiritMedium", fontSize: "0.9em", fontWeight: 600, padding: 4 }}>LS</span>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -248,10 +252,11 @@ const Boats = () => {
                                     image={MO}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TULLE MOUSTIQUAIRE - <span style={{ borderWidth: 3, borderColor: "#c53c6a", borderStyle: "solid" }}>Mo</span><br />2 pêcheuses // mailles 0.3-1.7 mm // <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illicite</span>
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TULLE MOUSTIQUAIRE -<br />2 pêcheuses // mailles 0.3-1.7 mm // <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illicite</span>
                                     </Typography>
                                 </CardContent>
                             </Button>
+                            <span style={{ backgroundColor: "#c53c6a", color: "#df8f44", padding: 3, fontFamily: "Nehanda-SpiritMedium", fontSize: "0.9em", fontWeight: 600, padding: 4 }}>Mo</span>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"
@@ -291,10 +296,11 @@ const Boats = () => {
                                     image={MOL}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA MOUSTIQUAIRE ASSOCIÉE AU LUSENGA - <span style={{ borderWidth: 3, borderColor: "#2b5f43", borderStyle: "solid" }}>MoL</span><br />2 pêcheuses // <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illcite</span>
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA MOUSTIQUAIRE ASSOCIÉE AU LUSENGA -<br />2 pêcheuses // <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illcite</span>
                                     </Typography>
                                 </CardContent>
                             </Button>
+                            <span style={{ backgroundColor: "#2b5f43", color: "#df8f44", padding: 3, fontFamily: "Nehanda-SpiritMedium", fontSize: "0.9em", fontWeight: 600, padding: 4 }}>MoL</span>
                             <Modal
                                 aria-labelledby="transition-modal-title"
                                 aria-describedby="transition-modal-description"

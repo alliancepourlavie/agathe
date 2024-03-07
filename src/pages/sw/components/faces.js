@@ -12,13 +12,13 @@ import Box from '@mui/material/Box';
 import { Modal } from '@mui/material';
 import Backdrop from '@mui/material/Backdrop';
 
-import Mutomboimg from "../../../data/img/faces_3.png";
-import Bintuimg from "../../../data/img/faces_4.png";
+import Agatheimg from "../../../data/img/faces_1.png";
+import Cynthiaimg from "../../../data/img/faces_2.png";
 
 
 
 
-const Facesb = () => {
+const Faces = () => {
 
 
     const Item = styled(Paper)(({ theme }) => ({
@@ -56,12 +56,12 @@ const Facesb = () => {
                             <Button onClick={() => setOpen1(true)} className='boatmodal'>
                                 <CardMedia
                                     component="img"
-                                    alt="Maman Mutombo"
+                                    alt="Maman Agathe"
                                     height="300"
-                                    image={Mutomboimg}
+                                    image={Agatheimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman MUTOMBO</span><br />Âgé de 35ans, mère de 8ans<br />Dix ans de pêche<br />◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman AGATHE</span><br />Âgé de  ans, mère de  9ans<br /> ans de pêche<br />◉ GOMA
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -81,12 +81,12 @@ const Facesb = () => {
                                 <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
-                                        alt="Maman Mutombo"
+                                        alt="Maman Agathe"
                                         height="300"
-                                        image={Mutomboimg}
+                                        image={Agatheimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Nous a montré que lors de la mort de son mari qui fut aussi pêcheur, elle a choisi de faire la pêche vu qu’elle vendait des petit divers mais sans trouvé un revenu suffisant pour faire nourrir et faire scolarisé ces enfants.  Elle s’était uni à maman Cynthia qui lui a montré comment une femme peut subvenir au besoin familiale malgré l’absence ou la mort du mari et sans livrer son corps à la débauche. Elle a exercé cette activité avec courage, force et sans honte et jusque-là elle nous a dit qu’elle a besoin de trouvé ses propres filets vus qu’après la mort de son mari elle avait été délaissé par la famille de son mari et les filets quelle a, elle le prend en location par manque de moyens pour acheter ses mieux.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom> <br />
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -100,12 +100,12 @@ const Facesb = () => {
                             <Button onClick={() => setOpen2(true)} className='boatmodal'>
                                 <CardMedia
                                     component="img"
-                                    alt="Maman Bintu"
+                                    alt="Maman CYNTHIA"
                                     height="300"
-                                    image={Bintuimg}
+                                    image={Cynthiaimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Madame BINTU</span><br />Âgé de 25ans, mère de 2ans<br />Trois ans de pêche<br /> ◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman CYNTHIA</span><br />Âgé de 43ans, mère de 14ans<br />Vingt cinq ans de pêche<br />◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -125,12 +125,12 @@ const Facesb = () => {
                                 <Box className="boatboxmodal" sx={stylemodal} style={{ backgroundColor: "rgba(247, 245, 251, 1)" }}>
                                     <CardMedia
                                         component="img"
-                                        alt="Maman Bintu"
+                                        alt="Maman CYNTHIA"
                                         height="300"
-                                        image={Bintuimg}
+                                        image={Cynthiaimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Cette femme nous a montré son parcours de vie qui a été très difficile a géré avec ces deux enfants, dont leur père les avait abandonné et dont tous ces deux parents sont déjà morts, elle avait décidé de se lancer dans la pêche au lieu de faire la prostitution. « 3ans déjà que j’effectue cette activité et sa m’aide à nourrir mes deux enfants et mes deux petites sœurs malgré qu’elles ne sont pas scolarisées vu mes moyens qui sont trop bas »<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Son mari ne travaille pas il y’a plus de 10ans suite à son handicape. Cette femme nous a dit qu’elle elle a un seul filet qui fait nourrir sa famille, faire payer la scolarité de quelques enfants vues qu’il y a d’autre qui ne sont pas scolarisé par manque de moyen, les taxes de l’état et les frais de soin de santé en cas de la maladie. Elle nous a dit qu’elle a déjà enseigné ces deux enfants quand elle s’était trouvé dans l’impossibilité de le faire tous étudier.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -144,4 +144,4 @@ const Facesb = () => {
 }
 
 
-export default Facesb;
+export default Faces;

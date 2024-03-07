@@ -5,7 +5,6 @@ import ReactPlayer from 'react-player';
 import '../../App.css'
 
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
@@ -13,14 +12,12 @@ import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
 
 import Basemap from './components/basemap';
-import Fishyes from "./components/yes_fish";
-import Fishyesb from "./components/yes_fish_b";
+import Fishyes from "./components/fish";
+import Fishyesb from "./components/fish_b";
 import Boats from "./components/boat";
 import Pirogue from "./components/pirogue";
 import Facesb from "./components/faces_b";
-
-import Mutomboimg from "../../data/img/faces_3.png";
-
+import Faces from "./components/faces";
 
 
 const SWSW = () => {
@@ -234,6 +231,17 @@ const SWSW = () => {
               </Typography>
             </CardContent>
           </FullpageSection>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+              display: "flex",
+              alignItems: "center"
+            }}>
+              <Faces />
+            </FullpageSection>
+          </div>
 
           <div className="notepad">
             <FullpageSection style={{
