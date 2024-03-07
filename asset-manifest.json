@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/agathe/static/css/main.37a3e0c1.css",
-    "main.js": "/agathe/static/js/main.0c26431c.js",
+    "main.js": "/agathe/static/js/main.66f71fde.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -47,8 +47,10 @@
     "static/media/MOL.png": "/agathe/static/media/MOL.d462a4b19e9ca49638d6.png",
     "static/media/faces_3.png": "/agathe/static/media/faces_3.cdcdc2ee1ea57cffebeb.png",
     "static/media/Limnothrissa_miodon.png": "/agathe/static/media/Limnothrissa_miodon.d87fb31232a6bfc9f812.png",
+    "static/media/faces_2.png": "/agathe/static/media/faces_2.04581622477ab054d251.png",
     "static/media/MangueiraAlt-Regular.ttf": "/agathe/static/media/MangueiraAlt-Regular.a19cf75c6948459a6428.ttf",
     "static/media/faces_4.png": "/agathe/static/media/faces_4.609c163a6f8605c613f2.png",
+    "static/media/faces_1.png": "/agathe/static/media/faces_1.2c57df14f61f4e5a79ed.png",
     "static/media/Oreochromis_niloticus.png": "/agathe/static/media/Oreochromis_niloticus.8e6377b97e9494097ad4.png",
     "static/media/Oreochromis_leucostictus.png": "/agathe/static/media/Oreochromis_leucostictus.92318e95932490afb203.png",
     "static/media/LS.png": "/agathe/static/media/LS.dd40a96c8fa6b1624b76.png",
@@ -63,7 +65,7 @@
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
     "main.37a3e0c1.css.map": "/agathe/static/css/main.37a3e0c1.css.map",
-    "main.0c26431c.js.map": "/agathe/static/js/main.0c26431c.js.map",
+    "main.66f71fde.js.map": "/agathe/static/js/main.66f71fde.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -81,6 +83,6 @@
   },
   "entrypoints": [
     "static/css/main.37a3e0c1.css",
-    "static/js/main.0c26431c.js"
+    "static/js/main.66f71fde.js"
   ]
 }
