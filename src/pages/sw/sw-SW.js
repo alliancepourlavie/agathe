@@ -18,6 +18,8 @@ import Boats from "./components/boat";
 import Pirogue from "./components/pirogue";
 import Facesb from "./components/faces_b";
 import Faces from "./components/faces";
+import Plants from "./components/plant";
+import Plant_medicine from "./components/plant_medicine";
 
 
 const SWSW = () => {
@@ -256,6 +258,38 @@ const SWSW = () => {
           {/* ///////////////////////////// */}
           {/* //////////END FACES////////// */}
 
+          {/* /////////START CARE////////// */}
+          {/* ///////////////////////////// */}
+          <FullpageSection style={{
+            height: '10vh',
+            padding: '1em',
+          }}>
+            <CardContent className="boxpostit" >
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>SOINS ET MEMOIRE DE L'ENVIRONNEMENT<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+              display: "flex",
+              alignItems: "center"
+            }}>
+              <Plants />
+            </FullpageSection>
+          </div>
+
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Plant_medicine />
+            </FullpageSection>
+
+          {/* ///////////////////////////// */}
+          {/* //////////END CARE/////////// */}
 
 
         </FullPageSections>
