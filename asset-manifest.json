@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.37a3e0c1.css",
-    "main.js": "/agathe/static/js/main.66f71fde.js",
+    "main.css": "/agathe/static/css/main.d90afdca.css",
+    "main.js": "/agathe/static/js/main.37163d5c.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -16,6 +16,11 @@
     "reactPlayerFilePlayer.js": "/agathe/static/js/reactPlayerFilePlayer.846852ba.chunk.js",
     "reactPlayerPreview.js": "/agathe/static/js/reactPlayerPreview.c57fa779.chunk.js",
     "static/js/787.fd110127.chunk.js": "/agathe/static/js/787.fd110127.chunk.js",
+    "static/media/Markhamia_lutea.png": "/agathe/static/media/Markhamia_lutea.b8981653dbb0298c6f0b.png",
+    "static/media/Eucalyptus_spp.png": "/agathe/static/media/Eucalyptus_spp.aa606779a7941d7791ad.png",
+    "static/media/Phragmites_australis.png": "/agathe/static/media/Phragmites_australis.6dfc72851ecce7cff6a4.png",
+    "static/media/Spathodea_campanulata.png": "/agathe/static/media/Spathodea_campanulata.5c9179580d590e0ab821.png",
+    "static/media/Cedrela_serrata.png": "/agathe/static/media/Cedrela_serrata.8028a801f0bdd8221b6d.png",
     "static/media/Haplochromis_paucidens.png": "/agathe/static/media/Haplochromis_paucidens.8a133bd83ceedc27066d.png",
     "static/media/Haplochromis_rubescens.png": "/agathe/static/media/Haplochromis_rubescens.6f887812d93880829a0d.png",
     "static/media/Haplochromis_microchrysomelas.png": "/agathe/static/media/Haplochromis_microchrysomelas.9829b3797124cd37a6b3.png",
@@ -64,8 +69,8 @@
     "static/media/YuwoteCharvet-Fat.otf": "/agathe/static/media/YuwoteCharvet-Fat.4d71ad57fa11944562b1.otf",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.37a3e0c1.css.map": "/agathe/static/css/main.37a3e0c1.css.map",
-    "main.66f71fde.js.map": "/agathe/static/js/main.66f71fde.js.map",
+    "main.d90afdca.css.map": "/agathe/static/css/main.d90afdca.css.map",
+    "main.37163d5c.js.map": "/agathe/static/js/main.37163d5c.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -82,7 +87,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a3e0c1.css",
-    "static/js/main.66f71fde.js"
+    "static/css/main.d90afdca.css",
+    "static/js/main.37163d5c.js"
   ]
 }
