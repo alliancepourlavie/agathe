@@ -1,12 +1,12 @@
 import React from 'react';
-import { MapContainer, TileLayer, GeoJSON, Marker, Circle, Popup, LayersControl, LayerGroup, CircleMarker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, CircleMarker } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 import L from "leaflet";
 import './basemap.css';
 
 
 import { landingsitejs } from "../../../data/landing_site.js";
-import { iconlanding } from "../../../icon/icons.js";
+import { Iconlanding } from "../../../icon/icons.js";
 
 
 
@@ -47,7 +47,7 @@ const Basemap = () => {
                             <Marker
                                 key={index}
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
-                                icon={iconlanding}>
+                                icon={Iconlanding}>
                             </Marker>
                         );
                     })}
@@ -82,7 +82,7 @@ const Basemap = () => {
                             <Marker
                                 key={index}
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
-                                icon={iconlanding}>
+                                icon={Iconlanding}>
                             </Marker>
                         );
                     })}

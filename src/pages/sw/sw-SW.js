@@ -20,6 +20,7 @@ import Facesb from "./components/faces_b";
 import Faces from "./components/faces";
 import Plants from "./components/plant";
 import Plant_medicine from "./components/plant_medicine";
+import Bukavumap from "./components/bukavumap";
 
 
 const SWSW = () => {
@@ -287,6 +288,15 @@ const SWSW = () => {
             }}>
               <Plant_medicine />
             </FullpageSection>
+
+            <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Bukavumap />
+            </FullpageSection>
+          </div>
 
           {/* ///////////////////////////// */}
           {/* //////////END CARE/////////// */}

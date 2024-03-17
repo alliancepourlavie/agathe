@@ -1,0 +1,1 @@
+export const rockjs = {"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"coordinates":[28.83876076464307,-2.4761866296807113],"type":"Point"}},{"type":"Feature","properties":{},"geometry":{"coordinates":[28.839954494607724,-2.4777231677413027],"type":"Point"}}]}

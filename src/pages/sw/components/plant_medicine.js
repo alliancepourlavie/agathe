@@ -93,17 +93,17 @@ const Plant_medicine = () => {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">APERCU DES COUTS D'UNE CAMPAGNE DE PECHE</Typography>
+                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">LA NATURE QUI SOIGNE</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
 
-                        <TableContainer className="pirogueTableContainer" component={Paper} sx={{ maxHeight: 700, overflow: 'scroll' }}>
+                        <TableContainer className="pirogueTableContainer" component={Paper} sx={{ maxHeight: 550, overflow: 'scroll' }}>
                             <Table className="pirogueTable" sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
                                 <TableHead>
                                     <TableRow>
-                                        <TableCell>SCIENTIFIC NAME</TableCell>
-                                        <TableCell align="center">EDIBLE USE</TableCell>
-                                        <TableCell align="center">MEDICINAL USE</TableCell>
+                                        <TableCell>NOM SCIENTIFIQUE</TableCell>
+                                        <TableCell align="center">UTILISATION DES PLANTES COMESTIBLES</TableCell>
+                                        <TableCell align="center">USAGE MÉDICAL</TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
