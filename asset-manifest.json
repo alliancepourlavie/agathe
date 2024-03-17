@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.d90afdca.css",
-    "main.js": "/agathe/static/js/main.37163d5c.js",
+    "main.css": "/agathe/static/css/main.0e1a3712.css",
+    "main.js": "/agathe/static/js/main.abb42a01.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -67,10 +67,14 @@
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
     "static/media/Nehanda-SpiritMedium.ttf": "/agathe/static/media/Nehanda-SpiritMedium.291fab66392584001bfd.ttf",
     "static/media/YuwoteCharvet-Fat.otf": "/agathe/static/media/YuwoteCharvet-Fat.4d71ad57fa11944562b1.otf",
+    "static/media/plastic.svg": "/agathe/static/media/plastic.a776fd8850cef5cfe75e07f52680ac6c.svg",
+    "static/media/chemical.svg": "/agathe/static/media/chemical.bfc7c16c9257ef57275089c090f743c5.svg",
+    "static/media/rock.svg": "/agathe/static/media/rock.0affd129e0a7dc7d0840b12020a3a18b.svg",
+    "static/media/shit.svg": "/agathe/static/media/shit.1c33e23f8ef7ad1e95df7c7facd82098.svg",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.d90afdca.css.map": "/agathe/static/css/main.d90afdca.css.map",
-    "main.37163d5c.js.map": "/agathe/static/js/main.37163d5c.js.map",
+    "main.0e1a3712.css.map": "/agathe/static/css/main.0e1a3712.css.map",
+    "main.abb42a01.js.map": "/agathe/static/js/main.abb42a01.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -87,7 +91,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d90afdca.css",
-    "static/js/main.37163d5c.js"
+    "static/css/main.0e1a3712.css",
+    "static/js/main.abb42a01.js"
   ]
 }
