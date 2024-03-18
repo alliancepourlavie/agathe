@@ -18,6 +18,8 @@ import Boats from "./components/boat";
 import Pirogue from "./components/pirogue";
 import Facesb from "./components/faces_b";
 import Faces from "./components/faces";
+import Marchemap from "./components/marchemap";
+import Plants_b from "./components/plant_b";
 import Plants from "./components/plant";
 import Plant_medicine from "./components/plant_medicine";
 import Bukavumap from "./components/bukavumap";
@@ -256,6 +258,15 @@ const SWSW = () => {
               <Facesb />
             </FullpageSection>
           </div>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Marchemap />
+            </FullpageSection>
+          </div>
           {/* ///////////////////////////// */}
           {/* //////////END FACES////////// */}
 
@@ -278,18 +289,39 @@ const SWSW = () => {
               display: "flex",
               alignItems: "center"
             }}>
+            </FullpageSection>
+          </div>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+              display: "flex",
+              alignItems: "center"
+            }}>
+              <Plants_b />
+            </FullpageSection>
+          </div>
+
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+          }}>
+            <Plant_medicine />
+          </FullpageSection>
+
+          <div className="notepad">
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+              display: "flex",
+              alignItems: "center"
+            }}>
               <Plants />
             </FullpageSection>
           </div>
 
-            <FullpageSection style={{
-              height: '90vh',
-              padding: '1em',
-            }}>
-              <Plant_medicine />
-            </FullpageSection>
-
-            <div className="notepad">
+          <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
               padding: '1em',

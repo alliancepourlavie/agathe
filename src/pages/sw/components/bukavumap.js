@@ -75,7 +75,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconrock}>
                                 <Popup>
-                                    <p>ROCHES ET SOLS IRRÉGULIÈREMENT DÉCHARGÉS</p>
+                                    <p>REMBLAYAGE NON AUTORISÉ DE TERRE ET ROCHES</p>
                                 </Popup>
                             </Marker>
                         );
