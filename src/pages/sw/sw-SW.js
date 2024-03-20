@@ -10,6 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
+import CardMedia from '@mui/material/CardMedia';
 
 import Basemap from './components/basemap';
 import Fishyes from "./components/fish";
@@ -23,6 +24,9 @@ import Plants_b from "./components/plant_b";
 import Plants from "./components/plant";
 import Plant_medicine from "./components/plant_medicine";
 import Bukavumap from "./components/bukavumap";
+
+import Child from "../../data/img/cover_child.png";
+
 
 
 const SWSW = () => {
@@ -212,12 +216,25 @@ const SWSW = () => {
 
           {/* ////////START DRAWING//////// */}
           {/* ///////////////////////////// */}
-          <FullpageSection style={{
+          <FullpageSection className='dessin' style={{
             height: '90vh',
             padding: '1em',
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="agathe" sx={{ mt: 2, fontSize: 1 }}><br /><br /><br />Lien vers la section des dessins d'enfants<br />
+              <div style={{ padding: 10, width: "40%" }}>
+                <Link to="/sw-SW-dessin">
+                  <CardMedia
+                    className='pirogueimg'
+                    component="img"
+                    alt="Child"
+                    height="400"
+                    image={Child}
+                    sx={{ objectFit: "contain" }} /></Link>
+              </div>
+              <Typography component='div' className="title_3" style={{ textTransform: "uppercase" }}><br /><Link to="/sw-SW-dessin">L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu</Link><br />
+              </Typography>
+              <Typography component='div' className="title_5" ><br />
+                <Link to="/sw-SW-dessin">En savoir plus⇸</Link><br />
               </Typography>
             </CardContent>
           </FullpageSection>

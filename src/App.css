@@ -230,6 +230,38 @@ video {
   word-wrap: break-word;
 }
 
+.title_3 {
+  font-family: 'Nehanda-SpiritMedium', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 2.5em !important;
+  letter-spacing: 4.2px !important;
+  line-height: 1.1em !important;
+  -webkit-text-fill-color: rgba(5, 5, 5, 1);
+  -webkit-text-stroke-color: rgba(5, 5, 5, 1);
+  text-shadow:
+    10px 10px rgba(114, 114, 114, 0.1) !important;
+  padding-bottom: 10px !important;
+  word-wrap: break-word;
+}
+
+.title_5 {
+  font-family: 'Nehanda-SpiritMedium', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 200 !important;
+  font-size: 1.3em !important;
+  letter-spacing: 4.2px !important;
+  line-height: 1.1em !important;
+  -webkit-text-fill-color: rgba(5, 5, 5, 1);
+  -webkit-text-stroke-color: rgba(5, 5, 5, 1);
+  text-shadow:
+    10px 10px rgba(114, 114, 114, 0.1) !important;
+  padding-bottom: 10px !important;
+  word-wrap: break-word;
+}
+
 .agathenotepad {
   background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
@@ -336,6 +368,15 @@ video {
   padding-bottom: 10px !important;
   word-wrap: break-word;
 }
+
+.dessin_enfant {
+  filter: grayscale(100%) !important;
+}
+
+.dessin_enfant:hover {
+  filter: none !important;
+}
+
 
 .fish {
   /* font-family: 'IBM Plex Mono', monospace !important; */
