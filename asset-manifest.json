@@ -1,7 +1,16 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.34b7f3fd.css",
-    "main.js": "/agathe/static/js/main.61f9cfd4.js",
+    "main.css": "/agathe/static/css/main.ac32f841.css",
+    "main.js": "/agathe/static/js/main.3e946a90.js",
+    "static/css/349.de208ac0.chunk.css": "/agathe/static/css/349.de208ac0.chunk.css",
+    "static/js/349.a5b8b9d6.chunk.js": "/agathe/static/js/349.a5b8b9d6.chunk.js",
+    "static/css/767.de208ac0.chunk.css": "/agathe/static/css/767.de208ac0.chunk.css",
+    "static/js/767.fe11844c.chunk.js": "/agathe/static/js/767.fe11844c.chunk.js",
+    "static/css/980.de208ac0.chunk.css": "/agathe/static/css/980.de208ac0.chunk.css",
+    "static/js/980.233bb4ab.chunk.js": "/agathe/static/js/980.233bb4ab.chunk.js",
+    "static/js/57.4c59501e.chunk.js": "/agathe/static/js/57.4c59501e.chunk.js",
+    "static/js/592.f598480c.chunk.js": "/agathe/static/js/592.f598480c.chunk.js",
+    "static/js/975.bdff9830.chunk.js": "/agathe/static/js/975.bdff9830.chunk.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -16,6 +25,7 @@
     "reactPlayerFilePlayer.js": "/agathe/static/js/reactPlayerFilePlayer.846852ba.chunk.js",
     "reactPlayerPreview.js": "/agathe/static/js/reactPlayerPreview.c57fa779.chunk.js",
     "static/js/787.fd110127.chunk.js": "/agathe/static/js/787.fd110127.chunk.js",
+    "static/media/collective.png": "/agathe/static/media/collective.094197b3855810870d15.png",
     "static/media/Markhamia_lutea.png": "/agathe/static/media/Markhamia_lutea.b8981653dbb0298c6f0b.png",
     "static/media/Eucalyptus_spp.png": "/agathe/static/media/Eucalyptus_spp.aa606779a7941d7791ad.png",
     "static/media/Phragmites_australis.png": "/agathe/static/media/Phragmites_australis.6dfc72851ecce7cff6a4.png",
@@ -78,7 +88,7 @@
     "static/media/Oreochromis_macrochir.png": "/agathe/static/media/Oreochromis_macrochir.8ec98365226c326fe1af.png",
     "static/media/Clarias_gariepinus.png": "/agathe/static/media/Clarias_gariepinus.c41b9da3debba7560e6d.png",
     "static/media/HausEthnikDingbats-Regular.otf": "/agathe/static/media/HausEthnikDingbats-Regular.6ccd1ae3e701916fb028.otf",
-    "static/media/Nehanda-SpiritMedium.ttf": "/agathe/static/media/Nehanda-SpiritMedium.291fab66392584001bfd.ttf",
+    "static/media/Nehanda-SpiritMedium.ttf": "/agathe/static/media/Nehanda-SpiritMedium.666454d576cb4c3649c4.ttf",
     "static/media/YuwoteCharvet-Fat.otf": "/agathe/static/media/YuwoteCharvet-Fat.4d71ad57fa11944562b1.otf",
     "static/media/plastic.svg": "/agathe/static/media/plastic.a776fd8850cef5cfe75e07f52680ac6c.svg",
     "static/media/chemical.svg": "/agathe/static/media/chemical.bfc7c16c9257ef57275089c090f743c5.svg",
@@ -86,8 +96,17 @@
     "static/media/shit.svg": "/agathe/static/media/shit.1c33e23f8ef7ad1e95df7c7facd82098.svg",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.34b7f3fd.css.map": "/agathe/static/css/main.34b7f3fd.css.map",
-    "main.61f9cfd4.js.map": "/agathe/static/js/main.61f9cfd4.js.map",
+    "main.ac32f841.css.map": "/agathe/static/css/main.ac32f841.css.map",
+    "main.3e946a90.js.map": "/agathe/static/js/main.3e946a90.js.map",
+    "349.de208ac0.chunk.css.map": "/agathe/static/css/349.de208ac0.chunk.css.map",
+    "349.a5b8b9d6.chunk.js.map": "/agathe/static/js/349.a5b8b9d6.chunk.js.map",
+    "767.de208ac0.chunk.css.map": "/agathe/static/css/767.de208ac0.chunk.css.map",
+    "767.fe11844c.chunk.js.map": "/agathe/static/js/767.fe11844c.chunk.js.map",
+    "980.de208ac0.chunk.css.map": "/agathe/static/css/980.de208ac0.chunk.css.map",
+    "980.233bb4ab.chunk.js.map": "/agathe/static/js/980.233bb4ab.chunk.js.map",
+    "57.4c59501e.chunk.js.map": "/agathe/static/js/57.4c59501e.chunk.js.map",
+    "592.f598480c.chunk.js.map": "/agathe/static/js/592.f598480c.chunk.js.map",
+    "975.bdff9830.chunk.js.map": "/agathe/static/js/975.bdff9830.chunk.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -104,7 +123,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34b7f3fd.css",
-    "static/js/main.61f9cfd4.js"
+    "static/css/main.ac32f841.css",
+    "static/js/main.3e946a90.js"
   ]
 }
