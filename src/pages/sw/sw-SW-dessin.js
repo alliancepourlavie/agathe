@@ -1,6 +1,7 @@
 import '../../App.css';
 import * as React from "react"
 import { useLayoutEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import dessin_A from "../../data/img/dessin_A.jpg";
 import dessin_B from "../../data/img/dessin_B.jpg";
@@ -73,6 +74,11 @@ const SWdessin = () => {
 
     return (
         <>
+
+            <Typography component='div' className="title_5" /* style={{fontSize:"0.8rem !important" }} */><br />
+                <Link to="/sw-SW" ><br />⇷ Retour à la page d'accueil</Link><br />
+            </Typography>
+
             <CardContent sx={{ maxWidth: 800 }}>
                 <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}><br /> L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu<br /><br /><br />
                 </Typography>

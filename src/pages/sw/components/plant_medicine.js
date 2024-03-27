@@ -1,17 +1,12 @@
 import '../../../App.css';
 import * as React from "react"
 
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -24,7 +19,7 @@ import TableRow from '@mui/material/TableRow';
 import { TableHead } from '@mui/material';
 
 
-const Plant_medicine = () => {
+const PlantMedicine = () => {
 
     const Item = styled(Paper)(({ theme }) => ({
         backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -89,7 +84,7 @@ const Plant_medicine = () => {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">LA NATURE QUI SOIGNE</Typography>
+                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">LA NATURE QUI SOIGNE. PATRIMOINE BIOLOGIQUE IDENTIFIABLE AUTOUR DES SITES DE DÉBARQUEMENT DE KADUTU ET BAGIRA</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
 
@@ -125,4 +120,4 @@ const Plant_medicine = () => {
     )
 }
 
-export default Plant_medicine;
+export default PlantMedicine;

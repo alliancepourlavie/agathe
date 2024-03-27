@@ -89,6 +89,8 @@ const Plants = () => {
 
     return (
         <>
+            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom:3 }} className="accordion">PATRIMOINE BIOLOGIQUE IDENTIFIABLE À MOINS DE 2 KM DES SITES DE DÉBARQUEMENT DE KADUTU ET DE BAGIRA</Typography>
+
             <div style={{ display: "flex", flexDirection: "column" }}>
 
                 <Box sx={{ width: '100%' }}>

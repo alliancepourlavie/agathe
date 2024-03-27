@@ -21,7 +21,7 @@ import Box from '@mui/material/Box';
 
 
 
-const Plants_b = () => {
+const PlantsB = () => {
 
 
     const Item = styled(Paper)(({ theme }) => ({
@@ -67,6 +67,8 @@ const Plants_b = () => {
 
     return (
         <>
+            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">PATRIMOINE BIOLOGIQUE IDENTIFIABLE AUTOUR DES SITES DE DÉBARQUEMENT DE KADUTU ET BAGIRA</Typography>
+
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={4}>
@@ -149,4 +151,4 @@ const Plants_b = () => {
 }
 
 
-export default Plants_b;
+export default PlantsB;

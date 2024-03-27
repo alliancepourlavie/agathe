@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker,  Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 import L from "leaflet";
 import './basemap.css';
@@ -26,13 +26,13 @@ const Bukavumap = () => {
 
     return (
 
-        <><div className='maptext'>SOURCES DE<br />CONTAMINATION DE L'EAU<br /></div>
+        <><div className='maptext'>CARTE DES<br />CONTAMINANTS<br /></div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer
                     doubleClickZoom={false}
                     center={bagiracenterdesktop}
-                    zoom={15}
+                    zoom={16}
                     scrollWheelZoom={false}
                     minZoom={14}
                     maxZoom={17}
@@ -118,6 +118,45 @@ const Bukavumap = () => {
                                 key={index}
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconchemical}>
+                            </Marker>
+                        );
+                    })}
+
+                    {toxicjs.features.map((feature, index) => {
+                        return (
+                            <Marker
+                                key={index}
+                                position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
+                                icon={Iconchemical}>
+                                <Popup>
+                                    <p>CONTAMINANTS CHIMIQUES</p>
+                                </Popup>
+                            </Marker>
+                        );
+                    })}
+
+                    {rockjs.features.map((feature, index) => {
+                        return (
+                            <Marker
+                                key={index}
+                                position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
+                                icon={Iconrock}>
+                                <Popup>
+                                    <p>REMBLAYAGE NON AUTORISÉ DE TERRE ET ROCHES</p>
+                                </Popup>
+                            </Marker>
+                        );
+                    })}
+
+                    {poojs.features.map((feature, index) => {
+                        return (
+                            <Marker
+                                key={index}
+                                position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
+                                icon={Iconshit}>
+                                <Popup>
+                                    <p>EAUX USÉES ET MATIÈRES FÉCALES</p>
+                                </Popup>
                             </Marker>
                         );
                     })}

@@ -194,6 +194,10 @@ video {
   color: rgba(80, 80, 80, 0.8);
 }
 
+.react-player__play-icon{
+  border-color: transparent transparent transparent rgba(247, 245, 251, .5) !important;
+}
+
 .leaflet-popup-content-wrapper {
   box-shadow: none !important;
   background: rgba(247, 245, 251, 1) !important;
@@ -235,7 +239,7 @@ video {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
-  font-size: 2.5em !important;
+  font-size: 2.3em !important;
   letter-spacing: 4.2px !important;
   line-height: 1.1em !important;
   -webkit-text-fill-color: rgba(5, 5, 5, 1);
@@ -251,7 +255,7 @@ video {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 200 !important;
-  font-size: 1.3em !important;
+  font-size: 1em !important;
   letter-spacing: 4.2px !important;
   line-height: 1.1em !important;
   -webkit-text-fill-color: rgba(5, 5, 5, 1);
@@ -571,6 +575,14 @@ video {
 
   .pirogueimg {
     height: 200px !important;
+  }
+
+  .title_3{
+    font-size: 1.2em !important;
+  }
+
+  .title_5{
+    font-size: 0.4em !important;
   }
 
   .css-46bh2p-MuiCardContent-root:last-child {
