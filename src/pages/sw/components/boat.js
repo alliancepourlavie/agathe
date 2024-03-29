@@ -76,7 +76,7 @@ const Boats = () => {
                                     image={FC}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TRIMARAN AVEC FILET CARRELET -<br />11 pêcheuses // mailles 6-10 mm
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TRIMARAN AVEC FILET CARRELET -<br />équipage 11 pêcheuses • filets en maille 6-10 mm
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -102,7 +102,7 @@ const Boats = () => {
                                         image={FC}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Cette technique utilise le filet carrelet appelé « lift net », une nappe en fil de nylon multifilament, de forme carrée, d’une aire de 400 m2 avec des mailles de 5 et 6 mm de noeud à noeud. Au niveau des angles, sont attachées 4 longues cordes en nylon, de 3 à 4 cm de diamètre. Elle emploie 3 pirogues (« trimaran ») non motorisées séparées mais attachées entre elles par deux longues perches appelées « rails » et quatre autres perches appelées « polé » pour relier les aussières attachées aux extrémités du lift net lors de la pêche. Quatre lampes sont portées par la pirogue du milieu et tout le système est assisté par une pirogue motorisée, petite et indépendante, nommée « renfort ». La pêche au trimaran est une technique de pêche utilisée au lac Kivu avec un système d’attraction lumineux. En effet, les poissons sont attirés dans le filet à l’aide de l’éclairage généré par 4 lampes de marque Coleman ou « Anchor » qui restent allumées pendant toute l’activité de pêche à l’exception des moments de relèvement du filet. L’embarquement de l’équipage, composé de 11 pêcheurs dont 2 professionnels et 9 autres occasionnels, commence aux environs de 18h. Une fois sur la zone de pêche, en milieu pélagique, le trimaran est orienté dans la direction du vent. Les pêcheurs jettent l’ancre, puis procèdent au premier jet du filet pour ensuite allumer les lampes. Le premier relèvement intervient à 21h, le deuxième à 23h30, le troisième à 2h, et le quatrième parfois vers 4h30 du matin. Lors du relèvement, le filet est sorti de l’eau sous forme de poche conique avec l’ouverture tournée vers le haut.
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Cette technique utilise le filet carrelet appelé « lift net », une nappe en fil de nylon multifilament, de forme carrée, d’une aire de 400 m2 avec des mailles de 5 et 6 mm de noeud à noeud. Au niveau des angles, sont attachées 4 longues cordes en nylon, de 3 à 4 cm de diamètre. Elle emploie 3 pirogues (« trimaran ») non motorisées séparées mais attachées entre elles par deux longues perches appelées « rails » et quatre autres perches appelées « polé » pour relier les aussières attachées aux extrémités du lift net lors de la pêche. Quatre lampes sont portées par la pirogue du milieu et tout le système est assisté par une pirogue motorisée, petite et indépendante, nommée « renfort ». La pêche au trimaran est une technique de pêche utilisée au lac Kivu avec un système d’attraction lumineux. En effet, les poissons sont attirés dans le filet à l’aide de l’éclairage généré par 4 lampes de marque Coleman ou « Anchor » qui restent allumées pendant toute l’activité de pêche à l’exception des moments de relèvement du filet. L’embarquement de l’équipage, composé de 11 pêcheurs/pêcheuses dont 2 professionnels et 9 autres occasionnels, commence aux environs de 18h. Une fois sur la zone de pêche, en milieu pélagique, le trimaran est orienté dans la direction du vent. Les pêcheurs/pêcheuses jettent l’ancre, puis procèdent au premier jet du filet pour ensuite allumer les lampes. Le premier relèvement intervient à 21h, le deuxième à 23h30, le troisième à 2h, et le quatrième parfois vers 4h30 du matin. Lors du relèvement, le filet est sorti de l’eau sous forme de poche conique avec l’ouverture tournée vers le haut.
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -120,7 +120,7 @@ const Boats = () => {
                                     image={SP}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA SENNE DE PLAGE -<br />2-5 pêcheuses // mailles 4-8 mm
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA SENNE DE PLAGE -<br />2-5 pêcheuses • maille 4-8 mm
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -146,7 +146,7 @@ const Boats = () => {
                                         image={SP}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>La pêche à la senne de plage se pratique généralement à partir d’une pirogue monoxyle de 4 à 5 m de longueur. De forme rectangulaire et attachée à des longues cordes (aussières) de halage de chaque côté, elle est formée d’une nappe en fil de nylon multifilament, souvent associée aux nappes des carrelets usés. Sa dimension est de quelque trentaine de mètres de longueur et de quelque dizaine de mètres de chute, les mailles variant entre 4 mm et 8 mm d’entre noeuds. La ralingue supérieure du filet est munie des flotteurs tandis que la ralingue inférieure est lestée au moyen soit des morceaux de briques en terre cuite, soit des cailloux ou même des morceaux des barres de fer. L’équipage, composé de 2 à 5 pêcheurs y compris le propriétaire et de son aide-pêcheur, exerce l’activité essentiellement en zone littorale à partir de 4h du matin jusqu’à 10h (au plus tard). Lors de l’activité, l’une des aussières attachées aux extrémités du filet est tenue par un pêcheur se trouvant sur la plage tandis que les autres, à l’aide de la pirogue s’embarquent avec l’autre partie de l’aussière qu’ils déroulent et jettent dans l’eau, chaque fois en avançant vers le large du lac. Ils font un arc de cercle et regagnent la plage pour tirer le filet par les bouts des aussières tout en balayant le substrat. La durée de l’activité est très variable, allant d’une demi-heure à cinq heures par sortie et par unité de pêche.
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>La pêche à la senne de plage se pratique généralement à partir d’une pirogue monoxyle de 4 à 5 m de longueur. De forme rectangulaire et attachée à des longues cordes (« aussières ») de halage de chaque côté, elle est formée d’une nappe en fil de nylon multifilament, souvent associée aux nappes des carrelets usés. Sa dimension est de quelque trentaine de mètres de longueur et de quelque dizaine de mètres de chute, les mailles variant entre 4 mm et 8 mm d’entre noeuds. La ralingue supérieure du filet est munie des flotteurs tandis que la ralingue inférieure est lestée au moyen soit des morceaux de briques en terre cuite, soit des cailloux ou même des morceaux des barres de fer. L’équipage, composé de 2 à 5 pêcheurs/pêcheuses y compris le propriétaire et de son aide-pêcheur, exerce l’activité essentiellement en zone littorale à partir de 4h du matin jusqu’à 10h (au plus tard). Lors de l’activité, l’une des aussières attachées aux extrémités du filet est tenue par un pêcheur se trouvant sur la plage tandis que les autres, à l’aide de la pirogue s’embarquent avec l’autre partie de l’aussière qu’ils déroulent et jettent dans l’eau, chaque fois en avançant vers le large du lac. Ils font un arc de cercle et regagnent la plage pour tirer le filet par les bouts des aussières tout en balayant le substrat. La durée de l’activité est très variable, allant d’une demi-heure à cinq heures par sortie et par unité de pêche.
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -164,7 +164,7 @@ const Boats = () => {
                                     image={FM}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LES FILETS MAILLANTS -<br />3-4 pêcheuses // mailles 20-30 mm
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LES FILETS MAILLANTS -<br />3-4 pêcheuses • maille 20-30 mm
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -252,7 +252,7 @@ const Boats = () => {
                                     image={MO}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TULLE MOUSTIQUAIRE -<br />2 pêcheuses // mailles 0.3-1.7 mm // <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illicite</span>
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LE TULLE MOUSTIQUAIRE -<br />2 pêcheuses • maille 0.3-1.7 mm • <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illicite</span>
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -296,7 +296,7 @@ const Boats = () => {
                                     image={MOL}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA MOUSTIQUAIRE ASSOCIÉE AU LUSENGA -<br />2 pêcheuses // <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illcite</span>
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>LA MOUSTIQUAIRE ASSOCIÉE AU LUSENGA -<br />2 pêcheuses • <span style={{ borderWidth: 1, borderColor: "#c53c6a", borderStyle: "solid" }}>identifié comme illcite</span>
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -322,7 +322,7 @@ const Boats = () => {
                                         image={MOL}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>La moustiquaire associée au Lusenga est un engin de forme rectangulaire, d’une superficie moyenne de 250 m2, soit 25 m de longueur sur 10 m de largeur. Sa fabrication demeure archaïque et consiste en une couture plaçant clandestinement dans la partie centrale d’un filet carrelet usé (localement appelé « Lusenga »), un tulle moustiquaire à dimensions très variables. L’engin ainsi fabriqué, les quatre angles sont reliés chacun à une corde en nylon dont se servent les pêcheurs, souvent à deux pour tirer le filet de l’eau, formant un arc comme celui de la senne de plage. L’activité se passe dans la zone littorale et se déroule tôt le matin pour une durée maximale d’environ 1h avec possibilité des répétitions.
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>La moustiquaire associée au Lusenga est un engin de forme rectangulaire, d’une superficie moyenne de 250 m2, soit 25 m de longueur sur 10 m de largeur. Sa fabrication demeure archaïque et consiste en une couture plaçant clandestinement dans la partie centrale d’un filet carrelet usé (localement appelé « Lusenga »), un tulle moustiquaire à dimensions très variables. L’engin ainsi fabriqué, les quatre angles sont reliés chacun à une corde en nylon dont se servent les pêcheurs/pêcheuses, souvent à deux pour tirer le filet de l’eau, formant un arc comme celui de la senne de plage. L’activité se passe dans la zone littorale et se déroule tôt le matin pour une durée maximale d’environ 1h avec possibilité des répétitions.
                                         </Typography>
                                     </CardContent>
                                 </Box>

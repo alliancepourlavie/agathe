@@ -85,19 +85,14 @@ const SWSW = () => {
               padding: '1em',
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />MATRIARCH JUU YA MAJI<br /><Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>2</u></Button>
-                  <Snackbar
-                    open={open}
-                    autoHideDuration={250000}
-                    onClose={handleCloseNote}
-                    message="Agathe ni mmoja wa wavuvi wanaoheshimika na waliobobea kwenye Ziwa Kivu. Yeye ndiye mama mkuu wa jumuiya ya wavuvi ya Bukavu na Goma. Anajua kila tone la Ziwa Kivu na kila viumbe hai vinavyoishi humo. Amekuwa akizunguka eneo hili la maji maisha yake yote, kama mababu zake walivyofanya. Aliwafundisha watoto wake tisa uvuvi huku akiongoza na kushauri kikundi cha wanawake wavuvi ambao aliunda nao ushirika wa kufanya kazi huko Bukavu."
-                    action={action} /><br /><br /></Typography>
+                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />LA MATRIARCHE AU DESSUS DE L'EAU<br /><br /><br /></Typography>
               </CardContent>
             </FullpageSection>
           </div>
 
           {/* ///////START INTRODUCTION//// */}
           {/* ///////////////////////////// */}
+
           <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
@@ -128,12 +123,14 @@ const SWSW = () => {
           </FullpageSection>
 
           <div className="notepad">
-            <FullpageSection style={{
-              height: '90vh',
-              padding: '1em',
-            }}>
-              <Suspense fallback={<div> Please Wait... </div>} ><Basemap /></Suspense>
-            </FullpageSection>
+            <Suspense fallback={<div> Please Wait... </div>} >
+              <FullpageSection style={{
+                height: '90vh',
+                padding: '1em',
+              }}>
+                <Suspense fallback={<div> Please Wait... </div>} ><Basemap /></Suspense>
+              </FullpageSection>
+            </Suspense>
           </div>
 
           {/* //////START CARTOGRAPHY////// */}
@@ -169,6 +166,17 @@ const SWSW = () => {
             </FullpageSection>
           </div>
 
+          <FullpageSection style={{
+            height: '60vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3">Nous louons des pirogues et des filets pour les sorties de pêche, car aucun d'entre nous ne possède l' équipement requis. Nous pêchons généralement à la senne de plage à partir de l'aube, dans les zones littorales des petites péninsules autour de Bagira et de Kadutu<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
           <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
@@ -177,6 +185,35 @@ const SWSW = () => {
               <Pirogue />
             </FullpageSection>
           </div>
+
+          <FullpageSection style={{
+            height: '60vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3">En tant que pêcheuses coutumière<Button onClick={handleClick} className="snack" ><u>SSS</u></Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={250000}
+                  onClose={handleCloseNote}
+                  message="Une unité de pêche coutumière est définie au Congo a comme une pirogue utilisant les engins traditionnels incluant la senne de plage ou des filets dormants dont la longueur combinée n'excède pas 1.000m ou un Lusenga (cadre en bois supportant le filet moustiquaire). Au Congo un pêcheur “Individuel” qui n'utilise pas une pirogue est aussi reconnu"
+                  action={action} />, nous payons régulièrement un permis de pêche annuel<Button onClick={handleClick} className="snack" ><u>HHH</u></Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={250000}
+                  onClose={handleCloseNote}
+                  message="Le coût du permis varie en fonction de la catégorie de pêche dont les trois principales sont: la pêche au filet maillant, la pêche au filet carrelet et la pêche à la senne de plage. Pour les autres engins de pêche, le coût est relativement moindre et très variable"
+                  action={action} />, qui est subordonné à l'appartenance à une association de pêche. Dans notre cas, l'Association pour le Développement des Pécheurs Analphabètes du Sud Kivu<Button onClick={handleClick} className="snack" ><u>QQQ</u></Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={250000}
+                  onClose={handleCloseNote}
+                  message="Cela ne nous protège pas du harcèlement des autres pêcheurs, des forces navales et de l'armée nationale qui contrôlent les activités de pêche. Sur la base d'une stigmatisation fondée sur le genre, ils nous considèrent comme clandestines"
+                  action={action} />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
 
           <FullpageSection style={{
             backgroundColor: 'rgba(247, 245, 251, 1)',
@@ -283,12 +320,12 @@ const SWSW = () => {
             </FullpageSection>
           </div>
 
-            <FullpageSection style={{
-              height: '70vh',
-              padding: '1em',
-            }}>
-              <Maman />
-            </FullpageSection>
+          <FullpageSection style={{
+            height: '70vh',
+            padding: '1em',
+          }}>
+            <Maman />
+          </FullpageSection>
 
           {/* <div className="notepad">
             <FullpageSection style={{
@@ -369,13 +406,13 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Il en va de notre santé et de celle des poissons. En l'absence de système d'assainissement, les habitations, les marchés et les établissements industriels qui donnent sur le lac<Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>ZZZ</u></Button>
+              <Typography component='div' className="title_3">Il en va de notre santé et de celle des poissons. En l'absence de système d'assainissement, les habitations, les marchés et les établissements industriels qui donnent sur le lac<Button onClick={handleClick} className="snack" ><u>ZZZ</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="(((non rispetto dei 10m + scarico delle terre e rocce intorno ai landing sites)))."
-                  action={action} /> y déversent directement leurs eaux usées, ainsi que des déchets toxiques, solides, liquides et domestiques. Le lac est exploité par la population locale en raison de l'accès limité à l'eau<Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>YYY</u></Button>
+                  action={action} /> y déversent directement leurs eaux usées, ainsi que des déchets toxiques, solides, liquides et domestiques. Le lac est exploité par la population locale en raison de l'accès limité à l'eau<Button onClick={handleClick} className="snack" ><u>YYY</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -451,7 +488,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les conduites de distribution d'eau et les lignes électriques du site de débarquement de Kadutu sont menacées par les risques de glissements dans le bassin versant de la rivière Wesha. Les versants bordant le lac sont déjà connus pour les risques hydrogéologiques et les accidents graves dus aux glissements, mais avec l'intensification de la présence humaine depuis 1950 et les effets du changement climatique avec des précipitations d'une ampleur et d'une intensité exceptionnelles, les risques s'accroissent<Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>MAP</u></Button>
+              <Typography component='div' className="title_3">Les conduites de distribution d'eau et les lignes électriques du site de débarquement de Kadutu sont menacées par les risques de glissements dans le bassin versant de la rivière Wesha. Les versants bordant le lac sont déjà connus pour les risques hydrogéologiques et les accidents graves dus aux glissements, mais avec l'intensification de la présence humaine depuis 1950 et les effets du changement climatique avec des précipitations d'une ampleur et d'une intensité exceptionnelles, les risques s'accroissent<Button onClick={handleClick} className="snack" ><u>MAP</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -470,13 +507,15 @@ const SWSW = () => {
             <Glissement />
           </FullpageSection>
 
-          <FullpageSection style={{
-            height: '90vh',
-            padding: '1em',
-            alignItems: "center"
-          }}>
-            <Suspense fallback={<div> Please Wait... </div>} ><Mapillary /></Suspense>
-          </FullpageSection>
+          <Suspense fallback={<div> Please Wait... </div>} >
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+              alignItems: "center"
+            }}>
+              <Suspense fallback={<div> Please Wait... </div>} ><Mapillary /></Suspense>
+            </FullpageSection>
+          </Suspense>
 
           <FullpageSection style={{
             height: '90vh',
@@ -507,13 +546,15 @@ const SWSW = () => {
           </FullpageSection>
 
           <div className="notepad">
-            <FullpageSection style={{
-              height: '90vh',
-              padding: '1em',
-              alignItems: "center"
-            }}>
-              <Suspense fallback={<div> Please Wait... </div>} ><Collective /></Suspense>
-            </FullpageSection>
+            <Suspense fallback={<div> Please Wait... </div>} >
+              <FullpageSection style={{
+                height: '90vh',
+                padding: '1em',
+                alignItems: "center"
+              }}>
+                <Suspense fallback={<div> Please Wait... </div>} ><Collective /></Suspense>
+              </FullpageSection>
+            </Suspense>
           </div>
 
           <FullpageSection style={{

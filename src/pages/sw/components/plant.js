@@ -10,10 +10,6 @@ import Grevillea from "../../../data/img/Grevillea_robusta.png";
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
-import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -41,39 +37,6 @@ const Plants = () => {
         textAlign: 'center',
         color: theme.palette.text.secondary,
     }));
-
-
-
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
 
     function createData(plan, edib, med) {
         return { plan, edib, med };
@@ -167,7 +130,7 @@ const Plants = () => {
                         <TableContainer className="pirogueTableContainer" component={Paper} sx={{ maxHeight: 200, overflow: 'scroll' }}>
                             <Table className="pirogueTable" sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
                                 <TableHead>
-                                    <TableRow>
+                                    <TableRow >
                                         <TableCell>NOM SCIENTIFIQUE</TableCell>
                                         <TableCell align="center">UTILISATION DES PLANTES COMESTIBLES</TableCell>
                                         <TableCell align="center">USAGE MÉDICAL</TableCell>

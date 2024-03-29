@@ -167,6 +167,12 @@ video {
   margin-top: 24px;
 }
 
+.snack{
+  font-family: "Nehanda-SpiritMedium" !important;
+  font-size: 12px !important;
+  text-decoration: none !important;
+}
+
 .MuiPaper-root {
   box-shadow: none !important;
   outline: 1px solid rgba(146, 145, 145, 0.4);
@@ -181,8 +187,10 @@ video {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'IBM Plex Mono', monospace !important;
-  font-weight: lighter !important;
-  font-size: 0.18em !important;
+  font-weight: 600 !important;
+  font-size: 0.32em !important;
+  letter-spacing: 0px !important;
+  line-height: 1.28em !important;
   box-shadow: none;
   outline: 1px solid rgb(80, 80, 80);
   outline-offset: 3px;
@@ -221,7 +229,7 @@ video {
   font-family: 'Nehanda-SpiritMedium', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400 !important;
+  font-weight: 300 !important;
   font-size: 4.3em !important;
   letter-spacing: 5px !important;
   line-height: 1.1em !important;
@@ -550,6 +558,10 @@ video {
     object-fit: cover !important;
     width: auto !important;
   }
+
+  .snack{
+    font-size: 9px !important;
+  }  
 
   .boatboxmodal {
     width: 320px !important;

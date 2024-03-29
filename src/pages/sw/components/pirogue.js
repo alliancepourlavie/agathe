@@ -1,17 +1,10 @@
 import '../../../App.css';
 import * as React from "react"
 
-import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import Snackbar from '@mui/material/Snackbar';
-import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -36,37 +29,6 @@ const Pirogue = () => {
         textAlign: 'center',
         color: theme.palette.text.secondary,
     }));
-
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
 
     function createData(item, quan, nomb, amount) {
         return { item, quan, nomb, amount };

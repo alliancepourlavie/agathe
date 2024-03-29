@@ -1,7 +1,6 @@
 import React from 'react';
 import { MapContainer, TileLayer, Marker, Popup, CircleMarker } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
-import L from "leaflet";
 import './basemap.css';
 
 

@@ -16,9 +16,6 @@ import dessin_K from "../../data/img/dessin_K.jpg";
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -41,36 +38,6 @@ const SWdessin = () => {
         window.scrollTo(0, 0)
     });
 
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
 
     return (
         <>
