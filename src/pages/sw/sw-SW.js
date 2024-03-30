@@ -18,7 +18,6 @@ import Fishyesb from "./components/fish_b";
 import Boats from "./components/boat";
 import Pirogue from "./components/pirogue";
 import Facesb from "./components/faces_b";
-import Faces from "./components/faces";
 import PlantsB from "./components/plant_b";
 import Plants from "./components/plant";
 import PlantMedicine from "./components/plant_medicine";
@@ -27,7 +26,6 @@ import Child from "../../data/img/cover_child.png";
 
 const Basemap = React.lazy(() => import('./components/basemap'));
 const Bukavumap = React.lazy(() => import('./components/bukavumap'));
-// const Marchemap = React.lazy(() => import('./components/marchemap'));
 const Glissement = React.lazy(() => import('./components/glissement'));
 const Mapillary = React.lazy(() => import('./components/mapillary'));
 const Collective = React.lazy(() => import('./components/collective'));
@@ -263,6 +261,7 @@ const SWSW = () => {
           <FullpageSection className='dessin' style={{
             height: '90vh',
             padding: '1em',
+            backgroundColor: 'rgba(46, 42, 107, 1)'
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
               <div style={{ padding: 10, width: "40%" }}>
@@ -293,7 +292,7 @@ const SWSW = () => {
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>HISTOIRES DE PECHEUSES<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>NOS HISTOIRES<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -305,20 +304,20 @@ const SWSW = () => {
               display: "flex",
               alignItems: "center"
             }}>
-              <Faces />
-            </FullpageSection>
-          </div>
-
-          <div className="notepad">
-            <FullpageSection style={{
-              height: '90vh',
-              padding: '1em',
-              display: "flex",
-              alignItems: "center"
-            }}>
               <Facesb />
             </FullpageSection>
           </div>
+
+          <FullpageSection style={{
+            height: '60vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3">Maman Agathe et Maman Cynthia nous ont appris qu'en tant que femmes, nous pouvons vivre de la pêche, en toute autonomie, contre tous les tabous et la stigmatisation sociale. Nous sommes confrontées à des difficultés financières, à un équipement inadéquat, mais nous nous battons pour subvenir aux besoins de nos familles par la pêche<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
 
           <FullpageSection style={{
             height: '70vh',
