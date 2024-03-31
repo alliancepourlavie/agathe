@@ -91,6 +91,28 @@ const SWSW = () => {
           {/* ///////START INTRODUCTION//// */}
           {/* ///////////////////////////// */}
 
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3"><br /><br />Je m'appelle Agathe et je suis l'une des matriarches du lac Kivu, en République Démocratique du Congo. Je suis partie pêcher pour nourrir mes huit enfants. J'ai acquis le savoir ancestral des pêcheurs coutumiers et je l'ai transmis à un groupe de femmes qui, comme moi, se sont retrouvées dans l'incapacité de subvenir aux besoins de leur famille<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3"><br /><br />Nous nous sommes unis pour relever les défis. Ne parlez pas de pêche coutumière et artisanale au lac Kivu sans nous, les courageuses pêcheuses qui se battent pour leur autonomisation dans un environnement à majorité masculine qui nous invisibilise<br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
           <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
