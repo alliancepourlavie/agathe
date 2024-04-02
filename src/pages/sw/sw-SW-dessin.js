@@ -47,7 +47,7 @@ const SWdessin = () => {
             </Typography>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}><br /> L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu<br /><br /><br />
+                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu<br /><br /><br />
                 </Typography>
             </CardContent>
 

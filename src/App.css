@@ -167,7 +167,7 @@ video {
   margin-top: 24px;
 }
 
-.snack{
+.snack {
   font-family: "Nehanda-SpiritMedium" !important;
   font-size: 12px !important;
   text-decoration: none !important;
@@ -202,7 +202,7 @@ video {
   color: rgba(80, 80, 80, 0.8);
 }
 
-.react-player__play-icon{
+.react-player__play-icon {
   border-color: transparent transparent transparent rgba(247, 245, 251, .5) !important;
 }
 
@@ -307,6 +307,7 @@ video {
     10px 10px rgba(114, 114, 114, 0.1) !important;
   word-wrap: break-word;
 }
+
 .mutombodescr {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -328,6 +329,11 @@ video {
   background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
   background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%);
+}
+
+.aoa {
+  font-family: 'DM Sans', sans-serif !important;
+  background-color: ghostwhite !important;
 }
 
 .maptext {
@@ -389,6 +395,9 @@ video {
   filter: none !important;
 }
 
+.dessin a:link, .dessin a:visited {
+  color: rgba(5, 5, 5, 1) !important;
+}
 
 .fish {
   /* font-family: 'IBM Plex Mono', monospace !important; */
@@ -559,9 +568,9 @@ video {
     width: auto !important;
   }
 
-  .snack{
+  .snack {
     font-size: 9px !important;
-  }  
+  }
 
   .boatboxmodal {
     width: 320px !important;
@@ -589,11 +598,11 @@ video {
     height: 200px !important;
   }
 
-  .title_3{
+  .title_3 {
     font-size: 1.2em !important;
   }
 
-  .title_5{
+  .title_5 {
     font-size: 0.4em !important;
   }
 
