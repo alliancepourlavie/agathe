@@ -56,7 +56,7 @@ const Pirogue = () => {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">APERCU DES COUTS D'UNE CAMPAGNE DE PECHE</Typography>
+                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">APERÇU DES COÛTS D'UNE CAMPAGNE DE PÊCHE</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
 

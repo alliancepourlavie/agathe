@@ -24,6 +24,7 @@ import PlantMedicine from "./components/plant_medicine";
 
 import Child from "../../data/img/cover_child.png";
 import Carte from "../../data/img/cover_carte.png";
+import Pardicolor from "../../data/img/pardicolor.png";
 
 const Basemap = React.lazy(() => import('./components/basemap'));
 const Bukavumap = React.lazy(() => import('./components/bukavumap'));
@@ -187,7 +188,7 @@ const SWSW = () => {
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>ENGINS ET TECHNIQUES DE PECHE<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>LES ENGINS ET TECHNIQUES DE PÊCHE<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -202,12 +203,11 @@ const SWSW = () => {
           </div>
 
           <FullpageSection style={{
-            height: '60vh',
+            height: '10vh',
             padding: '1em',
-            alignItems: "center"
           }}>
-            <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Nous louons des pirogues et des filets pour les sorties de pêche, car aucun d'entre nous ne possède l' équipement requis. Nous pêchons généralement à la senne de plage à partir de l'aube, dans les zones littorales des petites péninsules autour de Bagira et de Kadutu<br />
+            <CardContent className="boxpostit" >
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>ZONES DE PÊCHE ET SITES DE DÉBARQUEMENT<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -238,19 +238,19 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">En tant que pêcheuses coutumière<Button onClick={handleClick} className="snack" ><u>SSS</u></Button>
+              <Typography component='div' className="title_3">En tant que pêcheuses coutumière<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="Une unité de pêche coutumière est définie au Congo a comme une pirogue utilisant les engins traditionnels incluant la senne de plage ou des filets dormants dont la longueur combinée n'excède pas 1.000m ou un Lusenga (cadre en bois supportant le filet moustiquaire). Au Congo un pêcheur “Individuel” qui n'utilise pas une pirogue est aussi reconnu"
-                  action={action} />, nous payons régulièrement un permis de pêche annuel<Button onClick={handleClick} className="snack" ><u>HHH</u></Button>
+                  action={action} />, nous payons régulièrement un permis de pêche annuel<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="Le coût du permis varie en fonction de la catégorie de pêche dont les trois principales sont: la pêche au filet maillant, la pêche au filet carrelet et la pêche à la senne de plage. Pour les autres engins de pêche, le coût est relativement moindre et très variable"
-                  action={action} />, qui est subordonné à l'appartenance à une association de pêche. Dans notre cas, l'Association pour le Développement des Pécheurs Analphabètes du Sud Kivu<Button onClick={handleClick} className="snack" ><u>QQQ</u></Button>
+                  action={action} />, qui est subordonné à l'appartenance à une association de pêche. Dans notre cas, l'Association pour le Développement des Pécheurs Analphabètes du Sud Kivu<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -275,11 +275,34 @@ const SWSW = () => {
           </FullpageSection>
 
           <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3">Notre lac est pauvre en abondance et en diversité de la faune ichtyologique. Il n'y a même pas 30 espèces, dont beaucoup ont été introduites au siècle dernier pour tenter de créer une industrie de la pêche répondant aux besoins locaux et régionaux<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={250000}
+                  onClose={handleCloseNote}
+                  message="La diversité des poissons est intrinsèquement liée à l'histoire géologique du lac. Le lac a connu des événements hydrothermaux qui ont eu de graves conséquences sur son écosystème et donc sur la faune piscicole. Entre le nord et le sud, il y a une différence dans la répartition des poissons qui rappelle la différence de paysage entre les deux parties du lac. Le nord est recouvert d'un substrat rocheux qui favorise une grande diversité d'espèces. La partie sud, où nous nous trouvons, est peuplée de macrophytes et la rive est couverte de manière irrégulière d'habitats rocheux abritant également une grande diversité de poissons là où la végétation riveraine n'a pas été défrichée et loin des centres habités. En outre, la partie nord est plus intacte que la partie sud."
+                  action={action} />. De plus, les captures diminuent en raison de la perte d'habitat due aux activités humaines dans les zones littorales et de phénomènes récents tels que l'expansion de la pisciculture en cage<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+                <Snackbar
+                  open={open}
+                  autoHideDuration={250000}
+                  onClose={handleCloseNote}
+                  message="Plusieurs activités anthropiques sont susceptibles d'avoir des effets négatifs sur l'écosystème du lac, en particulier le long de la zone littorale, notamment : l'exploitation du gaz méthane, l'expansion de la pisciculture en cage depuis 2018, les activités agricoles et la construction de bâtiments dans le bassin versant, les effets de la croissance de la population humaine (y compris le rejet d'eaux usées le long du bassin versant en l'absence de politiques de gestion durable associées à une faible application de la loi), et le changement climatique."
+                  action={action} /><br />
+              </Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
             height: '10vh',
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>LISTE DES POISSONS RENCONTRES SUR LA COTE DE BAGIRA ET KADUTU<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>LISTE DES POISSONS RENCONTRÉS SUR LES CÔTES DE BAGIRA ET KADUTU<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -313,7 +336,7 @@ const SWSW = () => {
               // backgroundColor: 'rgba(46, 42, 107, 1)'
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
-                <div style={{ padding: 10, width: "60%" }}>
+                <div style={{ padding: 10, width: "50%" }}>
                   <Link to="/sw-SW-dessin">
                     <CardMedia
                       className='pirogueimg'
@@ -323,7 +346,7 @@ const SWSW = () => {
                       image={Child}
                       sx={{ objectFit: "contain" }} /></Link>
                 </div>
-                <Typography component='div' className="title_3"><br /><Link to="/sw-SW-dessin">L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu</Link><br />
+                <Typography component='div' className="title_3"><Link to="/sw-SW-dessin">Afin de construire une mémoire du lac et de ses espèces vivantes, nous avons demandé à nos filles et fils de les représenter dans le but de les sensibiliser à l'importance de la préservation de l'écosystème pour assurer la survie de la pêche coutumière en tant que moyen de subsistance</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
                   <Link to="/sw-SW-dessin">En savoir plus⇸</Link><br />
@@ -390,24 +413,15 @@ const SWSW = () => {
           {/* /////////START CARE////////// */}
           {/* ///////////////////////////// */}
           <FullpageSection style={{
-            height: '10vh',
+            height: '60vh',
             padding: '1em',
+            alignItems: "center"
           }}>
-            <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>SOINS ET MEMOIRE DE L'ENVIRONNEMENT<br />
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3">Nos mamans nous ont appris que pour pêcher, il faut prendre soin des eaux et des rives du lac. Sinon, nous n'aurons plus de poissons<br />
               </Typography>
             </CardContent>
           </FullpageSection>
-
-          <div className="notepad">
-            <FullpageSection style={{
-              height: '90vh',
-              padding: '1em',
-              display: "flex",
-              alignItems: "center"
-            }}>
-            </FullpageSection>
-          </div>
 
           <div className="notepad">
             <FullpageSection style={{
@@ -455,18 +469,18 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Il en va de notre santé et de celle des poissons. En l'absence de système d'assainissement, les habitations, les marchés et les établissements industriels qui donnent sur le lac<Button onClick={handleClick} className="snack" ><u>ZZZ</u></Button>
+              <Typography component='div' className="title_3">Il en va de notre santé et de celle des poissons. En l'absence de système d'assainissement, les habitations, les marchés et les établissements industriels qui donnent sur le lac<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
-                  message="(((non rispetto dei 10m + scarico delle terre e rocce intorno ai landing sites)))."
-                  action={action} /> y déversent directement leurs eaux usées, ainsi que des déchets toxiques, solides, liquides et domestiques. Le lac est exploité par la population locale en raison de l'accès limité à l'eau<Button onClick={handleClick} className="snack" ><u>YYY</u></Button>
+                  message="L'ordonnance n° 40/013/BUR/BKV/2006 du 5 février 2006 relative à la protection des berges de la rive de Bukavu stipule qu'il est interdit de bâtir à moins de 10 mètres de la berge. Et qu'il est interdit le remblayage par sac, boue, fer; clôture, bois ou planche et par la terre dans le littoral du lac Kivu. Ce qui se produit régulièrement autour des sites de débarquement et dans les zones où nous pêchons."
+                  action={action} /> y déversent directement leurs eaux usées, ainsi que des déchets toxiques, solides, liquides et domestiques. Le lac est exploité par la population locale en raison de l'accès limité à l'eau<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
-                  message="(((polemica REGIDESO)))"
+                  message="La direction régionale de la Régie de distribution d'eau (REGIDESO) au Sud-Kivu a annoncé qu'elle avait besoin de 1,5 million USD pour résoudre la pénurie d'eau dans la ville de Bukavu et ses environs. L’usine de traitement d’eau située à Murhundu existe depuis 1950, conçue pour desservir 6 millions d’habitants de la ville de Bukavu. A ce jour, elle dessert à peu près 20 millions d’habitants. Et le manque d'eau potable a des conséquences sur la qualité de l'eau du lac, qui est utilisée pour tous les usages domestiques. Il est alarmant de constater que les cas de noyade de femmes et d'enfants se multiplient et qu'ils surviennent précisément au moment des interruptions de service."
                   action={action} /> pour la lessive et la vaisselle, ainsi que pour d'autres fonctions domestiques, devenant ainsi un problème de santé publique<br />
               </Typography>
             </CardContent>
@@ -542,7 +556,7 @@ const SWSW = () => {
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
-                  message="(((polemica REGIDESO)))"
+                  message="La carte montre les zones qui ont été sujettes à des glissements de terrain depuis 1959 dans le bassin versant de la rivière Wesha. Et l'on peut constater la proximité des lieux que nous fréquentons habituellement. La population installée sur ces glissements est constamment en danger. La présence d’infrastructures de desserte accentue aussi ce problème. L’aménagement peu raisonné sur les versants, l’extraction de matériaux sur le pied de certains escarpements sont des interventions anthropiques favorisant les instabilités."
                   action={action} /><br />
               </Typography>
             </CardContent>
@@ -572,7 +586,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les sites de débarquement et les marchés sont dotés d'installations sanitaires inadéquates et insuffisantes. Les pénuries d'eau et le manque de moyens rendent la situation sanitaire critique. L'hygiène pendant la période menstruelle reste un véritable défi. Les femmes s'exposent à de nombreux risques d'infections urogénitales potentiellement mortelles. Ce sont des organisations comme l'<i>Alliance pour la Vie</i> qui nous fournissent des kits d'hygiène et des notions d'hygiène menstruelle<br />
+              <Typography component='div' className="title_3">Les sites de débarquement et les marchés sont dotés d'installations sanitaires inadéquates et insuffisantes. Les pénuries d'eau et le manque de moyens rendent la situation sanitaire critique. L'hygiène pendant la période menstruelle reste un véritable défi. Les femmes s'exposent à de nombreux risques d'infections urogénitales potentiellement mortelles. Ce sont des organisations comme l'<i>Alliance pour la Vie</i> qui nous fournissent des kits de dignité et des notions d'hygiène menstruelle<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -583,12 +597,12 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">"Les poissons ne mordent pas à l'hameçon des femmes en période menstruelle". Cette forme de stigmatisation, ainsi que les autres sources de stigmatisation fondées sur le genre<Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>XXX</u></Button>
+              <Typography component='div' className="title_3">"Les poissons ne mordent pas à l'hameçon des femmes en période menstruelle". Cette forme de stigmatisation, ainsi que les autres sources de stigmatisation fondées sur le genre<Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
-                  message="(((Considération culturelle liée à certaines coutumes rétrogrades, mariage précoce + mariage par rapt, le fait de porter le poids économique du ménage, refus par sa belle-famille d'hériter d'une partie du patrimoine de son mari - - le reti sono requisite dalla famiglia del marito morto o che l’ha abbandonata, accusée de sorcellerie)))"
+                  message="Comme toutes les considérations culturelles liées à certaines coutumes rétrogrades, en particulier le mariage précoce et le mariage par rapt, l'obligation de supporter la charge financière de la famille, le refus de la belle-famille d'hériter d'une partie de la succession du mari, les accusations de sorcellerie à l'encontre des veuves."
                   action={action} />, souvent défendue et promue par les autorités locales, militaires et coutumières, sont l'une des causes du harcèlement quotidien dont nous sommes victimes. Tracasseries maritimes entraînant le vol de filets, ce qui signifie ne pas subvenir aux besoins de nos familles<br />
               </Typography>
             </CardContent>
@@ -630,6 +644,50 @@ const SWSW = () => {
 
           {/* ///////////////////////////// */}
           {/* //////////END CARE/////////// */}
+          <FullpageSection style={{
+            height: '100vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <hr></hr>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="title_3">Continuez à nous écouter, soutenez nos actions, aidez-nous à réaliser nos rêves<br />
+              </Typography>
+              <hr></hr>
+            </CardContent>
+            <CardContent sx={{ maxWidth: 630 }}>
+              <Typography component='div' className="footer">
+                « Agathe, la matriarche au dessus de l'eau » est un projet réalisé par ALLIANCE POUR LA VIE ASBL à partir d'un concept de Rosine NSIMIRE HAMULI et Alessandro MUSETTA. Cette histoire multimédia a été créée entre janvier et avril 2024 pour l'autodétermination, l'écoute et l'apprentissage par des pêcheuses des sites de débarquement de Kadutu et Bagira, dans la province du Sud-Kivu, en RDC.<br /><br />
+                Un grand merci à PARDICOLOR qui, par son soutien financier, a aidé les pêcheuses de la province du Sud-Kivu à amplifier leur voix.<br />
+              </Typography>
+              <div style={{ padding: 5, width: "20%" }}>
+                <Link to="https://www.pardicolor.org/">
+                  <CardMedia
+                    className='pardicolorimg'
+                    component="img"
+                    alt="Pardicolor"
+                    height="50"
+                    image={Pardicolor}
+                    sx={{ objectFit: "contain" }} /></Link>
+              </div>
+              <Typography component='div' className="footer2">
+               <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
+                Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
+                SOURCES DE CONNAISSANCES<br />
+                <i>Filets et techniques de pêche</i><br />
+                Désiré AKONKWA BALAGIZI (Bukavu), Simon AHOUANSOU MONTCHO (Kétou, Bénin), Muderhwa NSHOMBO (Uvira), Philippe LALÈYÈ (Cotonou, Bénin)<br /><br />
+                <i>Écologie du lac Kivu</i><br />
+                Boniface KANINGINI (Bukavu), Pascal MASILYA (Butare, Rwanda), Laetitia NYINA-WAMWIZA (Butare, Rwanda), Tête BAKENGULA MUCHINDIGIRI (Bukavu), Jean Augustin RUBABURA (Bukavu), Lagrisi NDATABAYE (Bukavu), Théophile NGOTULY MANA (Bukavu), Benjamin NCANGU BAHINDWA (Bukavu), Aganze BIRHAHEKA (Bukavu), Isaac AHANA MUNGU MAKELELE (Bukavu), Gérard IMANI (Bukavu), Kaliza TCHANGABOBA (Bukavu), Désiré AKONKWA BALAGIZI (Bukavu), Lushombo MATABARO (Bukavu), Lina ALEKE (Bukavu), Mbalassa MULONGAIBALU (Bukavu), Nshombo MUDERHWA (Bukavu)<br /><br />
+                <i>Pollution et contamination des eaux du lac Kivu</i><br />
+                Dieudonné WAFULA MIFUNDU (Bukavu), Désiré AKONKWA BALAGIZI (Bukavu), Dieu-Merci AMANI BADOSA (Bukavu), Vedaste CITULI ALINIRHU (Bukavu / Louvain), Kelly YENE KARHAKUBWA (Bukavu)<br /><br />
+                <i>Changement climatique et risques environnementaux</i><br />
+                Sylvain MATABARO KULIMUSHI (Bukavu), Toussaint BIBENTYO MUGARUKA (Bukavu), Walère SAHANI MUHINDO (Butembo)<br /><br />
+                <i>Santé publique</i><br />
+                Lumami KAPEPULA (Uvira), Lutili MATESO (Bukavu), Amundala SHEKANI (Uvira), Séverin MUYISA (Bukavu), Théophile NDIKUMANA (Bujumbura, Bénin)
+              </Typography>
+            </CardContent>
+
+          </FullpageSection>
 
 
         </FullPageSections>

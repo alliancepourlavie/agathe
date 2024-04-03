@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup, CircleMarker } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, CircleMarker, ZoomControl } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 import L from "leaflet";
 import './basemap.css';
@@ -41,6 +41,7 @@ const Basemap = () => {
                     style={{ height: "90vh", backgroundColor: 'rgb(247, 245, 251)', background: 'linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%)' }}>
                     <TileLayer
                         url="https://www.alessandromusetta.com/geo/tiles/agathe/kivu/{z}/{x}/{y}.png" />
+                    <ZoomControl position="bottomright" />
 
                     {landingsitejs.features.map((feature, index) => {
                         return (
@@ -76,6 +77,7 @@ const Basemap = () => {
                     style={{ height: "90vh", backgroundColor: 'rgb(247, 245, 251)', background: 'linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.01) 49%, rgba(0, 0, 0, 0.03) 50%, rgba(0, 0, 0, 0.01) 51%, rgba(0, 0, 0, 0) 100%)' }}>
                     <TileLayer
                         url="https://www.alessandromusetta.com/geo/tiles/agathe/kivu/{z}/{x}/{y}.png" />
+                    <ZoomControl position="bottomright" />
 
                     {landingsitejs.features.map((feature, index) => {
                         return (

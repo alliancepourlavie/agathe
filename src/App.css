@@ -169,7 +169,7 @@ video {
 
 .snack {
   font-family: "Nehanda-SpiritMedium" !important;
-  font-size: 12px !important;
+  font-size: 18px !important;
   text-decoration: none !important;
 }
 
@@ -222,6 +222,10 @@ video {
 }
 
 .leaflet-popup-tip {
+  display: none !important;
+}
+
+.leaflet-top, .leaflet-left {
   display: none !important;
 }
 
@@ -316,6 +320,32 @@ video {
   font-size: 0.79em !important;
   letter-spacing: 0.4px !important;
   line-height: 1.4em !important;
+  box-shadow: none;
+  overflow: auto;
+  /* text-transform: uppercase; */
+}
+
+.footer {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-weight: 400 !important;
+  font-size: 0.76em !important;
+  letter-spacing: 0.32px !important;
+  line-height: 1.25em !important;
+  box-shadow: none;
+  overflow: auto;
+  /* text-transform: uppercase; */
+}
+
+.footer2 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-weight: 400 !important;
+  font-size: 0.73em !important;
+  letter-spacing: 0.3px !important;
+  line-height: 1.21em !important;
   box-shadow: none;
   overflow: auto;
   /* text-transform: uppercase; */
@@ -596,6 +626,10 @@ video {
 
   .pirogueimg {
     height: 200px !important;
+  }
+
+  .pardicolorimg {
+    height: 60px !important;
   }
 
   .title_3 {

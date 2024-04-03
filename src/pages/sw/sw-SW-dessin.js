@@ -158,12 +158,12 @@ const SWdessin = () => {
             </div>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="title_3"><br /><br /><br />Nous avons réuni 24 filles et fils de pêcheuses du site de débarquement de Bagira pour un exercice de dessin. Ceci afin de les familiariser avec la pratique de l'expression artistique, en prenant pour sujet le système écologique dans lequel elles et ils vivent.<br />
+                <Typography component='div' className="title_3"><br /><br /><br />Nous avons réuni 24 de nos filles et fils pour un exercice de dessin. En les familiarisant avec la pratique de l'expression artistique, nous les avons sensibilisés à l'importance de la protection de l'environnement lacustre afin d'assurer notre sécurité alimentaire par la pêche<br />
                 </Typography>
             </CardContent>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="mutombodescr"><br />Enfin, notre activité a été clôturé par la prise d’une photo de famille et le partage du remboursement de transport pour tous les participant dans l’activité et l’eau à boire pour les enfants. Cette activité a été marqué par la présence de AGATH sous la coordination et la supervision de Madame Rosine NSIMIRE et la facilitation de Mademoiselle  Regina  Sifa  NKUNZIMWAMI tous deux membre d’ALLIANCE POUR LA VIE. <br />
+                <Typography component='div' className="mutombodescr"><br />Ses sujets de prédilection sont les poissons, la végétation du littoral et les activités de pêche à bord de pirogues. Pour certains, cette activité de dessin est une initiation artistique. Beaucoup d'entre eux ne sont pas scolarisés car nos moyens sont limités, c'est donc une occasion unique<br />
                 </Typography>
             </CardContent>
 

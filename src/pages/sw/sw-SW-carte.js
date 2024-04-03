@@ -30,12 +30,12 @@ const SWcarte = () => {
 
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="title_3"><br /><br />Nous avons réuni 24 filles et fils de pêcheuses du site de débarquement de Bagira pour un exercice de dessin. Ceci afin de les familiariser avec la pratique de l'expression artistique, en prenant pour sujet le système écologique dans lequel elles et ils vivent.<br />
+                <Typography component='div' className="title_3"><br /><br />Nous nous sommes réunis pour dessiner une carte de notre terre ancestrale et des eaux sur lesquelles nous naviguons. Notre objectif était de comprendre quelles sont les adresses les plus importantes pour nous, où sont concentrées les ressources dont dépend notre survie, et comment elles sont reliées et éloignées les unes des autres<br />
                 </Typography>
             </CardContent>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="mutombodescr"><br />Enfin, notre activité a été clôturé par la prise d’une photo de famille et le partage du remboursement de transport pour tous les participant dans l’activité et l’eau à boire pour les enfants. Cette activité a été marqué par la présence de AGATH sous la coordination et la supervision de Madame Rosine NSIMIRE et la facilitation de Mademoiselle  Regina  Sifa  NKUNZIMWAMI tous deux membre d’ALLIANCE POUR LA VIE. <br />
+                <Typography component='div' className="mutombodescr"><br />Le résultat visible est un réseau de zones de pêche ancestrales insinué entre les îles et les baies du bassin sud du lac Kivu, ponctué par les marchés auxquels nous vendons notre poisson. Autour de nous, nous observons les immenses forêts qui couvrent les collines du bassin du Congo, d'où émergent des volcans, éléments naturels respectés qui nous permettent de nous orienter<br />
                 </Typography>
             </CardContent>
 
