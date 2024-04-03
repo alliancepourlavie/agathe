@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.5d90465d.css",
-    "main.js": "/agathe/static/js/main.e105a648.js",
+    "main.css": "/agathe/static/css/main.49442960.css",
+    "main.js": "/agathe/static/js/main.30901fcf.js",
     "static/css/349.de208ac0.chunk.css": "/agathe/static/css/349.de208ac0.chunk.css",
-    "static/js/349.a5b8b9d6.chunk.js": "/agathe/static/js/349.a5b8b9d6.chunk.js",
+    "static/js/349.547e7a2d.chunk.js": "/agathe/static/js/349.547e7a2d.chunk.js",
     "static/css/767.de208ac0.chunk.css": "/agathe/static/css/767.de208ac0.chunk.css",
-    "static/js/767.fe11844c.chunk.js": "/agathe/static/js/767.fe11844c.chunk.js",
+    "static/js/767.e09cebb4.chunk.js": "/agathe/static/js/767.e09cebb4.chunk.js",
     "static/css/980.de208ac0.chunk.css": "/agathe/static/css/980.de208ac0.chunk.css",
-    "static/js/980.233bb4ab.chunk.js": "/agathe/static/js/980.233bb4ab.chunk.js",
+    "static/js/980.a93de6f6.chunk.js": "/agathe/static/js/980.a93de6f6.chunk.js",
     "static/js/57.4c59501e.chunk.js": "/agathe/static/js/57.4c59501e.chunk.js",
     "static/js/592.f598480c.chunk.js": "/agathe/static/js/592.f598480c.chunk.js",
     "static/js/975.93c3bcd2.chunk.js": "/agathe/static/js/975.93c3bcd2.chunk.js",
@@ -37,8 +37,8 @@
     "static/media/Haplochromis_paucidens.png": "/agathe/static/media/Haplochromis_paucidens.8a133bd83ceedc27066d.png",
     "static/media/dessin_B.jpg": "/agathe/static/media/dessin_B.ded697207b1ab40520a6.jpg",
     "static/media/Haplochromis_rubescens.png": "/agathe/static/media/Haplochromis_rubescens.6f887812d93880829a0d.png",
+    "static/media/cover_child.png": "/agathe/static/media/cover_child.37849de5a8b68eeb4bd1.png",
     "static/media/dessin_K.jpg": "/agathe/static/media/dessin_K.95ab9a0c5d9e3ee7494a.jpg",
-    "static/media/cover_child.png": "/agathe/static/media/cover_child.26503db6b625d1d75013.png",
     "static/media/Grevillea_robusta.png": "/agathe/static/media/Grevillea_robusta.e015a123baff45f3a753.png",
     "static/media/Haplochromis_microchrysomelas.png": "/agathe/static/media/Haplochromis_microchrysomelas.9829b3797124cd37a6b3.png",
     "static/media/FC.png": "/agathe/static/media/FC.63723742d4a97106bb2c.png",
@@ -69,6 +69,7 @@
     "static/media/Tilapia_rendalli.png": "/agathe/static/media/Tilapia_rendalli.66d9fc934e0daa780068.png",
     "static/media/Barbus_kerstenii.png": "/agathe/static/media/Barbus_kerstenii.e846f5e208aa086e8c85.png",
     "static/media/Labeobarbus_altianalis.png": "/agathe/static/media/Labeobarbus_altianalis.8081c23e3861bba1563a.png",
+    "static/media/pardicolor.png": "/agathe/static/media/pardicolor.0ec259f049e0571dbd66.png",
     "static/media/Eleocharis_interstincta.png": "/agathe/static/media/Eleocharis_interstincta.d9d04ab9aa01d297b864.png",
     "static/media/Haplochromis_kamiranzovu.png": "/agathe/static/media/Haplochromis_kamiranzovu.8f1ab242c1259372a53b.png",
     "static/media/SP.png": "/agathe/static/media/SP.1c9b8e4d50c2ba927b65.png",
@@ -98,14 +99,14 @@
     "static/media/shit.svg": "/agathe/static/media/shit.1c33e23f8ef7ad1e95df7c7facd82098.svg",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.5d90465d.css.map": "/agathe/static/css/main.5d90465d.css.map",
-    "main.e105a648.js.map": "/agathe/static/js/main.e105a648.js.map",
+    "main.49442960.css.map": "/agathe/static/css/main.49442960.css.map",
+    "main.30901fcf.js.map": "/agathe/static/js/main.30901fcf.js.map",
     "349.de208ac0.chunk.css.map": "/agathe/static/css/349.de208ac0.chunk.css.map",
-    "349.a5b8b9d6.chunk.js.map": "/agathe/static/js/349.a5b8b9d6.chunk.js.map",
+    "349.547e7a2d.chunk.js.map": "/agathe/static/js/349.547e7a2d.chunk.js.map",
     "767.de208ac0.chunk.css.map": "/agathe/static/css/767.de208ac0.chunk.css.map",
-    "767.fe11844c.chunk.js.map": "/agathe/static/js/767.fe11844c.chunk.js.map",
+    "767.e09cebb4.chunk.js.map": "/agathe/static/js/767.e09cebb4.chunk.js.map",
     "980.de208ac0.chunk.css.map": "/agathe/static/css/980.de208ac0.chunk.css.map",
-    "980.233bb4ab.chunk.js.map": "/agathe/static/js/980.233bb4ab.chunk.js.map",
+    "980.a93de6f6.chunk.js.map": "/agathe/static/js/980.a93de6f6.chunk.js.map",
     "57.4c59501e.chunk.js.map": "/agathe/static/js/57.4c59501e.chunk.js.map",
     "592.f598480c.chunk.js.map": "/agathe/static/js/592.f598480c.chunk.js.map",
     "975.93c3bcd2.chunk.js.map": "/agathe/static/js/975.93c3bcd2.chunk.js.map",
@@ -125,7 +126,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d90465d.css",
-    "static/js/main.e105a648.js"
+    "static/css/main.49442960.css",
+    "static/js/main.30901fcf.js"
   ]
 }
