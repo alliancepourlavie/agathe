@@ -330,9 +330,22 @@ video {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'IBM Plex Mono', monospace !important;
   font-weight: 400 !important;
-  font-size: 0.76em !important;
-  letter-spacing: 0.32px !important;
+  font-size: 0.73em !important;
+  letter-spacing: 0.3px !important;
   line-height: 1.25em !important;
+  box-shadow: none;
+  overflow: auto;
+  /* text-transform: uppercase; */
+}
+
+.footer1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-weight: 400 !important;
+  font-size: 0.7em !important;
+  letter-spacing: 0.28px !important;
+  line-height: 1.21em !important;
   box-shadow: none;
   overflow: auto;
   /* text-transform: uppercase; */
@@ -343,8 +356,8 @@ video {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'IBM Plex Mono', monospace !important;
   font-weight: 400 !important;
-  font-size: 0.73em !important;
-  letter-spacing: 0.3px !important;
+  font-size: 0.7em !important;
+  letter-spacing: 0.28px !important;
   line-height: 1.21em !important;
   box-shadow: none;
   overflow: auto;
@@ -599,7 +612,7 @@ video {
   }
 
   .snack {
-    font-size: 9px !important;
+    font-size: 8px !important;
   }
 
   .boatboxmodal {
@@ -637,7 +650,7 @@ video {
   }
 
   .title_5 {
-    font-size: 0.4em !important;
+    font-size: 0.55em !important;
   }
 
   .css-46bh2p-MuiCardContent-root:last-child {
@@ -658,4 +671,20 @@ video {
     padding: 2 !important;
   }
 
+  .MuiSnackbar-root {
+    font-size: 1.62em !important;
+  }
+
+  .MuiButtonBase-root {
+    padding: 4px 8px !important;
+  }
+
+  .collectiveimg{
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .footer2{
+    display: none !important;
+  }
 }

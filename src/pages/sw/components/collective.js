@@ -59,6 +59,7 @@ const Collective = () => {
         <>
             <CardMedia
                 component="img"
+                className='collectiveimg'
                 alt=""
                 height="100%"
                 image={Collectiveimg}

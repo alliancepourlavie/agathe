@@ -342,7 +342,7 @@ const SWSW = () => {
                       className='pirogueimg'
                       component="img"
                       alt="Child"
-                      height="400"
+                      height="300"
                       image={Child}
                       sx={{ objectFit: "contain" }} /></Link>
                 </div>
@@ -387,7 +387,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Maman Agathe et Maman Cynthia nous ont appris qu'en tant que femmes, nous pouvons vivre de la pêche, en toute autonomie, contre tous les tabous et la stigmatisation sociale. Nous sommes confrontées à des difficultés financières, à un équipement inadéquat, mais nous nous battons pour subvenir aux besoins de nos familles par la pêche<br />
+              <Typography component='div' className="title_3"><br />Maman Agathe et Maman Cynthia nous ont appris qu'en tant que femmes, nous pouvons vivre de la pêche, en toute autonomie, contre tous les tabous et la stigmatisation sociale. Nous sommes confrontées à des difficultés financières, à un équipement inadéquat, mais nous nous battons pour subvenir aux besoins de nos familles par la pêche<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -512,7 +512,7 @@ const SWSW = () => {
             alignItems: "center",
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3"><br />Les sites d'atterrissage de Bagira et Kadutu, qui se trouvent près des embouchures des rivières Wesha et Tshula, sont, pour des raisons géomorphologiques et hydrauliques, des points d'accumulation des déchets et débris. Périodiquement nettoyons la baie en les ramassant avec nos filets, à la manière d'une pêche à la senne de plage<br /><br />
+              <Typography component='div' className="title_3">Les sites d'atterrissage de Bagira et Kadutu, qui se trouvent près des embouchures des rivières Wesha et Tshula, sont, pour des raisons géomorphologiques et hydrauliques, des points d'accumulation des déchets et débris. Périodiquement nettoyons la baie en les ramassant avec nos filets, à la manière d'une pêche à la senne de plage<br /><br />
               </Typography>
             </CardContent>
             <div style={{ display: "flex" }}><ReactPlayer
@@ -546,7 +546,7 @@ const SWSW = () => {
           </FullpageSection>
 
           <FullpageSection style={{
-            height: '60vh',
+            height: '70vh',
             padding: '1em',
             alignItems: "center"
           }}>
@@ -563,7 +563,7 @@ const SWSW = () => {
           </FullpageSection>
 
           <FullpageSection style={{
-            height: '60vh',
+            height: '70vh',
             padding: '1em',
             alignItems: "center"
           }}>
@@ -586,7 +586,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les sites de débarquement et les marchés sont dotés d'installations sanitaires inadéquates et insuffisantes. Les pénuries d'eau et le manque de moyens rendent la situation sanitaire critique. L'hygiène pendant la période menstruelle reste un véritable défi. Les femmes s'exposent à de nombreux risques d'infections urogénitales potentiellement mortelles. Ce sont des organisations comme l'<i>Alliance pour la Vie</i> qui nous fournissent des kits de dignité et des notions d'hygiène menstruelle<br />
+              <Typography component='div' className="title_3"><br />Les sites de débarquement et les marchés sont dotés d'installations sanitaires inadéquates et insuffisantes. Les pénuries d'eau et le manque de moyens rendent la situation sanitaire critique. L'hygiène pendant la période menstruelle reste un véritable défi. Les femmes s'exposent à de nombreux risques d'infections urogénitales potentiellement mortelles. Ce sont des organisations comme l'<i>Alliance pour la Vie</i> qui nous fournissent des kits de dignité et des notions d'hygiène menstruelle<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -597,7 +597,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">"Les poissons ne mordent pas à l'hameçon des femmes en période menstruelle". Cette forme de stigmatisation, ainsi que les autres sources de stigmatisation fondées sur le genre<Button onClick={handleClick} style={{ fontFamily: "Nehanda-SpiritMedium", fontSize: 14 }}><u>⎈</u></Button>
+              <Typography component='div' className="title_3">"Les poissons ne mordent pas à l'hameçon des femmes en période menstruelle". Cette forme de stigmatisation, ainsi que les autres sources de stigmatisation fondées sur le genre<Button onClick={handleClick} className="snack"><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -670,9 +670,11 @@ const SWSW = () => {
                     image={Pardicolor}
                     sx={{ objectFit: "contain" }} /></Link>
               </div>
-              <Typography component='div' className="footer2">
-               <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
+              <Typography component='div' className="footer1">
+                <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
                 Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
+              </Typography>
+              <Typography component='div' className="footer2">
                 SOURCES DE CONNAISSANCES<br />
                 <i>Filets et techniques de pêche</i><br />
                 Désiré AKONKWA BALAGIZI (Bukavu), Simon AHOUANSOU MONTCHO (Kétou, Bénin), Muderhwa NSHOMBO (Uvira), Philippe LALÈYÈ (Cotonou, Bénin)<br /><br />
