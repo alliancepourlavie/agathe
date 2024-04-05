@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/agathe/static/css/main.dc7baed0.css",
+    "main.css": "/agathe/static/css/main.79de25f0.css",
     "main.js": "/agathe/static/js/main.4d1480eb.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
@@ -99,7 +99,7 @@
     "static/media/shit.svg": "/agathe/static/media/shit.1c33e23f8ef7ad1e95df7c7facd82098.svg",
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
-    "main.dc7baed0.css.map": "/agathe/static/css/main.dc7baed0.css.map",
+    "main.79de25f0.css.map": "/agathe/static/css/main.79de25f0.css.map",
     "main.4d1480eb.js.map": "/agathe/static/js/main.4d1480eb.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
@@ -126,7 +126,7 @@
     "787.fd110127.chunk.js.map": "/agathe/static/js/787.fd110127.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc7baed0.css",
+    "static/css/main.79de25f0.css",
     "static/js/main.4d1480eb.js"
   ]
 }
