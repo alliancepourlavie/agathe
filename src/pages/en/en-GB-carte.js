@@ -10,7 +10,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 
 
-const SWcarte = () => {
+const ENcarte = () => {
 
     useLayoutEffect(() => {
         window.scrollTo(0, 0)
@@ -20,7 +20,7 @@ const SWcarte = () => {
         <>
 
             <Typography component='div' className="title_5" /* style={{fontSize:"0.8rem !important" }} */><br />
-                <Link to="/sw-SW" ><br />⇷ Retour à la page d'accueil</Link><br />
+                <Link to="/en-GB" ><br />⇷ Retour à la page d'accueil</Link><br />
             </Typography>
 
             <CardContent sx={{ maxWidth: 800 }}>
@@ -52,4 +52,4 @@ const SWcarte = () => {
 }
 
 
-export default SWcarte;
+export default ENcarte;

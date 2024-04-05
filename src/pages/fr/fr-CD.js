@@ -34,7 +34,7 @@ const Collective = React.lazy(() => import('./components/collective'));
 const Maman = React.lazy(() => import('./components/maman'));
 
 
-const ENEN = () => {
+const FRFR = () => {
 
   const [open, setOpen] = React.useState(false)
 
@@ -66,7 +66,7 @@ const ENEN = () => {
 
   return (
     <><div className='boxheader'>
-      <Button className="translation" component={Link} to="/sw-SW">SW</Button>
+      <Button className="translation" component={Link} to="/en-GB">EN</Button>
       <div className='logo'></div><br />
     </div>
 
@@ -149,7 +149,7 @@ const ENEN = () => {
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
                 <div style={{ padding: 10, width: "40%" }}>
-                  <Link to="/en-GB-carte">
+                  <Link to="/sw-SW-carte">
                     <CardMedia
                       className='pirogueimg'
                       component="img"
@@ -161,7 +161,7 @@ const ENEN = () => {
                 <Typography component='div' className="title_3"><br /><Link to="/sw-SW-carte">Nous avons dessiné collectivement une carte pour expliquer où nous vivons et quels sont les endroits les plus importants pour nous, les pêcheuses</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
-                  <Link to="/sw-SW-carte">En savoir plus⇸</Link><br />
+                  <Link to="/fr-CD-carte">En savoir plus⇸</Link><br />
                 </Typography>
               </CardContent>
             </FullpageSection>
@@ -349,7 +349,7 @@ const ENEN = () => {
                 <Typography component='div' className="title_3"><Link to="/sw-SW-dessin">Afin de construire une mémoire du lac et de ses espèces vivantes, nous avons demandé à nos filles et fils de les représenter dans le but de les sensibiliser à l'importance de la préservation de l'écosystème pour assurer la survie de la pêche coutumière en tant que moyen de subsistance</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
-                  <Link to="/en-GB-dessin">En savoir plus⇸</Link><br />
+                  <Link to="/fr-CD-dessin">En savoir plus⇸</Link><br />
                 </Typography>
               </CardContent>
             </FullpageSection>
@@ -699,4 +699,4 @@ const ENEN = () => {
 }
 
 
-export default ENEN;
+export default FRFR;

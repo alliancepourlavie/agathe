@@ -520,6 +520,10 @@ video {
   padding-bottom: 8px !important;
 }
 
+.cartemobile {
+  display: none !important;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -686,5 +690,13 @@ video {
 
   .footer2{
     display: none !important;
+  }
+
+  .cartedesktop{
+    display: none !important;
+  }
+
+  .cartemobile {
+    display: block !important;
   }
 }
