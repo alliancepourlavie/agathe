@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Suspense } from "react";
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 import { Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
@@ -25,13 +24,12 @@ import PlantMedicine from "./components/plant_medicine";
 import Child from "../../data/img/cover_child.png";
 import Carte from "../../data/img/cover_carte.png";
 import Pardicolor from "../../data/img/pardicolor.png";
-
-const Basemap = React.lazy(() => import('./components/basemap'));
-const Bukavumap = React.lazy(() => import('./components/bukavumap'));
-const Glissement = React.lazy(() => import('./components/glissement'));
-const Mapillary = React.lazy(() => import('./components/mapillary'));
-const Collective = React.lazy(() => import('./components/collective'));
-const Maman = React.lazy(() => import('./components/maman'));
+import Basemap from "./components/basemap";
+import Bukavumap from "./components/bukavumap";
+import Glissement from "./components/glissement";
+import Mapillary from "./components/mapillary";
+import Collective from "./components/collective";
+import Maman from "./components/maman";
 
 
 const FRFR = () => {
@@ -66,7 +64,7 @@ const FRFR = () => {
 
   return (
     <><div className='boxheader'>
-      <Button className="translation" component={Link} to="/en-GB">EN</Button>
+      <Button className="translation" component={Link} to="/">SW</Button>
       <div className='logo'></div><br />
     </div>
 
@@ -213,14 +211,12 @@ const FRFR = () => {
           </FullpageSection>
 
           <div className="notepad">
-            <Suspense fallback={<div><h2>🌀 Loading...</h2></div>} >
               <FullpageSection style={{
                 height: '90vh',
                 padding: '1em',
               }}>
                 <Basemap />
               </FullpageSection>
-            </Suspense>
           </div>
 
           <div className="notepad">
@@ -570,15 +566,13 @@ const FRFR = () => {
             <Glissement />
           </FullpageSection>
 
-          <Suspense fallback={<div> Please Wait... </div>} >
             <FullpageSection style={{
               height: '90vh',
               padding: '1em',
               alignItems: "center"
             }}>
-              <Suspense fallback={<div> Please Wait... </div>} ><Mapillary /></Suspense>
+              <Mapillary />
             </FullpageSection>
-          </Suspense>
 
           <FullpageSection style={{
             height: '90vh',
@@ -609,15 +603,13 @@ const FRFR = () => {
           </FullpageSection>
 
           <div className="notepad">
-            <Suspense fallback={<div> Please Wait... </div>} >
               <FullpageSection style={{
                 height: '90vh',
                 padding: '1em',
                 alignItems: "center"
               }}>
-                <Suspense fallback={<div> Please Wait... </div>} ><Collective /></Suspense>
+                <Collective />
               </FullpageSection>
-            </Suspense>
           </div>
 
           <FullpageSection style={{

@@ -218,7 +218,7 @@ const SWSW = () => {
                 height: '90vh',
                 padding: '1em',
               }}>
-                <Basemap />
+                <Suspense fallback={<div> Please Wait... </div>} ><Basemap /></Suspense>
               </FullpageSection>
             </Suspense>
           </div>
