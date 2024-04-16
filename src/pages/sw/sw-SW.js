@@ -645,7 +645,7 @@ const SWSW = () => {
           {/* ///////////////////////////// */}
           {/* //////////END CARE/////////// */}
           <FullpageSection style={{
-            height: '100vh',
+            height: '60vh',
             padding: '1em',
             alignItems: "center"
           }}>
@@ -658,6 +658,16 @@ const SWSW = () => {
             <CardContent sx={{ maxWidth: 630 }}>
               <Typography component='div' className="footer">
                 « Agathe, la matriarche au dessus de l'eau » est un projet réalisé par ALLIANCE POUR LA VIE ASBL à partir d'un concept de Rosine NSIMIRE HAMULI et Alessandro MUSETTA. Cette histoire multimédia a été créée entre janvier et avril 2024 pour l'autodétermination, l'écoute et l'apprentissage par des pêcheuses des sites de débarquement de Kadutu et Bagira, dans la province du Sud-Kivu, en RDC.<br /><br />
+              </Typography>
+              <Typography component='div' className="footer1" >
+                <br />Contact<br />
+                <Link to="mailto:alliancevie.rdc@gmail.com" >alliancevie.rdc@gmail.com</Link>
+              </Typography>
+              <Typography component='div' className="footer1">
+                <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
+                Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
+              </Typography>
+              <Typography component='div' className="footer">
                 Un grand merci à PARDICOLOR qui, par son soutien financier, a aidé les pêcheuses de la province du Sud-Kivu à amplifier leur voix.<br />
               </Typography>
               <div style={{ padding: 5, width: "20%" }}>
@@ -670,10 +680,15 @@ const SWSW = () => {
                     image={Pardicolor}
                     sx={{ objectFit: "contain" }} /></Link>
               </div>
-              <Typography component='div' className="footer1">
-                <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
-                Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
-              </Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
               <Typography component='div' className="footer2">
                 SOURCES DE CONNAISSANCES<br />
                 <i>Filets et techniques de pêche</i><br />
@@ -688,7 +703,6 @@ const SWSW = () => {
                 Lumami KAPEPULA (Uvira), Lutili MATESO (Bukavu), Amundala SHEKANI (Uvira), Séverin MUYISA (Bukavu), Théophile NDIKUMANA (Bujumbura, Bénin)
               </Typography>
             </CardContent>
-
           </FullpageSection>
 
 
