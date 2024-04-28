@@ -36,11 +36,11 @@ const Pirogue = () => {
 
     const rowsBoat = [
         createData('1. Pirogue', '-', '1', 1),
-        createData('2. Materiel', '-', '-', 1),
-        createData('3. Engin de peche', '-', '-', 1),
-        createData('4. Reparations pirogue', '-', '-', 1),
-        createData('5. Reparations filet', '-', '-', 1),
-        createData('6. Permis de pêche', '-', '-', 1),
+        createData('2. Equipment', '-', '-', 1),
+        createData('3. Fishing gear', '-', '-', 1),
+        createData('4. Repairs to pirogue', '-', '-', 1),
+        createData('5. Repairs to fishing gear', '-', '-', 1),
+        createData('6. Fishing permits', '-', '-', 1),
     ];
 
 
@@ -56,7 +56,7 @@ const Pirogue = () => {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">APERÇU DES COÛTS D'UNE CAMPAGNE DE PÊCHE</Typography>
+                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">COSTS OVERVIEW OF A FISHING TRIP</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
 

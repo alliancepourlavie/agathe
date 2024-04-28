@@ -43,16 +43,16 @@ const Plants = () => {
     }
 
     const rowsBoat = [
-        createData('Casuarina equisetifolia', '-', 'Les extraits de racines sont utilisés pour le traitement de la dysenterie, de la diarrhée et des maux d\'estomac. Une décoction des rameaux est utilisée pour traiter les gonflements. L\'écorce fraîche est un excellent astringent. Elle est utilisée dans le traitement de la diarrhée chronique et de la dysenterie. Une décoction de l\'écorce interne, combinée à l\'écorce interne de Terminalia catappa, est utilisée pour traiter l\'asthme et l\'essoufflement. L\'écorce réduite en poudre est utilisée pour traiter les boutons sur le visage. La couche de cambium située sous l\'écorce est pressée et utilisée pour calmer les malades mentaux ou les patients agressifs.'),
-        createData('Grevillea robusta', 'Les fleurs sont l\'une des sources les plus riches en nectar. Celui-ci peut être aspiré directement des fleurs, secoué dans un bol ou lavé dans une petite quantité d\'eau. Le nectar tombe en pluie lorsqu\'on agite les fleurs.', '-'),
-        createData('Acacia mearnsii', '-', 'L\'écorce est riche en tanins et peut donc être utilisée dans les nombreux cas où les astringents peuvent être employés, par exemple pour traiter la diarrhée et la dysenterie, pour traiter les hémorroïdes, pour arrêter les hémorragies internes, pour baigner les coupures et les écorchures, comme bain de bouche pour resserrer les dents dans les gencives, etc. L\'écorce de toutes les espèces d\'Acacia contient des quantités plus ou moins importantes de tanins et est astringente. En application externe, souvent sous forme de bain, elles sont utilisées pour traiter les plaies et autres problèmes de peau, les hémorroïdes, la transpiration des pieds, certains problèmes oculaires, comme bain de bouche, etc. De nombreux acacias produisent également des quantités plus ou moins importantes d\'une gomme provenant du tronc et des tiges. Cette gomme est parfois utilisée en usage interne pour traiter la diarrhée et les hémorroïdes.'),
+        createData('Casuarina equisetifolia', '-', 'Root extracts are used to treat dysentery, diarrhoea and stomach upsets. A decoction of the twigs is used to treat swelling. Fresh bark is an excellent astringent. It is used in the treatment of chronic diarrhoea and dysentery. A decoction of the inner bark, combined with Terminalia catappa inner bark, is used to treat asthma and shortness of breath. The powdered bark is used to treat pimples on the face. The cambium layer beneath the bark is pressed and used to calm mentally ill or aggressive patients.'),
+        createData('Grevillea robusta', 'Flowers are one of the richest sources of nectar. Nectar can be sucked directly from the flowers, shaken into a bowl or washed in a small amount of water. The nectar rains down when the flowers are shaken.', '-'),
+        createData('Acacia mearnsii', '-', 'The bark is rich in tannins and can therefore be used in the many cases where astringents can be used, for example, to treat diarrhoea and dysentery, to treat haemorrhoids, to stop internal bleeding, to bathe cuts and abrasions, as a mouthwash to tighten teeth in the gums, etc. The bark of all Acacia species contains varying amounts of tannin and is astringent. Applied externally, often in the form of a bath, it is used to treat wounds and other skin problems, haemorrhoids, sweating feet, certain eye problems, as a mouthwash, etc. Many acacias also produce gum in varying quantities from the trunk and stems. This gum is sometimes used internally to treat diarrhoea and haemorrhoids.'),
     ];
 
 
 
     return (
         <>
-            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom:3 }} className="accordion">PATRIMOINE BIOLOGIQUE IDENTIFIABLE À MOINS DE 2 KM DES SITES DE DÉBARQUEMENT DE KADUTU ET DE BAGIRA</Typography>
+            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom:3 }} className="accordion">IDENTIFIABLE BIOLOGICAL HERITAGE WITHIN 2 KM OF THE KADUTU AND BAGIRA LANDING SITES</Typography>
 
             <div style={{ display: "flex", flexDirection: "column" }}>
 
@@ -67,7 +67,7 @@ const Plants = () => {
                                     image={Eleocharis}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE ÉMERGENTE<br /><i>Eleocharis interstincta</i><br />
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>EMERGENT PLANT<br /><i>Eleocharis interstincta</i><br />
                                     </Typography>
                                 </CardContent>
                             </Item>
@@ -81,7 +81,7 @@ const Plants = () => {
                                     image={Casuarina}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE ORNEMENTALE ET MÉDICINALE<br /><i>Casuarina equisetifolia</i><br />
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>ORNAMENTAL AND MEDICINAL PLANT<br /><i>Casuarina equisetifolia</i><br />
                                     </Typography>
                                 </CardContent>
                             </Item>
@@ -95,7 +95,7 @@ const Plants = () => {
                                     image={Grevillea}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE DE FORÊT<br /><i>Grevillea robusta</i><br />
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>FOREST PLANT<br /><i>Grevillea robusta</i><br />
                                     </Typography>
                                 </CardContent>
                             </Item>
@@ -109,7 +109,7 @@ const Plants = () => {
                                     image={Acacia}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE DE FORÊT<br /><i>Acacia mearnsii</i><br />
+                                    <Typography component='div' className="fish" color="text.secondary" gutterBottom>FOREST PLANT<br /><i>Acacia mearnsii</i><br />
                                     </Typography>
                                 </CardContent>
                             </Item>
@@ -131,9 +131,9 @@ const Plants = () => {
                             <Table className="pirogueTable" sx={{ minWidth: 200, fontSize: 15 }} aria-label="simple table">
                                 <TableHead>
                                     <TableRow >
-                                        <TableCell>NOM SCIENTIFIQUE</TableCell>
-                                        <TableCell align="center">UTILISATION DES PLANTES COMESTIBLES</TableCell>
-                                        <TableCell align="center">USAGE MÉDICAL</TableCell>
+                                        <TableCell>SCIENTIFIC NAME</TableCell>
+                                        <TableCell align="center">USE OF EDIBLE PLANTS</TableCell>
+                                        <TableCell align="center">MEDICAL USE</TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>

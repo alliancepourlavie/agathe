@@ -67,7 +67,7 @@ const PlantsB = () => {
 
     return (
         <>
-            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">PATRIMOINE BIOLOGIQUE IDENTIFIABLE AUTOUR DES SITES DE DÉBARQUEMENT DE KADUTU ET BAGIRA</Typography>
+            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">IDENTIFIABLE BIOLOGICAL HERITAGE AROUND THE KADUTU AND BAGIRA LANDING SITES</Typography>
 
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -80,7 +80,7 @@ const PlantsB = () => {
                                 image={Phragmites}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE ÉMERGENTE<br /><i>Phragmites australis</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>EMERGENT PLANT<br /><i>Phragmites australis</i><br />
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -94,7 +94,7 @@ const PlantsB = () => {
                                 image={Spathodea}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE ORNEMENTALE ET MÉDICINALE<br /><i>Spathodea campanulata</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>ORNAMENTAL AND MEDICINAL PLANT<br /><i>Spathodea campanulata</i><br />
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -108,7 +108,7 @@ const PlantsB = () => {
                                 image={Markhamia}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE D'AGROFORESTERIE<br /><i>Eucalyptus spp</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>AGROFORESTRY PLANT<br /><i>Eucalyptus spp</i><br />
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -122,7 +122,7 @@ const PlantsB = () => {
                                 image={Eucalyptus}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE D'AGROFORESTERIE<br /><i>Cedrela serrata</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>AGROFORESTRY PLANT<br /><i>Cedrela serrata</i><br />
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -136,7 +136,7 @@ const PlantsB = () => {
                                 image={Markhamia}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>PLANTE D'AGROFORESTERIE<br /><i>Markhamia lutea</i><br />
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>AGROFORESTRY PLANT<br /><i>Markhamia lutea</i><br />
                                 </Typography>
                             </CardContent>
                         </Item>

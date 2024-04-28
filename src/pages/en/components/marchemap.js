@@ -17,7 +17,7 @@ const Marchemap = () => {
 
     return (
 
-        <><div className='maptext'>LIEUX OU TRAVAILLENT<br />LES PECHEUSES DE BUKAVU<br /></div>
+        <><div className='maptext'>WHERE BUKAVU'S<br />FISHERWOMEN WORK<br /></div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer

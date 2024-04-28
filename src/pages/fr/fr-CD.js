@@ -24,12 +24,13 @@ import PlantMedicine from "./components/plant_medicine";
 import Child from "../../data/img/cover_child.png";
 import Carte from "../../data/img/cover_carte.png";
 import Pardicolor from "../../data/img/pardicolor.png";
-import Basemap from "./components/basemap";
-import Bukavumap from "./components/bukavumap";
-import Glissement from "./components/glissement";
-import Mapillary from "./components/mapillary";
-import Collective from "./components/collective";
-import Maman from "./components/maman";
+
+const Basemap = React.lazy(() => import('./components/basemap'));
+const Bukavumap = React.lazy(() => import('./components/bukavumap'));
+const Glissement = React.lazy(() => import('./components/glissement'));
+const Mapillary = React.lazy(() => import('./components/mapillary'));
+const Collective = React.lazy(() => import('./components/collective'));
+const Maman = React.lazy(() => import('./components/maman'));
 
 
 const FRFR = () => {
@@ -64,7 +65,7 @@ const FRFR = () => {
 
   return (
     <><div className='boxheader'>
-      <Button className="translation" component={Link} to="/">SW</Button>
+      <Button className="translation" component={Link} to="/en-GB">EN</Button>
       <div className='logo'></div><br />
     </div>
 
@@ -159,7 +160,7 @@ const FRFR = () => {
                 <Typography component='div' className="title_3"><br /><Link to="/sw-SW-carte">Nous avons dessiné collectivement une carte pour expliquer où nous vivons et quels sont les endroits les plus importants pour nous, les pêcheuses</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
-                  <Link to="/fr-CD-carte">En savoir plus⇸</Link><br />
+                  <Link to="/sw-SW-carte">En savoir plus⇸</Link><br />
                 </Typography>
               </CardContent>
             </FullpageSection>
@@ -211,12 +212,12 @@ const FRFR = () => {
           </FullpageSection>
 
           <div className="notepad">
-              <FullpageSection style={{
-                height: '90vh',
-                padding: '1em',
-              }}>
-                <Basemap />
-              </FullpageSection>
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+            }}>
+              <Basemap />
+            </FullpageSection>
           </div>
 
           <div className="notepad">
@@ -345,7 +346,7 @@ const FRFR = () => {
                 <Typography component='div' className="title_3"><Link to="/sw-SW-dessin">Afin de construire une mémoire du lac et de ses espèces vivantes, nous avons demandé à nos filles et fils de les représenter dans le but de les sensibiliser à l'importance de la préservation de l'écosystème pour assurer la survie de la pêche coutumière en tant que moyen de subsistance</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
-                  <Link to="/fr-CD-dessin">En savoir plus⇸</Link><br />
+                  <Link to="/sw-SW-dessin">En savoir plus⇸</Link><br />
                 </Typography>
               </CardContent>
             </FullpageSection>
@@ -566,13 +567,13 @@ const FRFR = () => {
             <Glissement />
           </FullpageSection>
 
-            <FullpageSection style={{
-              height: '90vh',
-              padding: '1em',
-              alignItems: "center"
-            }}>
-              <Mapillary />
-            </FullpageSection>
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <Mapillary />
+          </FullpageSection>
 
           <FullpageSection style={{
             height: '90vh',
@@ -603,13 +604,13 @@ const FRFR = () => {
           </FullpageSection>
 
           <div className="notepad">
-              <FullpageSection style={{
-                height: '90vh',
-                padding: '1em',
-                alignItems: "center"
-              }}>
-                <Collective />
-              </FullpageSection>
+            <FullpageSection style={{
+              height: '90vh',
+              padding: '1em',
+              alignItems: "center"
+            }}>
+              <Collective />
+            </FullpageSection>
           </div>
 
           <FullpageSection style={{
@@ -637,7 +638,7 @@ const FRFR = () => {
           {/* ///////////////////////////// */}
           {/* //////////END CARE/////////// */}
           <FullpageSection style={{
-            height: '100vh',
+            height: '60vh',
             padding: '1em',
             alignItems: "center"
           }}>
@@ -650,6 +651,16 @@ const FRFR = () => {
             <CardContent sx={{ maxWidth: 630 }}>
               <Typography component='div' className="footer">
                 « Agathe, la matriarche au dessus de l'eau » est un projet réalisé par ALLIANCE POUR LA VIE ASBL à partir d'un concept de Rosine NSIMIRE HAMULI et Alessandro MUSETTA. Cette histoire multimédia a été créée entre janvier et avril 2024 pour l'autodétermination, l'écoute et l'apprentissage par des pêcheuses des sites de débarquement de Kadutu et Bagira, dans la province du Sud-Kivu, en RDC.<br /><br />
+              </Typography>
+              <Typography component='div' className="footer1" >
+                <br />Contact<br />
+                <Link to="mailto:alliancevie.rdc@gmail.com" >alliancevie.rdc@gmail.com</Link>
+              </Typography>
+              <Typography component='div' className="footer1">
+                <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
+                Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
+              </Typography>
+              <Typography component='div' className="footer">
                 Un grand merci à PARDICOLOR qui, par son soutien financier, a aidé les pêcheuses de la province du Sud-Kivu à amplifier leur voix.<br />
               </Typography>
               <div style={{ padding: 5, width: "20%" }}>
@@ -662,10 +673,15 @@ const FRFR = () => {
                     image={Pardicolor}
                     sx={{ objectFit: "contain" }} /></Link>
               </div>
-              <Typography component='div' className="footer1">
-                <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
-                Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
-              </Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            height: '90vh',
+            padding: '1em',
+            alignItems: "center"
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
               <Typography component='div' className="footer2">
                 SOURCES DE CONNAISSANCES<br />
                 <i>Filets et techniques de pêche</i><br />
@@ -677,10 +693,14 @@ const FRFR = () => {
                 <i>Changement climatique et risques environnementaux</i><br />
                 Sylvain MATABARO KULIMUSHI (Bukavu), Toussaint BIBENTYO MUGARUKA (Bukavu), Walère SAHANI MUHINDO (Butembo)<br /><br />
                 <i>Santé publique</i><br />
-                Lumami KAPEPULA (Uvira), Lutili MATESO (Bukavu), Amundala SHEKANI (Uvira), Séverin MUYISA (Bukavu), Théophile NDIKUMANA (Bujumbura, Bénin)
+                Lumami KAPEPULA (Uvira), Lutili MATESO (Bukavu), Amundala SHEKANI (Uvira), Séverin MUYISA (Bukavu), Théophile NDIKUMANA (Bujumbura, Burundi)
               </Typography>
+              <br /><br /><br />
+              <Typography component='div' className="footer1">LANGUES DISPONIBLES<br /></Typography>
+              <Button className="translation" component={Link} to="https://alliancepourlavie.github.io/agathe/#sw-SW">KISWAHILI</Button>
+              <Button className="translation" component={Link} to="https://alliancepourlavie.github.io/agathe/#en-GB">ENGLISH</Button>
+              <Button className="translation" component={Link} to="https://alliancepourlavie.github.io/agathe/#fr-CD">FRANÇAIS</Button>
             </CardContent>
-
           </FullpageSection>
 
 
@@ -689,6 +709,5 @@ const FRFR = () => {
       </Fullpage ></>
   )
 }
-
 
 export default FRFR;

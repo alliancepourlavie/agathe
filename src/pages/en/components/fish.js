@@ -9,15 +9,11 @@ import Gracilior from "../../../data/img/Haplochromis_gracilior.png";
 import Lamprichthys from "../../..//data/img/Lamprichthys_tanganicanus.png";
 import Limnothrissa from "../../..//data/img/Limnothrissa_miodon.png";
 import Niloticus from "../../../data/img/Oreochromis_niloticus.png";
-import Graueri from "../../../data/img/Haplochromis_graueri.png";
 
 
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import Button from '@mui/material/Button';
-import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
@@ -36,39 +32,6 @@ const Fishyes = () => {
         color: theme.palette.text.secondary,
     }));
 
-
-
-    const [open, setOpen] = React.useState(false)
-
-    const handleClick = () => {
-        setOpen(true)
-    }
-
-    const handleClose = (event, reason) => {
-        if (reason === "clickaway") {
-            return
-        }
-
-        setOpen(false)
-    }
-
-    const handleCloseNote = () => setOpen(false);
-
-    const action = (
-        <React.Fragment>
-            <Button color="secondary" size="small" onClick={handleClose}>
-            </Button>
-            <IconButton
-                size="small"
-                aria-label="close"
-                color="inherit"
-                onClick={handleClose}
-            >
-                <CloseIcon fontSize="small" />
-            </IconButton>
-        </React.Fragment>
-    )
-
     return (
         <>
             <Box sx={{ width: '100%' }}>
@@ -83,7 +46,7 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>SAMBAZA<br /><i>Limnothrissa miodon</i><br />
-                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>FM</span>
+                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>GN</span>
                                     <span style={{ backgroundColor: "#2b5f43", padding: 3, WebkitTextFillColor: "#df8f44" }}>MoL</span>
                                     <span style={{ backgroundColor: "#c53c6a", padding: 3, WebkitTextFillColor: "#df8f44" }}>Mo</span>
                                 </Typography>
@@ -100,7 +63,7 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>MSHIA (Tanzania, Swahili)<br /><i>Lamprichthys tanganicanus</i><br />
-                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>FM</span>
+                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>GN</span>
                                     <span style={{ backgroundColor: "#2b5f43", padding: 3, WebkitTextFillColor: "#df8f44" }}>MoL</span>
                                 </Typography>
                             </CardContent>
@@ -116,8 +79,8 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>IGIHONDA, ISAKE (Rwanda, Kinyarwanda)<br /><i>Oreochromis niloticus</i><br />
-                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>SP</span>
-                                    <span style={{ backgroundColor: "#cb4d37", padding: 3 }}>LS</span>
+                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>BS</span>
+                                    <span style={{ backgroundColor: "#cb4d37", padding: 3 }}>SL</span>
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -132,8 +95,8 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom> <br /><i>Oreochromis amphilius</i><br />
-                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>SP</span>
-                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>FM</span>
+                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>BS</span>
+                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>GN</span>
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -148,8 +111,8 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>INDUGU<br /><i>Haplochromis gracilior</i><br />
-                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>SP</span>
-                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>FM</span>
+                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>BS</span>
+                                    <span style={{ backgroundColor: "#df8f44", padding: 3 }}>GN</span>
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -164,7 +127,7 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom> <br /><i>Haplochromis graueri</i><br />
-                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>SP</span>
+                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>BS</span>
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -179,7 +142,7 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>IFURO (Rwanda,Kinyarwanda)<br /><i>Haplochromis astatodon</i><br />
-                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>SP</span>
+                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>BS</span>
                                 </Typography>
                             </CardContent>
                         </Item>
@@ -194,7 +157,7 @@ const Fishyes = () => {
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom> <br /><i>Haplochromis crebridens</i><br />
-                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>SP</span>
+                                    <span style={{ backgroundColor: "#2e2a7a", padding: 3, WebkitTextFillColor: "#df8f44" }}>BS</span>
                                 </Typography>
                             </CardContent>
                         </Item>

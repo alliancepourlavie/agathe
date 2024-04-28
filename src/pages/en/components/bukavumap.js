@@ -26,7 +26,7 @@ const Bukavumap = () => {
 
     return (
 
-        <><div className='maptext'>CARTE DES<br />CONTAMINANTS<br /></div>
+        <><div className='maptext'>MAP OF THE<br />CONTAMINANTS<br /></div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer
@@ -50,7 +50,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconplastic}>
                                 <Popup>
-                                    <p>DÉBRIS DE PLASTIQUE</p>
+                                    <p>PLASTIC DEBRIS</p>
                                 </Popup>
                             </Marker>
                         );
@@ -63,7 +63,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconchemical}>
                                 <Popup>
-                                    <p>CONTAMINANTS CHIMIQUES</p>
+                                    <p>CHEMICAL CONTAMINANTS</p>
                                 </Popup>
                             </Marker>
                         );
@@ -76,7 +76,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconrock}>
                                 <Popup>
-                                    <p>REMBLAYAGE NON AUTORISÉ DE TERRE ET ROCHES</p>
+                                    <p>UNAUTHORISED BACKFILLING OF SOIL AND ROCK</p>
                                 </Popup>
                             </Marker>
                         );
@@ -89,7 +89,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconshit}>
                                 <Popup>
-                                    <p>EAUX USÉES ET MATIÈRES FÉCALES</p>
+                                    <p>WASTE WATER AND FAECES</p>
                                 </Popup>
                             </Marker>
                         );
@@ -119,7 +119,10 @@ const Bukavumap = () => {
                             <Marker
                                 key={index}
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
-                                icon={Iconchemical}>
+                                icon={Iconplastic}>
+                                <Popup>
+                                    <p>PLASTIC DEBRIS</p>
+                                </Popup>
                             </Marker>
                         );
                     })}
@@ -131,7 +134,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconchemical}>
                                 <Popup>
-                                    <p>CONTAMINANTS CHIMIQUES</p>
+                                    <p>CHEMICAL CONTAMINANTS</p>
                                 </Popup>
                             </Marker>
                         );
@@ -144,7 +147,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconrock}>
                                 <Popup>
-                                    <p>REMBLAYAGE NON AUTORISÉ DE TERRE ET ROCHES</p>
+                                    <p>UNAUTHORISED BACKFILLING OF SOIL AND ROCK</p>
                                 </Popup>
                             </Marker>
                         );
@@ -157,7 +160,7 @@ const Bukavumap = () => {
                                 position={L.latLng(feature.geometry.coordinates[1], feature.geometry.coordinates[0])}
                                 icon={Iconshit}>
                                 <Popup>
-                                    <p>EAUX USÉES ET MATIÈRES FÉCALES</p>
+                                    <p>WASTE WATER AND FAECES</p>
                                 </Popup>
                             </Marker>
                         );

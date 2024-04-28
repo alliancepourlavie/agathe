@@ -1,5 +1,5 @@
 import '../../App.css';
-import React, { Component } from "react";
+import React from "react";
 import { Link } from 'react-router-dom';
 import { useLayoutEffect } from 'react';
 
@@ -20,23 +20,23 @@ const ENcarte = () => {
         <>
 
             <Typography component='div' className="title_5" /* style={{fontSize:"0.8rem !important" }} */><br />
-                <Link to="/en-GB" ><br />⇷ Retour à la page d'accueil</Link><br />
+                <Link to="/en-GB" ><br />⇷ Back to main page</Link><br />
             </Typography>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>La carte du lac Kivu d'après les pêcheuses<br /><br />
+                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>Map of Lake Kivu as seen by fisherwomen<br /><br />
                 </Typography>
             </CardContent>
 
 
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="title_3"><br /><br />Nous nous sommes réunis pour dessiner une carte de notre terre ancestrale et des eaux sur lesquelles nous naviguons. Notre objectif était de comprendre quelles sont les adresses les plus importantes pour nous, où sont concentrées les ressources dont dépend notre survie, et comment elles sont reliées et éloignées les unes des autres<br />
+                <Typography component='div' className="title_3"><br /><br />We got together to draw a map of our ancestral land and the waters we navigate. Our aim was to understand which places are most important to us, where the resources on which our survival depends are found, and how they are connected and far apart<br />
                 </Typography>
             </CardContent>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="mutombodescr"><br />Le résultat visible est un réseau de zones de pêche ancestrales insinué entre les îles et les baies du bassin sud du lac Kivu, ponctué par les marchés auxquels nous vendons notre poisson. Autour de nous, nous observons les immenses forêts qui couvrent les collines du bassin du Congo, d'où émergent des volcans, éléments naturels respectés qui nous permettent de nous orienter<br />
+                <Typography component='div' className="mutombodescr"><br />The visible result is a network of ancestral fishing grounds woven between the islands and bays of the southern basin of Lake Kivu, punctuated by the markets where we sell our fish. All around us, we can see the immense forests that cover the hills of the Congo basin, from which volcanoes emerge, natural features that help us to find our bearings<br />
                 </Typography>
             </CardContent>
 

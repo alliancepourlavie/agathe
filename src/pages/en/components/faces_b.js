@@ -63,7 +63,7 @@ const Facesb = () => {
                                     image={Cynthiaimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman CYNTHIA</span><br />Âgé de 43 ans, mère de 14ans<br />Vingt-cinq ans de pêche<br />◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman CYNTHIA</span><br />Age 43, mother of 14<br />Twenty-five years of fishing<br />◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -88,7 +88,7 @@ const Facesb = () => {
                                         image={Cynthiaimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Je suis  la première femme à devenir pêcheuse dans mon petit village côtier du Sud-Kivu. Ouvrant la voie à d’autres femmes, j’ai plus de 25 ans dans ce métier, j’étais inspirée et formée par mon  mari. Je suis une mère de 14 enfants parmi lesquels 9 issus du mariage de mon feu mari. J’ai du mal à les scolariser suite à cette vie de pèche. Quand mon mari est mort  en faisant ce travail qui nourrissait toute la famille, je me suis lancé  dans l’espoir d’y trouver une vie meilleure, je me suis retrouvée sans aucun soutien financier. Je viens d’une communauté traditionnelle de pêcheurs, Ici, ce sont les hommes qui vont en mer et prennent les décisions importantes.  Alors je me suis lancée. J’étais très motivée parce que je voyais que mon mari pêcheur gagnait plus d’argent avant sa mort. Les hommes de ma communauté disaient que je ne pouvais pas pêcher car je suis une femme et que le poisson ne mordrait pas à l’hameçon d’une femme qui a ses règles. Je leur ai répondu que j’étais déjà ménopausée et qu’ils n’avaient donc pas à s’inquiéter de ça. Un jour j’ai décidé d’essayer de manier le filet.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>I am the first woman to become a fisherwoman in my small coastal village in South Kivu. Paving the way for other women, I have been in this profession for over 25 years, inspired and trained by my husband. I am the mother of 14 children, including 9 from my late husband's marriage. I'm finding it hard to send them to school because of my life in the fishing sector. When my husband died doing this work, which was feeding the whole family, I set off in the hope of finding a better life, but I found myself without any financial support. I come from a traditional fishing community, where it's the men who go out on the water and make the important decisions.  So I took the plunge. I was very motivated because I could see that my fisherman husband was earning more money before he died. The men in my community said I couldn't fish because I'm a woman and the fish wouldn't take the bait of a menstruating woman. I told them that I'd already gone through menopause, so they didn't need to worry about that. One day I decided to try my hand at the net.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -107,7 +107,7 @@ const Facesb = () => {
                                     image={Mutomboimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman MUTOMBO</span><br />Âgé de 35 ans, mère de 8ans<br />Dix ans de pêche<br />◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman MUTOMBO</span><br />Age 35, mother of 8<br />Ten years of fishing<br />◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -132,7 +132,7 @@ const Facesb = () => {
                                         image={Mutomboimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Lorsque mon mari est mort, j'ai décidé de me lancer dans la pêche. Je vendais de petits divers mais cela ne me permettait pas de nourrir mes huit enfants et de les scolariser. Maman Cynthia m'a montré comment une femme peut subvenir aux besoins de sa famille malgré la mort ou l'abandon de son mari, sans pour cela livrer son corps à la débauche. Je l'ai fait avec courage, force et sans honte. A la mort de mon mari, j'ai dû rendre les filets à sa famille. Aujourd'hui, je les loue pour pêcher, car je n'ai pas les moyens d'en acheter de meilleurs.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>When my husband died, I decided to go into fishing. I sold small sundries, but that didn't allow me to feed my eight children and send them to school. Maman Cynthia showed me how a woman can provide for her family despite the death or abandonment of her husband, without giving her body over to debauchery. I did it with courage, strength and without shame. When my husband died, I had to return the nets to his family. Now I hire them out to fish, because I can't afford to buy better ones.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -151,7 +151,7 @@ const Facesb = () => {
                                     image={Bintuimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Madame BINTU</span><br />Âgé de 25 ans, mère de 2ans<br />Trois ans de pêche<br /> ◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Madame BINTU</span><br />Age 25, mother of 2<br />Three years of fishing<br /> ◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -176,7 +176,7 @@ const Facesb = () => {
                                         image={Bintuimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Mon mari nous a abandonnés, moi et mes deux enfants. Mes parents sont tous deux morts. J'ai choisi de pêcher pour ne pas avoir à me prostituer. Je peux ainsi nourrir mes enfants et mes deux jeunes sœurs, mais je n'ai pas les moyens de les scolariser.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>My husband abandoned me and my two children. My parents are both dead. I chose to fish so that I wouldn't have to prostitute myself. This way I can feed my children and my two younger sisters, but I can't afford to send them to school.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>

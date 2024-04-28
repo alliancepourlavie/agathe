@@ -43,11 +43,11 @@ const ENdessin = () => {
         <>
 
             <Typography component='div' className="title_5" /* style={{fontSize:"0.8rem !important" }} */><br />
-                <Link to="/en-GB" ><br />⇷ Retour à la page d'accueil</Link><br />
+                <Link to="/en-GB" ><br />⇷ Back to main page</Link><br />
             </Typography>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu<br /><br /><br />
+                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>The lake ecosystem through the eyes and drawings of the daughters and sons of the fisherwomen of Lake Kivu<br /><br /><br />
                 </Typography>
             </CardContent>
 
@@ -158,12 +158,12 @@ const ENdessin = () => {
             </div>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="title_3"><br /><br /><br />Nous avons réuni 24 de nos filles et fils pour un exercice de dessin. En les familiarisant avec la pratique de l'expression artistique, nous les avons sensibilisés à l'importance de la protection de l'environnement lacustre afin d'assurer notre sécurité alimentaire par la pêche<br />
+                <Typography component='div' className="title_3"><br /><br /><br />We gathered together 24 from our daughters and sons to take part in a drawing exercise. By familiarising them with the practice of artistic expression, we made them aware of the importance of protecting the lake environment in order to ensure our food security through fishing<br />
                 </Typography>
             </CardContent>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="mutombodescr"><br />Ses sujets de prédilection sont les poissons, la végétation du littoral et les activités de pêche à bord de pirogues. Pour certains, cette activité de dessin est une initiation artistique. Beaucoup d'entre eux ne sont pas scolarisés car nos moyens sont limités, c'est donc une occasion unique<br />
+                <Typography component='div' className="mutombodescr"><br />Their favourite subjects are fish, coastal vegetation and fishing activities aboard pirogues. For some, this creative activity represents an introduction to the arts. Many of them don't go to school because our financial resources are limited, so this is a unique opportunity for them<br />
                 </Typography>
             </CardContent>
 
