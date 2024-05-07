@@ -24,13 +24,12 @@ import PlantMedicine from "./components/plant_medicine";
 import Child from "../../data/img/cover_child.png";
 import Carte from "../../data/img/cover_carte.png";
 import Pardicolor from "../../data/img/pardicolor.png";
-
-const Basemap = React.lazy(() => import('./components/basemap'));
-const Bukavumap = React.lazy(() => import('./components/bukavumap'));
-const Glissement = React.lazy(() => import('./components/glissement'));
-const Mapillary = React.lazy(() => import('./components/mapillary'));
-const Collective = React.lazy(() => import('./components/collective'));
-const Maman = React.lazy(() => import('./components/maman'));
+import Basemap from "./components/basemap";
+import Bukavumap from "./components/bukavumap";
+import Glissement from "./components/glissement";
+import Mapillary from "./components/mapillary";
+import Collective from "./components/collective";
+import Maman from "./components/maman";
 
 
 const FRFR = () => {
