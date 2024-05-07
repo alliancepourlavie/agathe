@@ -704,9 +704,9 @@ const SWSW = () => {
               </Typography>
               <br /><br /><br />
               <Typography component='div' className="footer1">LANGUES DISPONIBLES<br /></Typography>
-              <Button className="translation"><Link to="https://alliancepourlavie.github.io/agathe/#sw-SW">KISWAHILI</Link></Button>
-              <Button className="translation"><Link to="https://alliancepourlavie.github.io/agathe/#en-GB">ENGLISH</Link></Button>
-              <Button className="translation"><Link to="https://alliancepourlavie.github.io/agathe/#fr-CD">FRANÇAIS</Link></Button>
+              <Button className="translation"><a href="https://alliancepourlavie.github.io/agathe/#sw-SW">KISWAHILI</a></Button>
+              <Button className="translation"><a href="https://alliancepourlavie.github.io/agathe/#en-GB">ENGLISH</a></Button>
+              <Button className="translation"><a href="https://alliancepourlavie.github.io/agathe/#fr-CD">FRANÇAIS</a></Button>
             </CardContent>
           </FullpageSection>
 
