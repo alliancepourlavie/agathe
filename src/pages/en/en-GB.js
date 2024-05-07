@@ -219,14 +219,14 @@ const ENEN = () => {
             </FullpageSection>
           </div>
 
-          <div className="notepad">
+          {/* <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
               padding: '1em',
             }}>
               <Pirogue />
             </FullpageSection>
-          </div>
+          </div> */}
 
           <FullpageSection style={{
             height: '60vh',
