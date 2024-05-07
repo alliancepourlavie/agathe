@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/agathe/static/css/main.f897f422.css",
-    "main.js": "/agathe/static/js/main.89342531.js",
+    "main.js": "/agathe/static/js/main.b70133f7.js",
     "reactPlayerYouTube.js": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js",
     "reactPlayerSoundCloud.js": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js",
     "reactPlayerVimeo.js": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js",
@@ -109,7 +109,7 @@
     "index.html": "/agathe/index.html",
     "static/media/canoe.svg": "/agathe/static/media/canoe.6152f168944615e17192cdd925c87847.svg",
     "main.f897f422.css.map": "/agathe/static/css/main.f897f422.css.map",
-    "main.89342531.js.map": "/agathe/static/js/main.89342531.js.map",
+    "main.b70133f7.js.map": "/agathe/static/js/main.b70133f7.js.map",
     "reactPlayerYouTube.525d3881.chunk.js.map": "/agathe/static/js/reactPlayerYouTube.525d3881.chunk.js.map",
     "reactPlayerSoundCloud.c0d33c3a.chunk.js.map": "/agathe/static/js/reactPlayerSoundCloud.c0d33c3a.chunk.js.map",
     "reactPlayerVimeo.8b9aff1f.chunk.js.map": "/agathe/static/js/reactPlayerVimeo.8b9aff1f.chunk.js.map",
@@ -145,6 +145,6 @@
   },
   "entrypoints": [
     "static/css/main.f897f422.css",
-    "static/js/main.89342531.js"
+    "static/js/main.b70133f7.js"
   ]
 }
