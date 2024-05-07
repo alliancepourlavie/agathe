@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/980.d5b20794.chunk.css","mappings":"AAAA,6CACI,sBACJ","sources":["pages/sw/components/basemap.css"],"sourcesContent":[".leaflet-control-attribution.leaflet-control {\r\n    display: none !important;\r\n}"],"names":[],"sourceRoot":""}
