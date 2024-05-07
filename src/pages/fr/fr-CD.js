@@ -697,9 +697,9 @@ const FRFR = () => {
               </Typography>
               <br /><br /><br />
               <Typography component='div' className="footer1">LANGUES DISPONIBLES<br /></Typography>
-              <Button className="translation" component={Link} to="https://alliancepourlavie.github.io/agathe/#sw-SW">KISWAHILI</Button>
-              <Button className="translation" component={Link} to="https://alliancepourlavie.github.io/agathe/#en-GB">ENGLISH</Button>
-              <Button className="translation" component={Link} to="https://alliancepourlavie.github.io/agathe/#fr-CD">FRANÇAIS</Button>
+              <Button className="translation"><Link to="https://alliancepourlavie.github.io/agathe/#sw-SW">KISWAHILI</Link></Button>
+              <Button className="translation"><Link to="https://alliancepourlavie.github.io/agathe/#en-GB">ENGLISH</Link></Button>
+              <Button className="translation"><Link to="https://alliancepourlavie.github.io/agathe/#fr-CD">FRANÇAIS</Link></Button>
             </CardContent>
           </FullpageSection>
 
