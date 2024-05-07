@@ -24,19 +24,19 @@ const SWcarte = () => {
             </Typography>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>La carte du lac Kivu d'après les pêcheuses<br /><br />
+                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>RAMANI YA ZIWA KIVU KWA MUJIBU WA WAVUVI<br /><br />
                 </Typography>
             </CardContent>
 
 
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="title_3"><br /><br />Nous nous sommes réunis pour dessiner une carte de notre terre ancestrale et des eaux sur lesquelles nous naviguons. Notre objectif était de comprendre quelles sont les adresses les plus importantes pour nous, où sont concentrées les ressources dont dépend notre survie, et comment elles sont reliées et éloignées les unes des autres<br />
+                <Typography component='div' className="title_3"><br /><br />Tulikusanyika ili kuchora ramani ya ardhi ya mababu zetu na maji tunayopitia. .lengo letu lilikuwa kuelewa ni anwani zipi ambazo ni muhimu zaidi kwetu, ambapo rasilimali ambazo kuishi kwetu kunategemea zimejilimbikizia, na jinsi zinavyounganishwa na kutengwa kutoka kwa kila mmoja<br />
                 </Typography>
             </CardContent>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="mutombodescr"><br />Le résultat visible est un réseau de zones de pêche ancestrales insinué entre les îles et les baies du bassin sud du lac Kivu, ponctué par les marchés auxquels nous vendons notre poisson. Autour de nous, nous observons les immenses forêts qui couvrent les collines du bassin du Congo, d'où émergent des volcans, éléments naturels respectés qui nous permettent de nous orienter<br />
+                <Typography component='div' className="mutombodescr"><br />Matokeo yanayoonekana ni mtandao wa maeneo ya uvuvi wa mababu uliosingiziwa kati ya visiwa na ghuba za bonde la kusini la Ziwa Kivu, zilizoangaziwa na masoko ambayo tunauza samaki wetu. karibu nasi, tunaona misitu mikubwa inayofunika vilima vya bonde la Kongo, ambamo volkano hutoka, vitu vya asili vinavyoheshimiwa ambavyo huturuhusukujielekezawenyewe<br />
                 </Typography>
             </CardContent>
 

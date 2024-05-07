@@ -26,7 +26,7 @@ const Basemap = () => {
 
     return (
 
-        <><div className='maptext'>KADUTU ET BAGIRA<br />SITES DE DEBARQUEMENT<br /></div>
+        <><div className='maptext'>VIWANJA VYA KUTUA<br />KADUTU NA BAGIRA<br /></div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer

@@ -148,7 +148,7 @@ const FRFR = () => {
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
                 <div style={{ padding: 10, width: "40%" }}>
-                  <Link to="/sw-SW-carte">
+                  <Link to="/fr-CD-carte">
                     <CardMedia
                       className='pirogueimg'
                       component="img"
@@ -157,10 +157,10 @@ const FRFR = () => {
                       image={Carte}
                       sx={{ objectFit: "contain" }} /></Link>
                 </div>
-                <Typography component='div' className="title_3"><br /><Link to="/sw-SW-carte">Nous avons dessiné collectivement une carte pour expliquer où nous vivons et quels sont les endroits les plus importants pour nous, les pêcheuses</Link><br />
+                <Typography component='div' className="title_3"><br /><Link to="/fr-CD-carte">Nous avons dessiné collectivement une carte pour expliquer où nous vivons et quels sont les endroits les plus importants pour nous, les pêcheuses</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
-                  <Link to="/sw-SW-carte">En savoir plus⇸</Link><br />
+                  <Link to="/fr-CD-carte">En savoir plus⇸</Link><br />
                 </Typography>
               </CardContent>
             </FullpageSection>
@@ -220,14 +220,14 @@ const FRFR = () => {
             </FullpageSection>
           </div>
 
-          <div className="notepad">
+          {/* <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
               padding: '1em',
             }}>
               <Pirogue />
             </FullpageSection>
-          </div>
+          </div> */}
 
           <FullpageSection style={{
             height: '60vh',
@@ -334,7 +334,7 @@ const FRFR = () => {
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
                 <div style={{ padding: 10, width: "50%" }}>
-                  <Link to="/sw-SW-dessin">
+                  <Link to="/fr-CD-dessin">
                     <CardMedia
                       className='pirogueimg'
                       component="img"
@@ -343,10 +343,10 @@ const FRFR = () => {
                       image={Child}
                       sx={{ objectFit: "contain" }} /></Link>
                 </div>
-                <Typography component='div' className="title_3"><Link to="/sw-SW-dessin">Afin de construire une mémoire du lac et de ses espèces vivantes, nous avons demandé à nos filles et fils de les représenter dans le but de les sensibiliser à l'importance de la préservation de l'écosystème pour assurer la survie de la pêche coutumière en tant que moyen de subsistance</Link><br />
+                <Typography component='div' className="title_3"><Link to="/fr-CD-dessin">Afin de construire une mémoire du lac et de ses espèces vivantes, nous avons demandé à nos filles et fils de les représenter dans le but de les sensibiliser à l'importance de la préservation de l'écosystème pour assurer la survie de la pêche coutumière en tant que moyen de subsistance</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
-                  <Link to="/sw-SW-dessin">En savoir plus⇸</Link><br />
+                  <Link to="/fr-CD-dessin">En savoir plus⇸</Link><br />
                 </Typography>
               </CardContent>
             </FullpageSection>

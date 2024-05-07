@@ -67,7 +67,7 @@ const PlantsB = () => {
 
     return (
         <>
-            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">PATRIMOINE BIOLOGIQUE IDENTIFIABLE AUTOUR DES SITES DE DÉBARQUEMENT DE KADUTU ET BAGIRA</Typography>
+            <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">URITHI WA KIBIOLOJIA UNAOTAMBULIKA KUZUNGUKA MAENEO YA KUTUA YA KADUTU NA BAGIRA</Typography>
 
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>

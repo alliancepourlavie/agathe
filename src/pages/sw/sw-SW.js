@@ -85,7 +85,7 @@ const SWSW = () => {
               padding: '1em',
             }}>
               <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br />LA MATRIARCHE AU DESSUS DE L'EAU<br /><br /><br /></Typography>
+                <Typography component='div' className="agathe" sx={{ mt: 2 }}>AGATHE,<br /> MATRIARCH JUU YA MAJI<br /><br /><br /></Typography>
               </CardContent>
             </FullpageSection>
           </div>
@@ -99,7 +99,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3"><br />Je m'appelle Agathe et je suis l'une des matriarches du lac Kivu, en République Démocratique du Congo.<br />Je suis partie pêcher pour nourrir mes huit enfants. J'ai acquis le savoir ancestral des pêcheurs coutumiers et je l'ai transmis à un groupe de femmes qui, comme moi, se sont retrouvées dans l'incapacité de subvenir aux besoins de leur famille<br />
+              <Typography component='div' className="title_3"><br />Jina langu ni Agathe na mimi ni mmoja wa mababa wa Ziwa Kivu, katika Jamhuri ya Kidemokrasia ya Kongo.<br />Nilienda kuvua samaki ili kulisha watoto wangu wanane. Nilipata ujuzi wa mababu kutoka kwa wavuvi wa kitamaduni na kuupitisha kwa kikundi cha wanawake ambao, kama mimi, walijikuta hawawezi kutunza familia zao<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -110,7 +110,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3"><br />Nous nous sommes unis pour relever les défis. Ne parlez pas de pêche coutumière et artisanale au lac Kivu sans nous, les courageuses pêcheuses qui se battent pour leur autonomisation dans un environnement à majorité masculine qui nous invisibilise<br />
+              <Typography component='div' className="title_3"><br />Tulikuja pamoja ili kukabiliana na changamoto. usizungumzie uvuvi wa kimila na kienyeji katika Ziwa Kivu bila sisi wavuvi jasiri wanaopigania uwezeshaji wao katika mazingira ya wanaume wengi ambayo yanatufanya tusionekane<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -134,7 +134,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3"><br />En prenant le bateau de Goma à Bukavu, laissant l'île d'Idjwi sur la gauche, vous pouvez voir certaines d'entre nous pêcher dans les eaux et sur les rives des baies méridionales du lac Kivu, dans de petits villages aussi proches de la ville<br />
+              <Typography component='div' className="title_3"><br />Ukichukua mashua kutoka Goma hadi Bukavu, ukiacha kisiwa cha Idjwi upande wa kushoto, unaweza kuona baadhi yetu tukivua samaki kwenye maji na kwenye mwambao wa ghuba za kusini za Ziwa Kivu, katika vijiji vidogo karibu na jiji<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -158,7 +158,7 @@ const SWSW = () => {
                       image={Carte}
                       sx={{ objectFit: "contain" }} /></Link>
                 </div>
-                <Typography component='div' className="title_3"><br /><Link to="/sw-SW-carte">Nous avons dessiné collectivement une carte pour expliquer où nous vivons et quels sont les endroits les plus importants pour nous, les pêcheuses</Link><br />
+                <Typography component='div' className="title_3"><br /><Link to="/sw-SW-carte">Kwa pamoja tulichora ramani kueleza tunapoishi na ni maeneo gani muhimu kwetu sisi wavuvi</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
                   <Link to="/sw-SW-carte">En savoir plus⇸</Link><br />
@@ -175,7 +175,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Nous louons des pirogues et des filets pour les sorties de pêche, car aucun d'entre nous ne possède l' équipement requis. Nous pêchons généralement à la senne de plage à partir de l'aube, dans les zones littorales des petites péninsules autour de Bagira et de Kadutu<br />
+              <Typography component='div' className="title_3">Tuna kopeshaka mitubwi nama fillet kwaku fanya kazi yetu ya uvuvikwania kuna kati yetu mwenyianakuwaka na filet. Tuna vuwa kwa jumla magaribi kando la bahari ya bagira pa Bukavu<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -188,7 +188,7 @@ const SWSW = () => {
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>LES ENGINS ET TECHNIQUES DE PÊCHE<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>VIFAHA NAMA MBINU ZA UVUVI<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -207,7 +207,7 @@ const SWSW = () => {
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>ZONES DE PÊCHE ET SITES DE DÉBARQUEMENT<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>MAENEO YA UVUVI NA MAENEO YA KUTUA<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -223,14 +223,14 @@ const SWSW = () => {
             </Suspense>
           </div>
 
-          <div className="notepad">
+          {/* <div className="notepad">
             <FullpageSection style={{
               height: '90vh',
               padding: '1em',
             }}>
               <Pirogue />
             </FullpageSection>
-          </div>
+          </div> */}
 
           <FullpageSection style={{
             height: '60vh',
@@ -238,19 +238,19 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">En tant que pêcheuses coutumière<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+              <Typography component='div' className="title_3">Kama wavuvi wa kitamaduni<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="Une unité de pêche coutumière est définie au Congo a comme une pirogue utilisant les engins traditionnels incluant la senne de plage ou des filets dormants dont la longueur combinée n'excède pas 1.000m ou un Lusenga (cadre en bois supportant le filet moustiquaire). Au Congo un pêcheur “Individuel” qui n'utilise pas une pirogue est aussi reconnu"
-                  action={action} />, nous payons régulièrement un permis de pêche annuel<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+                  action={action} />, tunalipia mara kwa mara leseni ya uvuvi ya kila mwaka<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="Le coût du permis varie en fonction de la catégorie de pêche dont les trois principales sont: la pêche au filet maillant, la pêche au filet carrelet et la pêche à la senne de plage. Pour les autres engins de pêche, le coût est relativement moindre et très variable"
-                  action={action} />, qui est subordonné à l'appartenance à une association de pêche. Dans notre cas, l'Association pour le Développement des Pécheurs Analphabètes du Sud Kivu<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+                  action={action} />, ambayo inategemea uanachama katika chama cha wavuvi. Kwa upande wetu, Chama cha Maendeleo ya Wavuvi Wasiojua Kusoma na Kuandika wa Kivu Kusini<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -280,13 +280,13 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Notre lac est pauvre en abondance et en diversité de la faune ichtyologique. Il n'y a même pas 30 espèces, dont beaucoup ont été introduites au siècle dernier pour tenter de créer une industrie de la pêche répondant aux besoins locaux et régionaux<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+              <Typography component='div' className="title_3">Ziwa letu ni duni kwa wingi na utofauti wa wanyama wa samaki. Hakuna hata spishi 30, ambazo nyingi zilianzishwa katika karne iliyopita katika jaribio la kuunda tasnia ya uvuvi ambayo ilikidhi mahitaji ya ndani na ya kikanda<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="La diversité des poissons est intrinsèquement liée à l'histoire géologique du lac. Le lac a connu des événements hydrothermaux qui ont eu de graves conséquences sur son écosystème et donc sur la faune piscicole. Entre le nord et le sud, il y a une différence dans la répartition des poissons qui rappelle la différence de paysage entre les deux parties du lac. Le nord est recouvert d'un substrat rocheux qui favorise une grande diversité d'espèces. La partie sud, où nous nous trouvons, est peuplée de macrophytes et la rive est couverte de manière irrégulière d'habitats rocheux abritant également une grande diversité de poissons là où la végétation riveraine n'a pas été défrichée et loin des centres habités. En outre, la partie nord est plus intacte que la partie sud."
-                  action={action} />. De plus, les captures diminuent en raison de la perte d'habitat due aux activités humaines dans les zones littorales et de phénomènes récents tels que l'expansion de la pisciculture en cage<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+                  action={action} />. Zaidi ya hayo, samaki wanaovuliwa wanapungua kutokana na upotevu wa makazi kutokana na shughuli za kibinadamu katika maeneo ya pwani na matukio ya hivi karibuni kama vile upanuzi wa ufugaji wa samaki kwenyengome<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -302,7 +302,7 @@ const SWSW = () => {
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>LISTE DES POISSONS RENCONTRÉS SUR LES CÔTES DE BAGIRA ET KADUTU<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>ORODHA YA SAMAKI WALIOPATIKANA PWANI ZA BAGIRA NA KADUTU<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -346,7 +346,7 @@ const SWSW = () => {
                       image={Child}
                       sx={{ objectFit: "contain" }} /></Link>
                 </div>
-                <Typography component='div' className="title_3"><Link to="/sw-SW-dessin">Afin de construire une mémoire du lac et de ses espèces vivantes, nous avons demandé à nos filles et fils de les représenter dans le but de les sensibiliser à l'importance de la préservation de l'écosystème pour assurer la survie de la pêche coutumière en tant que moyen de subsistance</Link><br />
+                <Typography component='div' className="title_3"><Link to="/sw-SW-dessin">Ili kujenga kumbukumbu ya ziwa na viumbe hai wake, tuliwaomba mabinti zetu na wana wetu wa kiume kuwawakilisha ili kuwafahamisha umuhimu wa kuhifadhi mazingira ili kuhakikisha uhai wa uvuvi wa kimila kama njia ya kujikimu</Link><br />
                 </Typography>
                 <Typography component='div' className="title_5" ><br />
                   <Link to="/sw-SW-dessin">En savoir plus⇸</Link><br />
@@ -365,7 +365,7 @@ const SWSW = () => {
             padding: '1em',
           }}>
             <CardContent className="boxpostit" >
-              <Typography component='div' className="postit" sx={{ mt: 2 }}>NOS HISTOIRES<br />
+              <Typography component='div' className="postit" sx={{ mt: 2 }}>HADITHIZETU<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -387,7 +387,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3"><br />Maman Agathe et Maman Cynthia nous ont appris qu'en tant que femmes, nous pouvons vivre de la pêche, en toute autonomie, contre tous les tabous et la stigmatisation sociale. Nous sommes confrontées à des difficultés financières, à un équipement inadéquat, mais nous nous battons pour subvenir aux besoins de nos familles par la pêche<br />
+              <Typography component='div' className="title_3"><br />Maman Agathe na Maman Cynthia walitufundisha kwamba kama wanawake, tunaweza kujikimu kutokana na uvuvi, kwa uhuru kamili, dhidi ya miiko yote na unyanyapaa wa kijamii. tunakabiliwa na matatizo ya kifedha, vifaa duni, lakini tunapambana ili kuhudumia familia zetu kupitia uvuvi<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -418,7 +418,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Nos mamans nous ont appris que pour pêcher, il faut prendre soin des eaux et des rives du lac. Sinon, nous n'aurons plus de poissons<br />
+              <Typography component='div' className="title_3">Mama zetu walitufundisha kwamba ili kuvua samaki, lazima utunze maji na mwambao wa ziwa. vinginevyo hatutakuwa na samaki tena<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -458,7 +458,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Nous connaissons le rôle des plantes émergentes pour la propagation des poissons dans les zones de reproduction, nous surveillons les zones de surreproduction des plantes submergées telles que <i>Hydrilla verticillata</i> en les éliminant lorsqu'elles couvrent la surface de l'eau, nous nettoyons les banques des débris de plastique et des déchets, nous surveillons l'eau en rapportant la présence de sources de contamination<br />
+              <Typography component='div' className="title_3">Tunajua jukumu la mimea inayochipuka kwa kuenea kwa samaki katika maeneo ya kuzaliana, tunafuatilia maeneo ya kuzaliana kupita kiasi kwa mimea iliyo chini ya maji kama vile Hydrilla verticillata kuiondoa inapofunika uso wa maji, tunaisafishabenki za uchafu wa plastiki na taka, tunafuatilia maji kwa kuripoti uwepo wa vyanzo vya uchafuzi<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -469,19 +469,19 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Il en va de notre santé et de celle des poissons. En l'absence de système d'assainissement, les habitations, les marchés et les établissements industriels qui donnent sur le lac<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+              <Typography component='div' className="title_3">Afya zetu na za samaki ziko hatarini. Kwa kukosekana kwa mfumo wa usafi wa mazingira, nyumba, soko na viwanda vinavyoangalia ziwa hutiririsha maji yao machafu moja kwa moja ndani yake<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="L'ordonnance n° 40/013/BUR/BKV/2006 du 5 février 2006 relative à la protection des berges de la rive de Bukavu stipule qu'il est interdit de bâtir à moins de 10 mètres de la berge. Et qu'il est interdit le remblayage par sac, boue, fer; clôture, bois ou planche et par la terre dans le littoral du lac Kivu. Ce qui se produit régulièrement autour des sites de débarquement et dans les zones où nous pêchons."
-                  action={action} /> y déversent directement leurs eaux usées, ainsi que des déchets toxiques, solides, liquides et domestiques. Le lac est exploité par la population locale en raison de l'accès limité à l'eau<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
+                  action={action} />, pamoja na taka zenye sumu, ngumu, kioevu na za nyumbani. Ziwa linatumiwa na wenyeji kutokana na upatikanaji mdogo wa maji ya kufulia na kuosha vyombo<Button onClick={handleClick} className="snack" ><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="La direction régionale de la Régie de distribution d'eau (REGIDESO) au Sud-Kivu a annoncé qu'elle avait besoin de 1,5 million USD pour résoudre la pénurie d'eau dans la ville de Bukavu et ses environs. L’usine de traitement d’eau située à Murhundu existe depuis 1950, conçue pour desservir 6 millions d’habitants de la ville de Bukavu. A ce jour, elle dessert à peu près 20 millions d’habitants. Et le manque d'eau potable a des conséquences sur la qualité de l'eau du lac, qui est utilisée pour tous les usages domestiques. Il est alarmant de constater que les cas de noyade de femmes et d'enfants se multiplient et qu'ils surviennent précisément au moment des interruptions de service."
-                  action={action} /> pour la lessive et la vaisselle, ainsi que pour d'autres fonctions domestiques, devenant ainsi un problème de santé publique<br />
+                  action={action} />, pamoja na kazi nyingine za nyumbani, hivyo kuwa tatizo la afya ya umma<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -501,7 +501,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les maladies hydriques se propagent rapidement. Le paludisme, les maux de ventre, les démangeaisons, la gale, la fièvre typhoïde, la dysenterie amibienne, les vers intestinaux, le choléra. À ces maladies s'ajoutent celles qui sont typiquement liées au secteur de la pêche, comme les hernies dues au soulèvement de charges et d'équipements et les infections dues au contact physique permanent avec l'eau et les matières organiques<br />
+              <Typography component='div' className="title_3">Magonjwa yanayotokana na maji yanaenea haraka. malaria, tumbo kuumwa, kuwasha, kipele, homa ya matumbo, kuhara damu, minyoo ya matumbo, kipindupindu. magonjwa haya yanaongezwa yale ambayo kwa kawaida yanahusishwa na sekta ya uvuvi, kama vile ngiri kutokana na kunyanyua mizigo na vifaa na maambukizo kutokana na mguso wa kudumu wa maji na viumbe hai<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -512,7 +512,7 @@ const SWSW = () => {
             alignItems: "center",
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les sites d'atterrissage de Bagira et Kadutu, qui se trouvent près des embouchures des rivières Wesha et Tshula, sont, pour des raisons géomorphologiques et hydrauliques, des points d'accumulation des déchets et débris. Périodiquement nettoyons la baie en les ramassant avec nos filets, à la manière d'une pêche à la senne de plage<br /><br />
+              <Typography component='div' className="title_3">Maeneo ya kutua ya Bagira na Kadutu, ambayo yapo karibu na midomo ya mito ya Wesha na Tsula, kwa sababu ya kijiografia na majimaji, ni sehemu za mkusanyiko wa taka na uchafu. mara kwa mara safisha ghuba kwa kuzikusanya kwa nyavu zetu, kama vile uvuvi wa samaki aina ya beach seine<br /><br />
               </Typography>
             </CardContent>
             <div style={{ display: "flex" }}><ReactPlayer
@@ -551,7 +551,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les conduites de distribution d'eau et les lignes électriques du site de débarquement de Kadutu sont menacées par les risques de glissements dans le bassin versant de la rivière Wesha. Les versants bordant le lac sont déjà connus pour les risques hydrogéologiques et les accidents graves dus aux glissements, mais avec l'intensification de la présence humaine depuis 1950 et les effets du changement climatique avec des précipitations d'une ampleur et d'une intensité exceptionnelles, les risques s'accroissent<Button onClick={handleClick} className="snack" ><u>MAP</u></Button>
+              <Typography component='div' className="title_3">Mabomba ya kusambaza maji na njia za umeme katika eneo la kutua la Kadutu yanatishiwa na hatari ya maporomoko ya ardhi katika vyanzo vya Mto Wesha. miteremko inayopakana na ziwa tayari inajulikana kwa hatari za kijiolojia na ajali mbaya kutokana na maporomoko ya ardhi, lakini kwa kuongezeka kwa uwepo wa binadamu tangu 1950 na athari za mabadiliko ya hali ya hewa kwa mvua ya ukubwa na nguvu ya kipekee,hatari zinaongezeka<Button onClick={handleClick} className="snack" ><u>RAMANI</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
@@ -586,7 +586,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3"><br />Les sites de débarquement et les marchés sont dotés d'installations sanitaires inadéquates et insuffisantes. Les pénuries d'eau et le manque de moyens rendent la situation sanitaire critique. L'hygiène pendant la période menstruelle reste un véritable défi. Les femmes s'exposent à de nombreux risques d'infections urogénitales potentiellement mortelles. Ce sont des organisations comme l'<i>Alliance pour la Vie</i> qui nous fournissent des kits de dignité et des notions d'hygiène menstruelle<br />
+              <Typography component='div' className="title_3"><br />Maeneo ya kutua na masoko yana vifaa duni vya usafi wa mazingira na havitoshi. Uhaba wa maji na ukosefu wa rasilimali hufanya hali ya afya kuwa mbaya. usafi wakati wa kipindi cha hedhi bado ni changamoto halisi. Wanawake wako katika hatari kubwa ya kuhatarisha maisha ya maambukizo ya urogenital. Ni mashirika kama Alliance for Life ambayo hutupa vifaa vya heshima na dhana za usafi wa hedhi<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -597,13 +597,13 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">"Les poissons ne mordent pas à l'hameçon des femmes en période menstruelle". Cette forme de stigmatisation, ainsi que les autres sources de stigmatisation fondées sur le genre<Button onClick={handleClick} className="snack"><u>⎈</u></Button>
+              <Typography component='div' className="title_3">"Samaki hawachukui chambo cha wanawake walio na hedhi."Aina hii ya unyanyapaa, pamoja na vyanzo vingine vya unyanyapaa unaozingatia jinsia<Button onClick={handleClick} className="snack"><u>⎈</u></Button>
                 <Snackbar
                   open={open}
                   autoHideDuration={250000}
                   onClose={handleCloseNote}
                   message="Comme toutes les considérations culturelles liées à certaines coutumes rétrogrades, en particulier le mariage précoce et le mariage par rapt, l'obligation de supporter la charge financière de la famille, le refus de la belle-famille d'hériter d'une partie de la succession du mari, les accusations de sorcellerie à l'encontre des veuves."
-                  action={action} />, souvent défendue et promue par les autorités locales, militaires et coutumières, sont l'une des causes du harcèlement quotidien dont nous sommes victimes. Tracasseries maritimes entraînant le vol de filets, ce qui signifie ne pas subvenir aux besoins de nos familles<br />
+                  action={action} />, ambayo mara nyingi hutetewa na kukuzwa na mamlaka za mitaa, kijeshi na kimila, ni moja ya sababu za unyanyasaji wa kila siku ambao sisi ni waathirika. unyanyasaji wa baharini unaosababisha wizi wa vyandarua, maana yake kutozihudumia familia zetu<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -626,7 +626,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Les risques et les cas de violence physique, économique et psychologique prolifèrent sur nos corps féminins, au site de débarquement (entre pillages, viols, vols, destructions méchantes, tueries), au marché (où des taxes illégales sont imposées, l'insalubrité est rampante, et peut manquer des places), sur les routes qui nous ramènent à nos abris (où l'extorsion et la violence physique se produisent aux barrières illégales), aux points de distribution d'eau (où l'accès requiert un long trajet, souffrant de l'insuffisance des contenants et du risque d'être volées et violées), et à l'intérieur de nos maisons où nous avons déjà souffert de violence domestique<br />
+              <Typography component='div' className="title_3">Hatari na kesi za unyanyasaji wa kimwili, kiuchumi na kisaikolojia huongezeka kwa miili yetu ya wanawake, kwenye tovuti ya kutua (kati ya uporaji, ubakaji, wizi, uharibifu mbaya, mauaji), sokoni (ambapo ushuru haramu hutolewa, hali zisizo za usafi zinatambaa; na inaweza kukosamaeneo), kwenye barabara zinazoturudisha kwenye makazi yetu (ambapo unyang'anyi na unyanyasaji wa kimwili hutokea kwenye vizuizi visivyo halali), kwenye vituo vya kusambaza maji (ambapo ufikiaji unahitaji safari ndefu, kuteseka kwa vyombo vya kutosha na hatari ya kuibiwa na kukiukwa) , na kwandani ya nyumba zetu ambapo tayari tumekumbwa na unyanyasaji wa nyumbani<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -637,7 +637,7 @@ const SWSW = () => {
             alignItems: "center"
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Pour nous, être en sécurité signifie vivre en paix, circuler librement partout sans être inquiétée par qui que ce soit et être écouté, c'est-à-dire exprimer nos opinions et être consultés lorsque des décisions sont prises au sein de la famille et de la communauté. Être en sécurité signifie être en mesure de nourrir nos filles et nos fils, les scolariser et les soigner au besoin. Être en sécurité, signifie être en mesure d'accéder aux droits économiques (hériter, acheter, posséder), sociaux et culturels interdites sur la base du genre. Des organisations comme l'<i>Alliance pour la Vie</i> nous offrent un espace de dialogue où nous pouvons construire notre sécurité collective<br />
+              <Typography component='div' className="title_3">Kwetu sisi kuwa salama maana yake ni kuishi kwa amani, kutembea kwa uhuru kila mahali bila kusumbuliwa na mtu yeyote na kusikilizwa, yaani kutoa maoni yetu na kushauriwa wakati maamuzi yanapotolewa ndani ya familia na kutoka katika jamii. Kuwa salama kunamaanisha kuweza kulisha binti zetu na wana wetu, kuwaelimisha na kuwatunza inapohitajika. Kuwa salama kunamaanisha kuwa na uwezo wa kupata haki za kiuchumi (kurithi, kununua, kumiliki), kijamii na kitamaduni zilizopigwa marufuku kwa misingi ya jinsia. mashirika kama vile Alliance for Life hutupatia nafasi ya mazungumzo ambapo tunaweza kujenga usalama wetu wa pamoja<br />
               </Typography>
             </CardContent>
           </FullpageSection>
@@ -651,24 +651,24 @@ const SWSW = () => {
           }}>
             <hr></hr>
             <CardContent sx={{ maxWidth: 800 }}>
-              <Typography component='div' className="title_3">Continuez à nous écouter, soutenez nos actions, aidez-nous à réaliser nos rêves<br />
+              <Typography component='div' className="title_3">Endelea kutusikiliza, kuunga mkono matendo yetu, kutusaidia kutimiza ndotozetu<br />
               </Typography>
               <hr></hr>
             </CardContent>
             <CardContent sx={{ maxWidth: 630 }}>
               <Typography component='div' className="footer">
-                « Agathe, la matriarche au dessus de l'eau » est un projet réalisé par ALLIANCE POUR LA VIE ASBL à partir d'un concept de Rosine NSIMIRE HAMULI et Alessandro MUSETTA. Cette histoire multimédia a été créée entre janvier et avril 2024 pour l'autodétermination, l'écoute et l'apprentissage par des pêcheuses des sites de débarquement de Kadutu et Bagira, dans la province du Sud-Kivu, en RDC.<br /><br />
+                « Agathe, matriarch juu ya maji » ni mradi unaofanywa na ALLIANCE POUR LA VIE ASBL kulingana na dhana ya Rosine NSIMIRE HAMULI na Alessandro MUSETTA. Hadithi hii ya medianuwai iliundwa kati ya Januari na Aprili 2024 kwa ajili ya kujitawala, kusikiliza na kujifunza na wanawake wavuvi kutoka maeneo ya kutua ya Kadutu na Bagira, katika jimbo la Kivu Kusini, DRC.<br /><br />
               </Typography>
               <Typography component='div' className="footer1" >
                 <br />Contact<br />
                 <Link to="mailto:alliancevie.rdc@gmail.com" >alliancevie.rdc@gmail.com</Link>
               </Typography>
               <Typography component='div' className="footer1">
-                <br /> ÉQUIPE de l'ALLIANCE pour la VIE ASBL<br />
+                <br />ALLIANCE pour la VIE ASBL TIMU<br />
                 Alice KAMWENGE, Regina Sifa NKUNZIMWAMI, Dieudonné MANGO<br /><br />
               </Typography>
               <Typography component='div' className="footer">
-                Un grand merci à PARDICOLOR qui, par son soutien financier, a aidé les pêcheuses de la province du Sud-Kivu à amplifier leur voix.<br />
+                Shukrani kubwa kwa PARDICOLOR ambayo, kupitia msaada wake wa kifedha, ilisaidia wavuvi wa jimbo la Kivu Kusini kuongeza sauti zao.<br />
               </Typography>
               <div style={{ padding: 5, width: "20%" }}>
                 <Link to="https://www.pardicolor.org/">
@@ -690,16 +690,16 @@ const SWSW = () => {
           }}>
             <CardContent sx={{ maxWidth: 800 }}>
               <Typography component='div' className="footer2">
-                SOURCES DE CONNAISSANCES<br />
-                <i>Filets et techniques de pêche</i><br />
+                VYANZO VYA MAARIFA<br />
+                <i>Nyavu na mbinu za uvuvi</i><br />
                 Désiré AKONKWA BALAGIZI (Bukavu), Simon AHOUANSOU MONTCHO (Kétou, Bénin), Muderhwa NSHOMBO (Uvira), Philippe LALÈYÈ (Cotonou, Bénin)<br /><br />
-                <i>Écologie du lac Kivu</i><br />
+                <i>Ikolojia ya Ziwa Kivu</i><br />
                 Boniface KANINGINI (Bukavu), Pascal MASILYA (Butare, Rwanda), Laetitia NYINA-WAMWIZA (Butare, Rwanda), Tête BAKENGULA MUCHINDIGIRI (Bukavu), Jean Augustin RUBABURA (Bukavu), Lagrisi NDATABAYE (Bukavu), Théophile NGOTULY MANA (Bukavu), Benjamin NCANGU BAHINDWA (Bukavu), Aganze BIRHAHEKA (Bukavu), Isaac AHANA MUNGU MAKELELE (Bukavu), Gérard IMANI (Bukavu), Kaliza TCHANGABOBA (Bukavu), Désiré AKONKWA BALAGIZI (Bukavu), Lushombo MATABARO (Bukavu), Lina ALEKE (Bukavu), Mbalassa MULONGAIBALU (Bukavu), Nshombo MUDERHWA (Bukavu)<br /><br />
-                <i>Pollution et contamination des eaux du lac Kivu</i><br />
+                <i>Uchafuzi na uchafuzi wa maji ya Ziwa Kivu</i><br />
                 Dieudonné WAFULA MIFUNDU (Bukavu), Désiré AKONKWA BALAGIZI (Bukavu), Dieu-Merci AMANI BADOSA (Bukavu), Vedaste CITULI ALINIRHU (Bukavu / Louvain), Kelly YENE KARHAKUBWA (Bukavu)<br /><br />
-                <i>Changement climatique et risques environnementaux</i><br />
+                <i>Mabadiliko ya hali ya hewa na hatari za mazingira</i><br />
                 Sylvain MATABARO KULIMUSHI (Bukavu), Toussaint BIBENTYO MUGARUKA (Bukavu), Walère SAHANI MUHINDO (Butembo)<br /><br />
-                <i>Santé publique</i><br />
+                <i>Afya ya umma</i><br />
                 Lumami KAPEPULA (Uvira), Lutili MATESO (Bukavu), Amundala SHEKANI (Uvira), Séverin MUYISA (Bukavu), Théophile NDIKUMANA (Bujumbura, Burundi)
               </Typography>
               <br /><br /><br />

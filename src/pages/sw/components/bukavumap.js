@@ -26,7 +26,7 @@ const Bukavumap = () => {
 
     return (
 
-        <><div className='maptext'>CARTE DES<br />CONTAMINANTS<br /></div>
+        <><div className='maptext'>RAMANI YA UCHAFU</div>
 
             <div className='bagiramapdesktop'>
                 <MapContainer

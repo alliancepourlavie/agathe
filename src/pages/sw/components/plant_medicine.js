@@ -84,7 +84,7 @@ const PlantMedicine = () => {
                         aria-controls="panel1a-content"
                         id="panel1a-header"
                     >
-                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">LA NATURE QUI SOIGNE. PATRIMOINE BIOLOGIQUE IDENTIFIABLE AUTOUR DES SITES DE DÉBARQUEMENT DE KADUTU ET BAGIRA</Typography>
+                        <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="accordion">ASILI INAYOPONYA. URITHI WA KIBIOLOJIA UNAOTAMBULIKA KUZUNGUKA MAENEO YA KUTUA YA KADUTU NA BAGIRA</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
 

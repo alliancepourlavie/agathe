@@ -63,7 +63,7 @@ const Facesb = () => {
                                     image={Cynthiaimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman CYNTHIA</span><br />Âgé de 43 ans, mère de 14ans<br />Vingt-cinq ans de pêche<br />◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>MamaCYNTHIA</span><br />Âgé de 43 ans, mère de 14ans<br />Vingt-cinq ans de pêche<br />◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -88,7 +88,7 @@ const Facesb = () => {
                                         image={Cynthiaimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Je suis  la première femme à devenir pêcheuse dans mon petit village côtier du Sud-Kivu. Ouvrant la voie à d’autres femmes, j’ai plus de 25 ans dans ce métier, j’étais inspirée et formée par mon  mari. Je suis une mère de 14 enfants parmi lesquels 9 issus du mariage de mon feu mari. J’ai du mal à les scolariser suite à cette vie de pèche. Quand mon mari est mort  en faisant ce travail qui nourrissait toute la famille, je me suis lancé  dans l’espoir d’y trouver une vie meilleure, je me suis retrouvée sans aucun soutien financier. Je viens d’une communauté traditionnelle de pêcheurs, Ici, ce sont les hommes qui vont en mer et prennent les décisions importantes.  Alors je me suis lancée. J’étais très motivée parce que je voyais que mon mari pêcheur gagnait plus d’argent avant sa mort. Les hommes de ma communauté disaient que je ne pouvais pas pêcher car je suis une femme et que le poisson ne mordrait pas à l’hameçon d’une femme qui a ses règles. Je leur ai répondu que j’étais déjà ménopausée et qu’ils n’avaient donc pas à s’inquiéter de ça. Un jour j’ai décidé d’essayer de manier le filet.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Mimi ndiye mwanamke wa kwanza kuwa mvuvi katika kijiji changu kidogo cha pwani huko Kivu Kusini. Kufungua njia kwa wanawake wengine, nina zaidi ya miaka 25 katika taaluma hii, nilitiwa moyo na kufunzwa na mume wangu. Mimi ni mama wa watoto 14, 9 kati yao ni wa ndoa ya marehemu mume wangu. Nina shida kuwaelimisha baada ya maisha haya ya dhambi. mume wangu alipofariki akifanya kazi hii ambayo ililisha familia nzima, nilianza kwa matumaini ya kupata maisha bora, nilijikuta bila msaada wowote wa kifedha. Ninatoka kwa jamii ya jadi ya wavuvi hapa, ni wanaume ambao huenda baharini na kufanya maamuzi muhimu. Kwa hivyo nilianza. Nilihamasika sana kwa sababu niliona kwamba mume wangu mvuvi alikuwa akipata pesa zaidi kabla hajafa. wanaume katika jamii yangu walisema siwezi kuvua kwa sababu mimi ni mwanamke na kwamba samaki hawezi kuchukua chambo cha mwanamke ambaye yuko kwenye hedhi. Niliwaambia kwamba tayari nilikuwa katika ukomo wa hedhi kwa hiyo hawakuwa na wasiwasi kuhusu hilo. siku moja niliamua kujaribu kushikawavu.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -107,7 +107,7 @@ const Facesb = () => {
                                     image={Mutomboimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Maman MUTOMBO</span><br />Âgé de 35 ans, mère de 8ans<br />Dix ans de pêche<br />◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>MamaMUTOMBO</span><br />Âgé de 35 ans, mère de 8ans<br />Dix ans de pêche<br />◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -132,7 +132,7 @@ const Facesb = () => {
                                         image={Mutomboimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Lorsque mon mari est mort, j'ai décidé de me lancer dans la pêche. Je vendais de petits divers mais cela ne me permettait pas de nourrir mes huit enfants et de les scolariser. Maman Cynthia m'a montré comment une femme peut subvenir aux besoins de sa famille malgré la mort ou l'abandon de son mari, sans pour cela livrer son corps à la débauche. Je l'ai fait avec courage, force et sans honte. A la mort de mon mari, j'ai dû rendre les filets à sa famille. Aujourd'hui, je les loue pour pêcher, car je n'ai pas les moyens d'en acheter de meilleurs.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Mume wangu alipokufa, niliamua kuanza uvuvi. Niliuza vitu vidogo lakini hilo halikuniruhusu kulisha watoto wangu wanane na kuwapeleka shule. mama Cynthia alinionyesha jinsi mwanamke anavyoweza kuhudumia familia yake licha ya kifo au kuachwa na mumewe, bila kuusalimisha mwili wake kwenye ufisadi. Nilifanya kwa ujasiri, nguvu na bila aibu. Mume wangu alipokufa, ilinibidi kurudisha nyavu kwa familia yake. Leo nazikodisha kwa ajili ya kuvua samaki, kwa sababu siwezi kumudu bora.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>
@@ -151,7 +151,7 @@ const Facesb = () => {
                                     image={Bintuimg}
                                     sx={{ objectFit: "contain" }} />
                                 <CardContent>
-                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>Madame BINTU</span><br />Âgé de 25 ans, mère de 2ans<br />Trois ans de pêche<br /> ◉ KADUTU
+                                    <Typography component='div' className="fish" color="text.secondary" style={{ paddingTop: 10 }} gutterBottom><span style={{ fontWeight: 200, fontSize: "2.3em", letterSpacing: 3, lineHeight: "1.1em" }}>MadameBINTU</span><br />Âgé de 25 ans, mère de 2ans<br />Trois ans de pêche<br /> ◉ KADUTU
                                     </Typography>
                                 </CardContent>
                             </Button>
@@ -176,7 +176,7 @@ const Facesb = () => {
                                         image={Bintuimg}
                                         sx={{ objectFit: "contain" }} />
                                     <CardContent>
-                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Mon mari nous a abandonnés, moi et mes deux enfants. Mes parents sont tous deux morts. J'ai choisi de pêcher pour ne pas avoir à me prostituer. Je peux ainsi nourrir mes enfants et mes deux jeunes sœurs, mais je n'ai pas les moyens de les scolariser.<br />
+                                        <Typography component='div' className="boatdescr" color="text.secondary" gutterBottom>Mume wangu alinitelekeza mimi na watoto wangu wawili. Wazazi wangu wote wamekufa. Nilichagua kuvua samaki ili nisilazimike kufanya ukahaba. Hivyo ninaweza kulisha watoto wangu na dada zangu wawili wadogo, lakini sina uwezo wa kuwapeleka shule.<br />
                                         </Typography>
                                     </CardContent>
                                 </Box>

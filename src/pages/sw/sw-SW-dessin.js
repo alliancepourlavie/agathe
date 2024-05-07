@@ -47,7 +47,7 @@ const SWdessin = () => {
             </Typography>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>L'ecosysteme du lac aux yeux et a travers les dessins des filles et fils des pecheuses du lac Kivu<br /><br /><br />
+                <Typography component='div' className="agathe" style={{ textTransform: "uppercase" }}>ECOSYSTEM YA MACHO ZIWA NA KUPITIA MICHORO YA MABINTI NA WANA WA WAVUVI WA ZIWA KIVU<br /><br /><br />
                 </Typography>
             </CardContent>
 
@@ -158,12 +158,12 @@ const SWdessin = () => {
             </div>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="title_3"><br /><br /><br />Nous avons réuni 24 de nos filles et fils pour un exercice de dessin. En les familiarisant avec la pratique de l'expression artistique, nous les avons sensibilisés à l'importance de la protection de l'environnement lacustre afin d'assurer notre sécurité alimentaire par la pêche<br />
+                <Typography component='div' className="title_3"><br /><br /><br />Tulileta pamoja binti zetu 24 na wana wetu kwa ajili ya zoezi la kuchora. kwa kuwafahamisha mazoezi ya kujieleza kisanii, tuliwafahamisha umuhimu wa kulinda mazingira ya ziwa ili kujihakikishia usalama wa chakula kupitia uvuvi<br />
                 </Typography>
             </CardContent>
 
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography component='div' className="mutombodescr"><br />Ses sujets de prédilection sont les poissons, la végétation du littoral et les activités de pêche à bord de pirogues. Pour certains, cette activité de dessin est une initiation artistique. Beaucoup d'entre eux ne sont pas scolarisés car nos moyens sont limités, c'est donc une occasion unique<br />
+                <Typography component='div' className="mutombodescr"><br />Masomo anayopenda zaidi ni samaki, uoto wa pwani na shughuli za uvuvi ndani ya mitumbwi. Kwa wengine, shughuli hii ya kuchora ni uanzishwaji wa kisanii. Wengi wao hawako shuleni kwa sababu rasilimali zetu ni chache, kwa hivyo hii ni fursa ya kipekee<br />
                 </Typography>
             </CardContent>
 

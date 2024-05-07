@@ -58,7 +58,7 @@ const Mapillary = () => {
 
         <>
             <CardContent sx={{ maxWidth: 800 }}>
-                <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">ENTRÉE AU SITE DE DÉBARQUEMENT DE KADUTU PAR LA ROUTE NATIONALE RN2</Typography>
+                <Typography sx={{ WebkitTextFillColor: "rgb(105, 105, 105) !important", marginBottom: 3 }} className="accordion">KUINGIA KATIKA ENEO LA KUTUA KADUTU BARABARA YA TAIFA RN2</Typography>
             </CardContent>
             <iframe title="Mapillary" width={"100%"} height={"90%"} src="https://www.mapillary.com/embed?map_style=Mapillary%20streets&image_key=1691588814561910&x=0.5183665400846057&y=0.6741471460882543&style=classic" frameBorder="0"></iframe>
         </>
