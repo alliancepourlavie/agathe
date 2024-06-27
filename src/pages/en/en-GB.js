@@ -31,6 +31,8 @@ import Mapillary from "./components/mapillary";
 import Collective from "./components/collective";
 import Maman from "./components/maman";
 
+import Bagiraimg from "../../data/img/bagiralight.jpg";
+
 
 const ENEN = () => {
 
@@ -121,7 +123,7 @@ const ENEN = () => {
               width='100%'
               height='100%'
               controls volume={0.1}
-              light='https://www.alessandromusetta.com/geo/tiles/agathe/data/bagiralight.png'
+              light={Bagiraimg}
               url='https://www.alessandromusetta.com/geo/tiles/agathe/data/bagira_from_water.mp4'
             />
           </FullpageSection>

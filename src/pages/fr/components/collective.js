@@ -10,7 +10,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 
-import Collectiveimg from "../../../data/img/collective.png";
+import Collectiveimg from "../../../data/img/collective.jpg";
 
 
 const Collective = () => {

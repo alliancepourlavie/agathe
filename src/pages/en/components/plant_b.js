@@ -105,7 +105,7 @@ const PlantsB = () => {
                                 component="img"
                                 alt="Eucalyptus "
                                 height="200"
-                                image={Markhamia}
+                                image={Eucalyptus}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>AGROFORESTRY PLANT<br /><i>Eucalyptus spp</i><br />
@@ -119,7 +119,7 @@ const PlantsB = () => {
                                 component="img"
                                 alt="Cedrela"
                                 height="200"
-                                image={Eucalyptus}
+                                image={Cedrela}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>AGROFORESTRY PLANT<br /><i>Cedrela serrata</i><br />
